@@ -8,6 +8,6 @@
  */
 
 rootProject.name = 'mpd-leirt-2022'
-include('aula-03-08')
+include('aulas-03-08-09')
 include 'teste'
 
