@@ -1,4 +1,4 @@
-package isel.leirt.mpd.expressions;
+package isel.leirt.mpd.mathapp.expressions;
 
 import java.io.Writer;
 

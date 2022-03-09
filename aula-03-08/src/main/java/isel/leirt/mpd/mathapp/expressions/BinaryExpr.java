@@ -1,29 +1,24 @@
-package isel.leirt.mpd.expressions;
+package isel.leirt.mpd.mathapp.expressions;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.io.Writer;
 
-public class Mul implements Expr {
+public abstract class BinaryExpr implements Expr {
+    protected final Expr left;
+    protected final Expr right;
 
-    private final Expr left;
-    private final Expr right;
-
-    public Mul(Expr left, Expr right) {
+    protected BinaryExpr(Expr left, Expr right) {
         this.right = right;
         this.left = left;
     }
 
-    @Override
-    public double eval() {
-        return left.eval()*right.eval();
-    }
+    protected abstract String getOper();
 
-    @Override
     public void writeOn(Writer w)   {
         try {
             left.writeOn(w);
-            w.write("*");
+            w.write(getOper());
             right.writeOn(w);
         }
         catch(IOException e) {
