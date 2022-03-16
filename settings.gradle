@@ -10,4 +10,6 @@
 rootProject.name = 'mpd-leirt-2022'
 include('aulas-03-08-09')
 include 'teste'
+include 'aula-03-15'
+include 'aula-03-16'
 

@@ -1,0 +1,7 @@
+package isel.leirt.mpd.mathapp_aula_03_16.exceptions;
+
+public class ParserException extends Exception {
+    public ParserException(String msg) {
+        super(msg);
+    }
+}
