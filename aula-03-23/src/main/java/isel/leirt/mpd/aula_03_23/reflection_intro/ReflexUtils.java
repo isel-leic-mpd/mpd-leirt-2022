@@ -24,23 +24,6 @@ public class ReflexUtils {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public static Field[] getPublicFields(Object obj) {
         Class<?> objClass = obj.getClass();
         return objClass.getFields();
@@ -64,7 +47,8 @@ public class ReflexUtils {
                                         Class<?> checkedInterface) {
 
         Class<?> currClass = cls;
-        if (cls.isInterface()) return false;
+        if (cls.isInterface() || !checkedInterface.isInterface())
+            return false;
         do {
             Class<?>[] implemented = currClass.getInterfaces();
             for (Class<?> intr : implemented)

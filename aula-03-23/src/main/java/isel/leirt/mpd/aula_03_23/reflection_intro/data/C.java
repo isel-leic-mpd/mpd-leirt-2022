@@ -12,10 +12,14 @@ public class C extends B {
         this(0, "", 0.0);
 
     }
+
+    /*
     @Override
     public boolean equals(Object obj) {
         if (!super.equals(obj)) return false;
         C other = (C) obj;
         return iVal == other.iVal;
     }
+    */
+
 }

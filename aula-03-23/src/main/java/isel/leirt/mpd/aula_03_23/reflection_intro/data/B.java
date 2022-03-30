@@ -14,6 +14,7 @@ public class B extends A {
         this(0, null, 0.0);
     }
 
+    /*
     @Override
     public boolean equals(Object obj) {
         if (!super.equals(obj)) return false;
@@ -21,5 +22,5 @@ public class B extends A {
         return Double.compare(dVal, other.dVal) == 0 &&
                 iVal == other.iVal;
     }
-
+*/
 }

@@ -18,7 +18,6 @@ public class XmlSerializer {
             child.addAttribute("declaringClass", f.getDeclaringClass().getName());
             f.setAccessible(true);
             Object value = f.get(obj);
-
             child.addText((value == null) ? "null" : value.toString());
 
         }
@@ -42,7 +41,11 @@ public class XmlSerializer {
         return doc;
     }
 
-    private static void setField(Element xmlField, Object obj) throws Exception {
+    private static void setField(Element xmlField, Object obj)
+                            throws ClassNotFoundException,
+                                   NoSuchFieldException,
+                                   IllegalAccessException {
+
         String declaredClassName = xmlField.attributeValue("declaringClass");
         Class<?> fieldDeclaredClass = Class.forName(declaredClassName);
         String fieldName = xmlField.getName();
@@ -51,6 +54,7 @@ public class XmlSerializer {
         Object value = null;
         String strValue = xmlField.getStringValue();
         Class<?> fieldType = f.getType();
+
         if (fieldType == int.class) {
             value = Integer.parseInt(strValue);
         }
@@ -73,12 +77,16 @@ public class XmlSerializer {
             Document doc = DocumentHelper.parseText(xmlText);
             Element root = doc.getRootElement();
             String className =  root.attributeValue("type");
+
+            // Create an instance of the with name "className"
+            // A constructor without parameters is assumed
             Class<?> cls = Class.forName(className);
             Constructor<?> ctor = cls.getConstructor();
             Object newObj = ctor.newInstance();
 
-            for(Element c : root.elements()) {
-                setField(c, newObj);
+            // Now populate all fields
+            for(Element elem : root.elements()) {
+                setField(elem, newObj);
             }
 
             return newObj;
