@@ -41,6 +41,7 @@ public class MathLabTests {
         lab.setValue("v1", new Value(4));
     }
 
+    /*
     @Test
     public void circular_dependency_test() {
         MathLab lab = new MathLab();
@@ -76,4 +77,6 @@ public class MathLabTests {
             System.out.println("Error: " + e.getMessage());
         }
     }
+
+     */
 }

@@ -1,0 +1,10431 @@
+Initialized native services in: C:\Users\jmart\.gradle\native
+Found daemon DaemonInfo{pid=10200, address=[26f5e0a1-5470-4e11-8bb8-11f514a9c5ce port:52821, addresses:[/127.0.0.1]], state=Idle, lastBusy=1649157271291, context=DefaultDaemonContext[uid=5cbc9770-3334-43fa-9e11-ac36258f2d70,javaHome=C:\Program Files\Java\jdk-16.0.2,daemonRegistryDir=C:\Users\jmart\.gradle\daemon,pid=10200,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=GB,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\Java\jdk-16.0.2,daemonRegistryDir=C:\Users\jmart\.gradle\daemon,pid=10056,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=utf8,-Duser.country=GB,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=5cbc9770-3334-43fa-9e11-ac36258f2d70,javaHome=C:\Program Files\Java\jdk-16.0.2,daemonRegistryDir=C:\Users\jmart\.gradle\daemon,pid=10200,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=GB,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 19412). The daemon log file: C:\Users\jmart\.gradle\daemon\7.1\daemon-19412.out.log
+Starting 2nd build in daemon [uptime: 41.004 secs, performance: 100%, non-heap usage: 15% of 256 MiB]
+Using 8 worker leases.
+Now considering [C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022] as hierarchies to watch
+Not watching anything anymore
+Watching the file system is enabled if available
+Starting Build
+Settings evaluated using settings file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\settings.gradle'.
+Projects loaded. Root project using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\build.gradle'.
+Included projects: [root project 'mpd-leirt-2022', project ':aula-03-15', project ':aula-03-16', project ':aula-03-22', project ':aula-03-23', project ':aula-03-30', project ':aula-04-05', project ':aulas-03-08-09', project ':teste']
+
+> Configure project :
+Evaluating root project 'mpd-leirt-2022' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\build.gradle'.
+
+> Configure project :aula-03-15
+Evaluating project ':aula-03-15' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-03-15\build.gradle'.
+
+> Configure project :aula-03-16
+Evaluating project ':aula-03-16' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-03-16\build.gradle'.
+
+> Configure project :aula-03-22
+Evaluating project ':aula-03-22' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-03-22\build.gradle'.
+
+> Configure project :aula-03-23
+Evaluating project ':aula-03-23' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-03-23\build.gradle'.
+
+> Configure project :aula-03-30
+Evaluating project ':aula-03-30' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-03-30\build.gradle'.
+
+> Configure project :aula-04-05
+Evaluating project ':aula-04-05' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build.gradle'.
+
+> Configure project :aulas-03-08-09
+Evaluating project ':aulas-03-08-09' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aulas-03-08-09\build.gradle'.
+
+> Configure project :teste
+Evaluating project ':teste' using build file 'C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\teste\build.gradle'.
+All projects evaluated.
+Selected primary task ':aula-04-05:build' from project :aula-04-05
+Tasks to be executed: [task ':aula-04-05:compileJava', task ':aula-04-05:processResources', task ':aula-04-05:classes', task ':aula-04-05:jar', task ':aula-04-05:assemble', task ':aula-04-05:compileTestJava', task ':aula-04-05:processTestResources', task ':aula-04-05:testClasses', task ':aula-04-05:test', task ':aula-04-05:check', task ':aula-04-05:build']
+Tasks that were excluded: []
+:aula-04-05:compileJava (Thread[Execution worker for ':' Thread 3,5,main]) started.
+Not watching anything anymore
+Watching 0 directory hierarchies to track changes
+
+> Task :aula-04-05:compileJava
+Watching 1 directory hierarchies to track changes
+Caching disabled for task ':aula-04-05:compileJava' because:
+  Build cache is disabled
+Task ':aula-04-05:compileJava' is not up-to-date because:
+  Output property 'destinationDirectory' file C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\classes\java\main has been removed.
+  Output property 'destinationDirectory' file C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\classes\java\main\isel has been removed.
+  Output property 'destinationDirectory' file C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\classes\java\main\isel\leirt has been removed.
+The input changes require a full rebuild for incremental task ':aula-04-05:compileJava'.
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Program Files\Java\jdk-16.0.2'.
+Compiling with JDK Java compiler API.
+Class dependency analysis for incremental compilation took 0.033 secs.
+Created classpath snapshot for incremental compilation in 0.03 secs.
+Watching 1 directory hierarchies to track changes
+:aula-04-05:compileJava (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.767 secs.
+:aula-04-05:processResources (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:processResources
+Caching disabled for task ':aula-04-05:processResources' because:
+  Build cache is disabled
+Task ':aula-04-05:processResources' is not up-to-date because:
+  Value of input property 'rootSpec$1.filteringCharset' has changed for task ':aula-04-05:processResources'
+:aula-04-05:processResources (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.024 secs.
+:aula-04-05:classes (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:classes
+Skipping task ':aula-04-05:classes' as it has no actions.
+:aula-04-05:classes (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:aula-04-05:jar (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:jar
+Caching disabled for task ':aula-04-05:jar' because:
+  Build cache is disabled
+Task ':aula-04-05:jar' is not up-to-date because:
+  Value of input property 'rootSpec$1.filteringCharset' has changed for task ':aula-04-05:jar'
+  Value of input property 'rootSpec$2$1.filteringCharset' has changed for task ':aula-04-05:jar'
+  Value of input property 'rootSpec$2.filteringCharset' has changed for task ':aula-04-05:jar'
+:aula-04-05:jar (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.109 secs.
+:aula-04-05:assemble (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:assemble
+Skipping task ':aula-04-05:assemble' as it has no actions.
+:aula-04-05:assemble (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:aula-04-05:compileTestJava (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:compileTestJava
+Caching disabled for task ':aula-04-05:compileTestJava' because:
+  Build cache is disabled
+Task ':aula-04-05:compileTestJava' is not up-to-date because:
+  Output property 'destinationDirectory' file C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\classes\java\test has been removed.
+  Output property 'destinationDirectory' file C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\classes\java\test\isel has been removed.
+  Output property 'destinationDirectory' file C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\classes\java\test\isel\leirt has been removed.
+The input changes require a full rebuild for incremental task ':aula-04-05:compileTestJava'.
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Program Files\Java\jdk-16.0.2'.
+Compiling with JDK Java compiler API.
+Class dependency analysis for incremental compilation took 0.003 secs.
+Created classpath snapshot for incremental compilation in 0.004 secs.
+:aula-04-05:compileTestJava (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.223 secs.
+:aula-04-05:processTestResources (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:processTestResources NO-SOURCE
+Skipping task ':aula-04-05:processTestResources' as it has no source files and no previous output files.
+:aula-04-05:processTestResources (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.003 secs.
+:aula-04-05:testClasses (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:testClasses
+Skipping task ':aula-04-05:testClasses' as it has no actions.
+:aula-04-05:testClasses (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:aula-04-05:test (Thread[Execution worker for ':' Thread 3,5,main]) started.
+Gradle Test Executor 1 started executing tests.
+
+> Task :aula-04-05:test
+Caching disabled for task ':aula-04-05:test' because:
+  Build cache is disabled
+Task ':aula-04-05:test' is not up-to-date because:
+  Value of input property 'defaultCharacterEncoding' has changed for task ':aula-04-05:test'
+Starting process 'Gradle Test Executor 1'. Working directory: C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05 Command: C:\Program Files\Java\jdk-16.0.2\bin\java.exe -Dorg.gradle.internal.worker.tmpdir=C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\tmp\test\work -Dorg.gradle.native=false @C:\Users\jmart\.gradle\.tmp\gradle-worker-classpath1125547498013318929txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=GB -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+Successfully started process 'Gradle Test Executor 1'
+
+DateTests > unix_time_to_date_time() STANDARD_OUT
+    date time=2022-03-05T10:00
+
+DateTests > local_date_offset() STANDARD_OUT
+    +01:00
+
+DateTests > date_to_unix_time() STANDARD_OUT
+    start=1614726000
+    end=1617404400
+
+WeatherTests > get_sunny_locals_in_portugal_now() STANDARD_OUT
+    total sunny cities: 24
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 9.87, feels_like = 8.03, temp_min = 9.1. temp_max = 10.64, humidity = 43 }
+    	name = Vilar de Andorinho
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.56, feels_like = 8.79, temp_min = 9.79. temp_max = 11.33, humidity = 43 }
+    	name = Oliveira do Douro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.54, feels_like = 8.77, temp_min = 9.69. temp_max = 11.23, humidity = 43 }
+    	name = Gondomar
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.62, feels_like = 8.86, temp_min = 9.76. temp_max = 11.3, humidity = 43 }
+    	name = São Pedro da Cova
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.76, feels_like = 9.01, temp_min = 10.03. temp_max = 11.57, humidity = 43 }
+    	name = Vila Nova de Gaia
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.71, feels_like = 8.96, temp_min = 10.01. temp_max = 11.55, humidity = 43 }
+    	name = Canidelo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.3, feels_like = 8.51, temp_min = 9.47. temp_max = 11.01, humidity = 43 }
+    	name = Fânzeres
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.44, feels_like = 8.66, temp_min = 9.73. temp_max = 11.27, humidity = 43 }
+    	name = Porto
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.54, feels_like = 8.77, temp_min = 9.77. temp_max = 11.31, humidity = 43 }
+    	name = Rio Tinto
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.07, feels_like = 8.26, temp_min = 9.25. temp_max = 10.79, humidity = 43 }
+    	name = Valongo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.23, feels_like = 8.43, temp_min = 9.45. temp_max = 10.99, humidity = 43 }
+    	name = Baguim do Monte
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.41, feels_like = 8.63, temp_min = 9.78. temp_max = 11.32, humidity = 43 }
+    	name = Senhora da Hora
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.52, feels_like = 8.75, temp_min = 9.84. temp_max = 11.38, humidity = 43 }
+    	name = São Mamede de Infesta
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.83, feels_like = 9.09, temp_min = 10.22. temp_max = 11.76, humidity = 43 }
+    	name = Matosinhos Municipality
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.65, feels_like = 8.89, temp_min = 9.95. temp_max = 11.49, humidity = 43 }
+    	name = Águas Santas
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.45, feels_like = 8.67, temp_min = 9.72. temp_max = 11.26, humidity = 43 }
+    	name = Ermesinde
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.42, feels_like = 8.64, temp_min = 9.77. temp_max = 11.31, humidity = 43 }
+    	name = Leça do Bailio
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.82, feels_like = 9.08, temp_min = 10.23. temp_max = 11.77, humidity = 43 }
+    	name = Leça da Palmeira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.34, feels_like = 8.55, temp_min = 9.73. temp_max = 11.27, humidity = 43 }
+    	name = Maia
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.61, feels_like = 8.8, temp_min = 10.12. temp_max = 11.65, humidity = 41 }
+    	name = Bougado
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.65, feels_like = 8.82, temp_min = 10.26. temp_max = 11.8, humidity = 40 }
+    	name = Vila do Conde
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.61, feels_like = 8.77, temp_min = 10.26. temp_max = 11.8, humidity = 40 }
+    	name = Povoa de Varzim
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.44, feels_like = 8.58, temp_min = 10.14. temp_max = 11.68, humidity = 40 }
+    	name = Pedroso
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = clear sky
+    	weather = { temp = 14.46, feels_like = 12.77, temp_min = 9.43. temp_max = 14.46, humidity = 31 }
+    	name = Nigrán
+    	timezone = 0
+    }
+
+WeatherTests > get_weather_at_lisbon_now() STANDARD_OUT
+    {
+    	dateTime = 2022-04-05T12:05:20
+    	description = broken clouds
+    	weather = { temp = 9.82, feels_like = 6.25, temp_min = 9.42. temp_max = 11.63, humidity = 71 }
+    	name = Chiado
+    	timezone = 3600
+    }
+
+WeatherTests > get_co_average_on_lisbon_at_weekend_by_period_imperative() STANDARD_OUT
+    weekend co average = 232.1798445595856
+
+WeatherTests > get_air_pollution_average_on_weekend_by_period() STANDARD_OUT
+    At weekend = 232.1798445595855
+    At work days = 255.51585144927537
+    SUNDAY = 233.35458333333335
+    THURSDAY = 260.17266666666666
+    SATURDAY = 231.01721649484534
+    FRIDAY = 252.66216666666665
+    TUESDAY = 250.3395833333333
+    MONDAY = 260.2840625
+    WEDNESDAY = 254.03916666666666
+
+WeatherTests > get_air_pollution_history_by_period() STANDARD_OUT
+    {
+    	date = 2021-03-03T00:00
+    	co= 317.1
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.94
+    	oso2= 2.0
+    	fpc= 8.42
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T01:00
+    	co= 297.07
+    	no= 0.0
+    	no2= 0.0
+    	o3= 58.65
+    	oso2= 1.74
+    	fpc= 7.61
+    	cpc= 0.0
+    	nh3= 2.82
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T02:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.08
+    	oso2= 1.37
+    	fpc= 6.21
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T03:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 1.3
+    	fpc= 5.64
+    	cpc= 0.0
+    	nh3= 2.69
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T04:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.23
+    	oso2= 1.43
+    	fpc= 5.59
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T05:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 63.66
+    	oso2= 1.65
+    	fpc= 5.7
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T06:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.23
+    	oso2= 1.83
+    	fpc= 5.91
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T07:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.97
+    	fpc= 7.0
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T08:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 64.37
+    	oso2= 2.21
+    	fpc= 8.66
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T09:00
+    	co= 263.69
+    	no= 0.07
+    	no2= 0.07
+    	o3= 50.78
+    	oso2= 2.65
+    	fpc= 9.34
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T10:00
+    	co= 280.38
+    	no= 1.09
+    	no2= 1.09
+    	o3= 43.63
+    	oso2= 3.19
+    	fpc= 8.83
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T11:00
+    	co= 280.38
+    	no= 2.46
+    	no2= 2.46
+    	o3= 45.06
+    	oso2= 3.79
+    	fpc= 7.38
+    	cpc= 0.0
+    	nh3= 3.2
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T12:00
+    	co= 293.73
+    	no= 3.69
+    	no2= 3.69
+    	o3= 45.06
+    	oso2= 4.71
+    	fpc= 7.51
+    	cpc= 0.0
+    	nh3= 4.02
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T13:00
+    	co= 293.73
+    	no= 4.41
+    	no2= 4.41
+    	o3= 47.92
+    	oso2= 5.84
+    	fpc= 8.49
+    	cpc= 0.0
+    	nh3= 4.62
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T14:00
+    	co= 263.69
+    	no= 2.91
+    	no2= 2.91
+    	o3= 64.37
+    	oso2= 5.48
+    	fpc= 7.66
+    	cpc= 0.0
+    	nh3= 3.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T15:00
+    	co= 247.0
+    	no= 1.7
+    	no2= 1.7
+    	o3= 77.96
+    	oso2= 4.59
+    	fpc= 6.81
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-03T16:00
+    	co= 233.65
+    	no= 0.96
+    	no2= 0.96
+    	o3= 85.12
+    	oso2= 3.43
+    	fpc= 7.22
+    	cpc= 0.0
+    	nh3= 1.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-03T17:00
+    	co= 273.71
+    	no= 1.5
+    	no2= 1.5
+    	o3= 71.53
+    	oso2= 3.19
+    	fpc= 9.95
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-03T18:00
+    	co= 350.48
+    	no= 1.87
+    	no2= 1.87
+    	o3= 52.93
+    	oso2= 3.82
+    	fpc= 13.24
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-03T19:00
+    	co= 417.23
+    	no= 0.81
+    	no2= 0.81
+    	o3= 38.62
+    	oso2= 4.47
+    	fpc= 16.49
+    	cpc= 0.0
+    	nh3= 3.17
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-03T20:00
+    	co= 507.36
+    	no= 0.2
+    	no2= 0.2
+    	o3= 25.03
+    	oso2= 5.31
+    	fpc= 21.06
+    	cpc= 0.0
+    	nh3= 3.77
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-03T21:00
+    	co= 620.84
+    	no= 0.33
+    	no2= 0.33
+    	o3= 18.77
+    	oso2= 5.78
+    	fpc= 26.8
+    	cpc= 0.0
+    	nh3= 3.99
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-03T22:00
+    	co= 687.6
+    	no= 0.23
+    	no2= 0.23
+    	o3= 20.92
+    	oso2= 5.6
+    	fpc= 31.43
+    	cpc= 0.0
+    	nh3= 3.8
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-03T23:00
+    	co= 700.95
+    	no= 0.09
+    	no2= 0.09
+    	o3= 26.11
+    	oso2= 5.13
+    	fpc= 33.69
+    	cpc= 0.0
+    	nh3= 3.36
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-04T00:00
+    	co= 680.92
+    	no= 0.04
+    	no2= 0.04
+    	o3= 32.19
+    	oso2= 4.71
+    	fpc= 33.99
+    	cpc= 0.0
+    	nh3= 2.82
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-04T01:00
+    	co= 594.14
+    	no= 0.01
+    	no2= 0.01
+    	o3= 38.27
+    	oso2= 3.93
+    	fpc= 31.7
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-04T02:00
+    	co= 480.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 44.35
+    	oso2= 3.16
+    	fpc= 27.47
+    	cpc= 0.0
+    	nh3= 1.77
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-04T03:00
+    	co= 420.57
+    	no= 0.0
+    	no2= 0.0
+    	o3= 46.49
+    	oso2= 3.04
+    	fpc= 25.32
+    	cpc= 0.0
+    	nh3= 1.52
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-04T04:00
+    	co= 387.19
+    	no= 0.0
+    	no2= 0.0
+    	o3= 48.64
+    	oso2= 3.19
+    	fpc= 24.34
+    	cpc= 0.0
+    	nh3= 1.33
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-04T05:00
+    	co= 350.48
+    	no= 0.0
+    	no2= 0.0
+    	o3= 53.64
+    	oso2= 3.25
+    	fpc= 23.08
+    	cpc= 0.0
+    	nh3= 1.25
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-04T06:00
+    	co= 337.12
+    	no= 0.0
+    	no2= 0.0
+    	o3= 53.64
+    	oso2= 3.01
+    	fpc= 22.03
+    	cpc= 0.0
+    	nh3= 1.33
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-04T07:00
+    	co= 327.11
+    	no= 0.0
+    	no2= 0.0
+    	o3= 47.21
+    	oso2= 3.31
+    	fpc= 21.35
+    	cpc= 0.0
+    	nh3= 1.27
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-04T08:00
+    	co= 287.06
+    	no= 0.0
+    	no2= 0.0
+    	o3= 41.84
+    	oso2= 3.58
+    	fpc= 19.01
+    	cpc= 0.0
+    	nh3= 1.39
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T09:00
+    	co= 273.71
+    	no= 0.02
+    	no2= 0.02
+    	o3= 45.06
+    	oso2= 3.67
+    	fpc= 14.34
+    	cpc= 0.0
+    	nh3= 1.65
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T10:00
+    	co= 283.72
+    	no= 0.25
+    	no2= 0.25
+    	o3= 50.07
+    	oso2= 3.93
+    	fpc= 12.48
+    	cpc= 0.0
+    	nh3= 1.63
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T11:00
+    	co= 280.38
+    	no= 0.39
+    	no2= 0.39
+    	o3= 56.51
+    	oso2= 3.99
+    	fpc= 11.09
+    	cpc= 0.0
+    	nh3= 1.46
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T12:00
+    	co= 270.37
+    	no= 0.41
+    	no2= 0.41
+    	o3= 60.08
+    	oso2= 4.05
+    	fpc= 10.24
+    	cpc= 0.0
+    	nh3= 1.46
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T13:00
+    	co= 257.02
+    	no= 0.35
+    	no2= 0.35
+    	o3= 63.66
+    	oso2= 4.05
+    	fpc= 9.84
+    	cpc= 0.0
+    	nh3= 1.49
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-04T14:00
+    	co= 250.34
+    	no= 0.25
+    	no2= 0.25
+    	o3= 66.52
+    	oso2= 3.93
+    	fpc= 9.77
+    	cpc= 0.0
+    	nh3= 1.06
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-04T15:00
+    	co= 253.68
+    	no= 0.23
+    	no2= 0.23
+    	o3= 66.52
+    	oso2= 4.11
+    	fpc= 10.93
+    	cpc= 0.0
+    	nh3= 0.54
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T16:00
+    	co= 260.35
+    	no= 0.16
+    	no2= 0.16
+    	o3= 67.95
+    	oso2= 4.17
+    	fpc= 13.97
+    	cpc= 0.0
+    	nh3= 0.14
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T17:00
+    	co= 263.69
+    	no= 0.12
+    	no2= 0.12
+    	o3= 70.1
+    	oso2= 3.93
+    	fpc= 18.14
+    	cpc= 0.0
+    	nh3= 0.0
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T18:00
+    	co= 267.03
+    	no= 0.11
+    	no2= 0.11
+    	o3= 70.1
+    	oso2= 3.93
+    	fpc= 17.38
+    	cpc= 0.0
+    	nh3= 0.0
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T19:00
+    	co= 270.37
+    	no= 0.05
+    	no2= 0.05
+    	o3= 70.81
+    	oso2= 3.58
+    	fpc= 14.2
+    	cpc= 0.0
+    	nh3= 0.02
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T20:00
+    	co= 277.04
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.24
+    	oso2= 3.4
+    	fpc= 11.16
+    	cpc= 0.0
+    	nh3= 0.39
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-04T21:00
+    	co= 290.39
+    	no= 0.0
+    	no2= 0.0
+    	o3= 74.39
+    	oso2= 3.28
+    	fpc= 8.93
+    	cpc= 0.0
+    	nh3= 0.64
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-04T22:00
+    	co= 297.07
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 3.25
+    	fpc= 6.78
+    	cpc= 0.0
+    	nh3= 0.74
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-04T23:00
+    	co= 340.46
+    	no= 0.0
+    	no2= 0.0
+    	o3= 68.67
+    	oso2= 3.25
+    	fpc= 6.87
+    	cpc= 0.0
+    	nh3= 1.03
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T00:00
+    	co= 427.25
+    	no= 0.0
+    	no2= 0.0
+    	o3= 54.36
+    	oso2= 3.46
+    	fpc= 9.63
+    	cpc= 0.0
+    	nh3= 1.52
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T01:00
+    	co= 460.63
+    	no= 0.01
+    	no2= 0.01
+    	o3= 45.42
+    	oso2= 3.4
+    	fpc= 11.0
+    	cpc= 0.0
+    	nh3= 1.93
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T02:00
+    	co= 460.63
+    	no= 0.03
+    	no2= 0.03
+    	o3= 33.98
+    	oso2= 3.13
+    	fpc= 11.51
+    	cpc= 0.0
+    	nh3= 3.1
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T03:00
+    	co= 480.65
+    	no= 0.04
+    	no2= 0.04
+    	o3= 27.18
+    	oso2= 3.99
+    	fpc= 13.06
+    	cpc= 0.0
+    	nh3= 5.7
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T04:00
+    	co= 520.71
+    	no= 0.04
+    	no2= 0.04
+    	o3= 25.75
+    	oso2= 5.72
+    	fpc= 15.4
+    	cpc= 0.0
+    	nh3= 10.13
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T05:00
+    	co= 547.41
+    	no= 0.04
+    	no2= 0.04
+    	o3= 25.03
+    	oso2= 7.27
+    	fpc= 17.62
+    	cpc= 0.0
+    	nh3= 15.83
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T06:00
+    	co= 520.71
+    	no= 0.03
+    	no2= 0.03
+    	o3= 25.75
+    	oso2= 6.44
+    	fpc= 17.67
+    	cpc= 0.0
+    	nh3= 15.07
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T07:00
+    	co= 447.27
+    	no= 0.02
+    	no2= 0.02
+    	o3= 29.68
+    	oso2= 4.23
+    	fpc= 15.52
+    	cpc= 0.0
+    	nh3= 7.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T08:00
+    	co= 350.48
+    	no= 0.01
+    	no2= 0.01
+    	o3= 36.48
+    	oso2= 2.92
+    	fpc= 11.98
+    	cpc= 0.0
+    	nh3= 2.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T09:00
+    	co= 370.5
+    	no= 0.12
+    	no2= 0.12
+    	o3= 28.97
+    	oso2= 3.37
+    	fpc= 13.53
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T10:00
+    	co= 383.85
+    	no= 0.59
+    	no2= 0.59
+    	o3= 24.32
+    	oso2= 3.99
+    	fpc= 13.85
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-05T11:00
+    	co= 257.02
+    	no= 0.35
+    	no2= 0.35
+    	o3= 46.49
+    	oso2= 5.07
+    	fpc= 9.11
+    	cpc= 0.0
+    	nh3= 1.73
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T12:00
+    	co= 253.68
+    	no= 0.6
+    	no2= 0.6
+    	o3= 42.92
+    	oso2= 3.99
+    	fpc= 9.32
+    	cpc= 0.0
+    	nh3= 2.12
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T13:00
+    	co= 247.0
+    	no= 0.73
+    	no2= 0.73
+    	o3= 42.2
+    	oso2= 3.37
+    	fpc= 7.99
+    	cpc= 0.0
+    	nh3= 2.63
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T14:00
+    	co= 233.65
+    	no= 0.55
+    	no2= 0.55
+    	o3= 49.35
+    	oso2= 2.41
+    	fpc= 5.55
+    	cpc= 0.0
+    	nh3= 2.15
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T15:00
+    	co= 226.97
+    	no= 0.39
+    	no2= 0.39
+    	o3= 53.64
+    	oso2= 2.0
+    	fpc= 4.29
+    	cpc= 0.0
+    	nh3= 1.6
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T16:00
+    	co= 226.97
+    	no= 0.3
+    	no2= 0.3
+    	o3= 57.94
+    	oso2= 1.76
+    	fpc= 3.53
+    	cpc= 0.0
+    	nh3= 1.31
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T17:00
+    	co= 226.97
+    	no= 0.36
+    	no2= 0.36
+    	o3= 60.08
+    	oso2= 1.89
+    	fpc= 3.13
+    	cpc= 0.0
+    	nh3= 1.33
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T18:00
+    	co= 230.31
+    	no= 0.41
+    	no2= 0.41
+    	o3= 60.8
+    	oso2= 1.97
+    	fpc= 3.37
+    	cpc= 0.0
+    	nh3= 1.52
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T19:00
+    	co= 233.65
+    	no= 0.24
+    	no2= 0.24
+    	o3= 57.94
+    	oso2= 1.89
+    	fpc= 4.07
+    	cpc= 0.0
+    	nh3= 1.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T20:00
+    	co= 236.99
+    	no= 0.01
+    	no2= 0.01
+    	o3= 58.65
+    	oso2= 1.7
+    	fpc= 4.32
+    	cpc= 0.0
+    	nh3= 1.88
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T21:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 1.59
+    	fpc= 4.12
+    	cpc= 0.0
+    	nh3= 2.28
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T22:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.23
+    	oso2= 1.57
+    	fpc= 3.86
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-05T23:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 58.65
+    	oso2= 1.65
+    	fpc= 3.66
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T00:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 52.21
+    	oso2= 1.74
+    	fpc= 3.7
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T01:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 49.35
+    	oso2= 1.65
+    	fpc= 3.38
+    	cpc= 0.0
+    	nh3= 2.69
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T02:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 47.92
+    	oso2= 1.42
+    	fpc= 2.88
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T03:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 45.78
+    	oso2= 1.13
+    	fpc= 2.81
+    	cpc= 0.0
+    	nh3= 3.17
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T04:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.27
+    	oso2= 1.04
+    	fpc= 3.11
+    	cpc= 0.0
+    	nh3= 3.55
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T05:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 40.41
+    	oso2= 1.07
+    	fpc= 3.65
+    	cpc= 0.0
+    	nh3= 3.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T06:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 39.7
+    	oso2= 1.12
+    	fpc= 4.3
+    	cpc= 0.0
+    	nh3= 3.67
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T07:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 41.13
+    	oso2= 1.19
+    	fpc= 5.01
+    	cpc= 0.0
+    	nh3= 3.29
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T08:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 42.92
+    	oso2= 1.31
+    	fpc= 5.72
+    	cpc= 0.0
+    	nh3= 3.17
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-06T09:00
+    	co= 247.0
+    	no= 0.13
+    	no2= 0.13
+    	o3= 41.49
+    	oso2= 1.7
+    	fpc= 6.8
+    	cpc= 0.0
+    	nh3= 3.74
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T10:00
+    	co= 257.02
+    	no= 1.34
+    	no2= 1.34
+    	o3= 42.56
+    	oso2= 2.12
+    	fpc= 7.76
+    	cpc= 0.0
+    	nh3= 4.37
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T11:00
+    	co= 247.0
+    	no= 2.21
+    	no2= 2.21
+    	o3= 48.64
+    	oso2= 2.5
+    	fpc= 8.25
+    	cpc= 0.0
+    	nh3= 4.56
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-06T12:00
+    	co= 240.33
+    	no= 2.43
+    	no2= 2.43
+    	o3= 51.5
+    	oso2= 2.68
+    	fpc= 8.17
+    	cpc= 0.0
+    	nh3= 5.07
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-06T13:00
+    	co= 233.65
+    	no= 2.15
+    	no2= 2.15
+    	o3= 56.51
+    	oso2= 2.74
+    	fpc= 8.16
+    	cpc= 0.0
+    	nh3= 5.64
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T14:00
+    	co= 216.96
+    	no= 0.95
+    	no2= 0.95
+    	o3= 81.54
+    	oso2= 2.24
+    	fpc= 8.0
+    	cpc= 0.0
+    	nh3= 4.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T15:00
+    	co= 211.95
+    	no= 0.64
+    	no2= 0.64
+    	o3= 90.84
+    	oso2= 1.97
+    	fpc= 6.71
+    	cpc= 0.0
+    	nh3= 3.8
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T16:00
+    	co= 208.62
+    	no= 0.5
+    	no2= 0.5
+    	o3= 95.84
+    	oso2= 1.74
+    	fpc= 6.18
+    	cpc= 0.0
+    	nh3= 3.8
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T17:00
+    	co= 216.96
+    	no= 0.62
+    	no2= 0.62
+    	o3= 90.12
+    	oso2= 1.83
+    	fpc= 6.74
+    	cpc= 0.0
+    	nh3= 6.08
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T18:00
+    	co= 223.64
+    	no= 0.6
+    	no2= 0.6
+    	o3= 80.11
+    	oso2= 1.65
+    	fpc= 8.66
+    	cpc= 0.0
+    	nh3= 8.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T19:00
+    	co= 226.97
+    	no= 0.24
+    	no2= 0.24
+    	o3= 78.68
+    	oso2= 1.48
+    	fpc= 9.94
+    	cpc= 0.0
+    	nh3= 7.03
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T20:00
+    	co= 236.99
+    	no= 0.01
+    	no2= 0.01
+    	o3= 75.1
+    	oso2= 1.37
+    	fpc= 9.3
+    	cpc= 0.0
+    	nh3= 6.08
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T21:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.23
+    	oso2= 1.36
+    	fpc= 8.86
+    	cpc= 0.0
+    	nh3= 6.14
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T22:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 1.33
+    	fpc= 9.86
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-06T23:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.22
+    	oso2= 1.25
+    	fpc= 11.03
+    	cpc= 0.0
+    	nh3= 4.94
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T00:00
+    	co= 267.03
+    	no= 0.0
+    	no2= 0.0
+    	o3= 53.64
+    	oso2= 1.13
+    	fpc= 11.31
+    	cpc= 0.0
+    	nh3= 4.05
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T01:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 52.93
+    	oso2= 0.98
+    	fpc= 11.51
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T02:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 54.36
+    	oso2= 0.83
+    	fpc= 12.16
+    	cpc= 0.0
+    	nh3= 3.14
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T03:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.22
+    	oso2= 0.79
+    	fpc= 12.47
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T04:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 58.65
+    	oso2= 0.82
+    	fpc= 12.24
+    	cpc= 0.0
+    	nh3= 2.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T05:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.08
+    	oso2= 1.16
+    	fpc= 14.39
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T06:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.23
+    	oso2= 1.73
+    	fpc= 17.75
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T07:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 64.37
+    	oso2= 2.15
+    	fpc= 17.57
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T08:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 64.37
+    	oso2= 2.35
+    	fpc= 14.65
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T09:00
+    	co= 243.66
+    	no= 0.08
+    	no2= 0.08
+    	o3= 61.51
+    	oso2= 2.53
+    	fpc= 11.82
+    	cpc= 0.0
+    	nh3= 2.69
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T10:00
+    	co= 247.0
+    	no= 0.81
+    	no2= 0.81
+    	o3= 60.08
+    	oso2= 2.62
+    	fpc= 9.62
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T11:00
+    	co= 236.99
+    	no= 1.09
+    	no2= 1.09
+    	o3= 69.38
+    	oso2= 2.8
+    	fpc= 8.21
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T12:00
+    	co= 230.31
+    	no= 0.98
+    	no2= 0.98
+    	o3= 73.67
+    	oso2= 2.86
+    	fpc= 7.87
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T13:00
+    	co= 226.97
+    	no= 0.78
+    	no2= 0.78
+    	o3= 77.25
+    	oso2= 2.95
+    	fpc= 7.66
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T14:00
+    	co= 220.3
+    	no= 0.58
+    	no2= 0.58
+    	o3= 85.12
+    	oso2= 2.56
+    	fpc= 6.62
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T15:00
+    	co= 216.96
+    	no= 0.54
+    	no2= 0.54
+    	o3= 91.55
+    	oso2= 2.27
+    	fpc= 6.41
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T16:00
+    	co= 213.62
+    	no= 0.5
+    	no2= 0.5
+    	o3= 95.84
+    	oso2= 2.12
+    	fpc= 6.94
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T17:00
+    	co= 216.96
+    	no= 0.5
+    	no2= 0.5
+    	o3= 95.84
+    	oso2= 2.12
+    	fpc= 7.99
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T18:00
+    	co= 216.96
+    	no= 0.42
+    	no2= 0.42
+    	o3= 92.98
+    	oso2= 2.09
+    	fpc= 9.29
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T19:00
+    	co= 220.3
+    	no= 0.19
+    	no2= 0.19
+    	o3= 92.98
+    	oso2= 1.94
+    	fpc= 9.69
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T20:00
+    	co= 216.96
+    	no= 0.01
+    	no2= 0.01
+    	o3= 92.98
+    	oso2= 1.65
+    	fpc= 9.14
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T21:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.49
+    	fpc= 8.14
+    	cpc= 0.0
+    	nh3= 2.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T22:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.43
+    	fpc= 7.54
+    	cpc= 0.0
+    	nh3= 1.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-07T23:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.43
+    	fpc= 7.69
+    	cpc= 0.0
+    	nh3= 2.03
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T00:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.46
+    	fpc= 8.15
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T01:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.51
+    	fpc= 8.11
+    	cpc= 0.0
+    	nh3= 2.28
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T02:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.55
+    	fpc= 7.5
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T03:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.7
+    	fpc= 6.79
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T04:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.68
+    	fpc= 6.11
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T05:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 95.84
+    	oso2= 1.61
+    	fpc= 5.5
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T06:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 95.84
+    	oso2= 1.52
+    	fpc= 4.87
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T07:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 100.14
+    	oso2= 1.43
+    	fpc= 3.95
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T08:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 104.43
+    	oso2= 1.39
+    	fpc= 2.56
+    	cpc= 0.0
+    	nh3= 2.63
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T09:00
+    	co= 223.64
+    	no= 0.02
+    	no2= 0.02
+    	o3= 104.43
+    	oso2= 1.42
+    	fpc= 2.08
+    	cpc= 0.0
+    	nh3= 2.63
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T10:00
+    	co= 226.97
+    	no= 0.18
+    	no2= 0.18
+    	o3= 100.14
+    	oso2= 1.42
+    	fpc= 2.15
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T11:00
+    	co= 226.97
+    	no= 0.31
+    	no2= 0.31
+    	o3= 95.84
+    	oso2= 1.4
+    	fpc= 2.98
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T12:00
+    	co= 226.97
+    	no= 0.33
+    	no2= 0.33
+    	o3= 94.41
+    	oso2= 1.36
+    	fpc= 4.13
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T13:00
+    	co= 223.64
+    	no= 0.3
+    	no2= 0.3
+    	o3= 94.41
+    	oso2= 1.22
+    	fpc= 4.53
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T14:00
+    	co= 220.3
+    	no= 0.24
+    	no2= 0.24
+    	o3= 94.41
+    	oso2= 1.09
+    	fpc= 4.41
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T15:00
+    	co= 220.3
+    	no= 0.21
+    	no2= 0.21
+    	o3= 91.55
+    	oso2= 1.0
+    	fpc= 3.88
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T16:00
+    	co= 220.3
+    	no= 0.15
+    	no2= 0.15
+    	o3= 87.26
+    	oso2= 1.13
+    	fpc= 4.06
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T17:00
+    	co= 223.64
+    	no= 0.18
+    	no2= 0.18
+    	o3= 85.12
+    	oso2= 1.34
+    	fpc= 5.57
+    	cpc= 0.0
+    	nh3= 2.69
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T18:00
+    	co= 226.97
+    	no= 0.27
+    	no2= 0.27
+    	o3= 85.83
+    	oso2= 1.39
+    	fpc= 8.53
+    	cpc= 0.0
+    	nh3= 3.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T19:00
+    	co= 230.31
+    	no= 0.18
+    	no2= 0.18
+    	o3= 85.12
+    	oso2= 1.36
+    	fpc= 9.76
+    	cpc= 0.0
+    	nh3= 2.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T20:00
+    	co= 233.65
+    	no= 0.01
+    	no2= 0.01
+    	o3= 82.97
+    	oso2= 1.27
+    	fpc= 9.77
+    	cpc= 0.0
+    	nh3= 2.88
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T21:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.97
+    	oso2= 1.25
+    	fpc= 9.52
+    	cpc= 0.0
+    	nh3= 2.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T22:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.26
+    	oso2= 1.25
+    	fpc= 8.36
+    	cpc= 0.0
+    	nh3= 3.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-08T23:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 91.55
+    	oso2= 1.24
+    	fpc= 6.38
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T00:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.15
+    	fpc= 4.89
+    	cpc= 0.0
+    	nh3= 3.07
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T01:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.01
+    	fpc= 4.06
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T02:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 90.84
+    	oso2= 0.87
+    	fpc= 3.42
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T03:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 83.69
+    	oso2= 0.89
+    	fpc= 3.31
+    	cpc= 0.0
+    	nh3= 2.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T04:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.1
+    	oso2= 1.04
+    	fpc= 3.64
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T05:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 66.52
+    	oso2= 1.34
+    	fpc= 4.95
+    	cpc= 0.0
+    	nh3= 3.01
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T06:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.94
+    	oso2= 1.58
+    	fpc= 6.6
+    	cpc= 0.0
+    	nh3= 3.58
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T07:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 52.21
+    	oso2= 1.7
+    	fpc= 7.86
+    	cpc= 0.0
+    	nh3= 4.24
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T08:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 48.64
+    	oso2= 1.76
+    	fpc= 8.13
+    	cpc= 0.0
+    	nh3= 5.07
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T09:00
+    	co= 273.71
+    	no= 0.22
+    	no2= 0.22
+    	o3= 47.21
+    	oso2= 2.18
+    	fpc= 8.07
+    	cpc= 0.0
+    	nh3= 6.14
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T10:00
+    	co= 280.38
+    	no= 1.63
+    	no2= 1.63
+    	o3= 52.93
+    	oso2= 2.59
+    	fpc= 6.9
+    	cpc= 0.0
+    	nh3= 6.46
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T11:00
+    	co= 260.35
+    	no= 2.01
+    	no2= 2.01
+    	o3= 65.09
+    	oso2= 2.8
+    	fpc= 5.11
+    	cpc= 0.0
+    	nh3= 5.57
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T12:00
+    	co= 253.68
+    	no= 2.07
+    	no2= 2.07
+    	o3= 67.95
+    	oso2= 2.83
+    	fpc= 5.33
+    	cpc= 0.0
+    	nh3= 6.02
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T13:00
+    	co= 247.0
+    	no= 1.66
+    	no2= 1.66
+    	o3= 73.67
+    	oso2= 2.47
+    	fpc= 6.31
+    	cpc= 0.0
+    	nh3= 6.59
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-09T14:00
+    	co= 233.65
+    	no= 0.78
+    	no2= 0.78
+    	o3= 92.98
+    	oso2= 1.67
+    	fpc= 6.36
+    	cpc= 0.0
+    	nh3= 5.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T15:00
+    	co= 233.65
+    	no= 0.48
+    	no2= 0.48
+    	o3= 103.0
+    	oso2= 1.51
+    	fpc= 6.11
+    	cpc= 0.0
+    	nh3= 5.0
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T16:00
+    	co= 230.31
+    	no= 0.36
+    	no2= 0.36
+    	o3= 108.72
+    	oso2= 1.46
+    	fpc= 5.24
+    	cpc= 0.0
+    	nh3= 4.37
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T17:00
+    	co= 230.31
+    	no= 0.35
+    	no2= 0.35
+    	o3= 107.29
+    	oso2= 1.61
+    	fpc= 4.8
+    	cpc= 0.0
+    	nh3= 4.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T18:00
+    	co= 233.65
+    	no= 0.31
+    	no2= 0.31
+    	o3= 101.57
+    	oso2= 1.7
+    	fpc= 6.18
+    	cpc= 0.0
+    	nh3= 4.75
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T19:00
+    	co= 243.66
+    	no= 0.13
+    	no2= 0.13
+    	o3= 95.84
+    	oso2= 1.49
+    	fpc= 7.76
+    	cpc= 0.0
+    	nh3= 5.07
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T20:00
+    	co= 250.34
+    	no= 0.01
+    	no2= 0.01
+    	o3= 87.98
+    	oso2= 1.21
+    	fpc= 8.55
+    	cpc= 0.0
+    	nh3= 5.51
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T21:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.28
+    	fpc= 10.56
+    	cpc= 0.0
+    	nh3= 5.51
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T22:00
+    	co= 267.03
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.49
+    	fpc= 12.6
+    	cpc= 0.0
+    	nh3= 4.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-09T23:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.55
+    	fpc= 12.94
+    	cpc= 0.0
+    	nh3= 3.45
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T00:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 79.39
+    	oso2= 1.49
+    	fpc= 12.84
+    	cpc= 0.0
+    	nh3= 3.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T01:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 79.39
+    	oso2= 1.36
+    	fpc= 12.28
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T02:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.16
+    	fpc= 10.77
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T03:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.13
+    	fpc= 9.27
+    	cpc= 0.0
+    	nh3= 2.63
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T04:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.16
+    	fpc= 8.18
+    	cpc= 0.0
+    	nh3= 2.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T05:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.15
+    	fpc= 7.43
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T06:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.16
+    	fpc= 6.86
+    	cpc= 0.0
+    	nh3= 2.79
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T07:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.24
+    	fpc= 6.32
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T08:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 76.53
+    	oso2= 1.39
+    	fpc= 5.9
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-10T09:00
+    	co= 270.37
+    	no= 0.18
+    	no2= 0.18
+    	o3= 70.81
+    	oso2= 1.82
+    	fpc= 6.11
+    	cpc= 0.0
+    	nh3= 3.01
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-10T10:00
+    	co= 277.04
+    	no= 1.19
+    	no2= 1.19
+    	o3= 72.24
+    	oso2= 2.24
+    	fpc= 6.04
+    	cpc= 0.0
+    	nh3= 3.29
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-10T11:00
+    	co= 243.66
+    	no= 1.1
+    	no2= 1.1
+    	o3= 85.83
+    	oso2= 2.38
+    	fpc= 4.8
+    	cpc= 0.0
+    	nh3= 2.91
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T12:00
+    	co= 233.65
+    	no= 0.99
+    	no2= 0.99
+    	o3= 89.41
+    	oso2= 2.38
+    	fpc= 4.72
+    	cpc= 0.0
+    	nh3= 3.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T13:00
+    	co= 223.64
+    	no= 0.78
+    	no2= 0.78
+    	o3= 92.98
+    	oso2= 2.21
+    	fpc= 4.49
+    	cpc= 0.0
+    	nh3= 3.61
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T14:00
+    	co= 213.62
+    	no= 0.5
+    	no2= 0.5
+    	o3= 94.41
+    	oso2= 1.76
+    	fpc= 2.9
+    	cpc= 0.0
+    	nh3= 2.88
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T15:00
+    	co= 210.29
+    	no= 0.4
+    	no2= 0.4
+    	o3= 92.98
+    	oso2= 1.49
+    	fpc= 2.32
+    	cpc= 0.0
+    	nh3= 2.28
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T16:00
+    	co= 208.62
+    	no= 0.35
+    	no2= 0.35
+    	o3= 90.84
+    	oso2= 1.39
+    	fpc= 2.08
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T17:00
+    	co= 208.62
+    	no= 0.42
+    	no2= 0.42
+    	o3= 87.98
+    	oso2= 1.48
+    	fpc= 2.08
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T18:00
+    	co= 211.95
+    	no= 0.52
+    	no2= 0.52
+    	o3= 85.83
+    	oso2= 1.64
+    	fpc= 2.48
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T19:00
+    	co= 220.3
+    	no= 0.39
+    	no2= 0.39
+    	o3= 83.69
+    	oso2= 1.74
+    	fpc= 2.97
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-10T20:00
+    	co= 230.31
+    	no= 0.04
+    	no2= 0.04
+    	o3= 79.39
+    	oso2= 1.94
+    	fpc= 3.51
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-10T21:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.1
+    	oso2= 2.09
+    	fpc= 4.07
+    	cpc= 0.0
+    	nh3= 1.96
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-10T22:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 69.38
+    	oso2= 2.06
+    	fpc= 4.02
+    	cpc= 0.0
+    	nh3= 1.74
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-10T23:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.94
+    	oso2= 2.03
+    	fpc= 3.67
+    	cpc= 0.0
+    	nh3= 1.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T00:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.94
+    	oso2= 2.03
+    	fpc= 3.52
+    	cpc= 0.0
+    	nh3= 1.71
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T01:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 55.79
+    	oso2= 1.86
+    	fpc= 3.16
+    	cpc= 0.0
+    	nh3= 1.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T02:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 50.78
+    	oso2= 1.55
+    	fpc= 2.85
+    	cpc= 0.0
+    	nh3= 1.68
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T03:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.63
+    	oso2= 1.49
+    	fpc= 3.28
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T04:00
+    	co= 260.35
+    	no= 0.01
+    	no2= 0.01
+    	o3= 38.62
+    	oso2= 1.62
+    	fpc= 3.97
+    	cpc= 0.0
+    	nh3= 2.76
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T05:00
+    	co= 273.71
+    	no= 0.01
+    	no2= 0.01
+    	o3= 34.69
+    	oso2= 1.83
+    	fpc= 4.72
+    	cpc= 0.0
+    	nh3= 3.42
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T06:00
+    	co= 290.39
+    	no= 0.01
+    	no2= 0.01
+    	o3= 32.19
+    	oso2= 2.12
+    	fpc= 5.62
+    	cpc= 0.0
+    	nh3= 3.77
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T07:00
+    	co= 313.76
+    	no= 0.02
+    	no2= 0.02
+    	o3= 29.33
+    	oso2= 2.56
+    	fpc= 6.73
+    	cpc= 0.0
+    	nh3= 4.05
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T08:00
+    	co= 357.15
+    	no= 0.06
+    	no2= 0.06
+    	o3= 25.39
+    	oso2= 3.19
+    	fpc= 8.72
+    	cpc= 0.0
+    	nh3= 3.99
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T09:00
+    	co= 460.63
+    	no= 0.41
+    	no2= 0.41
+    	o3= 19.31
+    	oso2= 4.23
+    	fpc= 12.58
+    	cpc= 0.0
+    	nh3= 3.42
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-11T10:00
+    	co= 460.63
+    	no= 1.24
+    	no2= 1.24
+    	o3= 23.25
+    	oso2= 5.25
+    	fpc= 12.47
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-11T11:00
+    	co= 300.41
+    	no= 0.85
+    	no2= 0.85
+    	o3= 50.07
+    	oso2= 5.07
+    	fpc= 6.12
+    	cpc= 0.0
+    	nh3= 1.25
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T12:00
+    	co= 270.37
+    	no= 0.94
+    	no2= 0.94
+    	o3= 55.79
+    	oso2= 4.17
+    	fpc= 4.66
+    	cpc= 0.0
+    	nh3= 1.09
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T13:00
+    	co= 243.66
+    	no= 0.78
+    	no2= 0.78
+    	o3= 60.8
+    	oso2= 3.43
+    	fpc= 3.66
+    	cpc= 0.0
+    	nh3= 0.94
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T14:00
+    	co= 220.3
+    	no= 0.53
+    	no2= 0.53
+    	o3= 67.23
+    	oso2= 2.47
+    	fpc= 2.5
+    	cpc= 0.0
+    	nh3= 0.62
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T15:00
+    	co= 208.62
+    	no= 0.37
+    	no2= 0.37
+    	o3= 70.81
+    	oso2= 2.03
+    	fpc= 1.89
+    	cpc= 0.0
+    	nh3= 0.53
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T16:00
+    	co= 205.28
+    	no= 0.27
+    	no2= 0.27
+    	o3= 72.24
+    	oso2= 1.79
+    	fpc= 1.53
+    	cpc= 0.0
+    	nh3= 0.56
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T17:00
+    	co= 205.28
+    	no= 0.25
+    	no2= 0.25
+    	o3= 70.81
+    	oso2= 1.8
+    	fpc= 1.46
+    	cpc= 0.0
+    	nh3= 0.77
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T18:00
+    	co= 211.95
+    	no= 0.26
+    	no2= 0.26
+    	o3= 68.67
+    	oso2= 2.0
+    	fpc= 1.67
+    	cpc= 0.0
+    	nh3= 0.94
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T19:00
+    	co= 216.96
+    	no= 0.15
+    	no2= 0.15
+    	o3= 65.09
+    	oso2= 2.03
+    	fpc= 1.94
+    	cpc= 0.0
+    	nh3= 0.98
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T20:00
+    	co= 236.99
+    	no= 0.02
+    	no2= 0.02
+    	o3= 56.51
+    	oso2= 2.27
+    	fpc= 2.7
+    	cpc= 0.0
+    	nh3= 1.44
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T21:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 50.07
+    	oso2= 2.38
+    	fpc= 3.58
+    	cpc= 0.0
+    	nh3= 1.63
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T22:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 48.64
+    	oso2= 2.38
+    	fpc= 4.11
+    	cpc= 0.0
+    	nh3= 1.54
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-11T23:00
+    	co= 277.04
+    	no= 0.0
+    	no2= 0.0
+    	o3= 47.92
+    	oso2= 2.38
+    	fpc= 4.27
+    	cpc= 0.0
+    	nh3= 1.41
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T00:00
+    	co= 267.03
+    	no= 0.0
+    	no2= 0.0
+    	o3= 48.64
+    	oso2= 2.27
+    	fpc= 3.97
+    	cpc= 0.0
+    	nh3= 1.39
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T01:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 49.35
+    	oso2= 1.97
+    	fpc= 3.25
+    	cpc= 0.0
+    	nh3= 1.35
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T02:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 48.64
+    	oso2= 1.68
+    	fpc= 2.48
+    	cpc= 0.0
+    	nh3= 1.22
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T03:00
+    	co= 201.94
+    	no= 0.0
+    	no2= 0.0
+    	o3= 46.49
+    	oso2= 1.61
+    	fpc= 2.51
+    	cpc= 0.0
+    	nh3= 1.24
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T04:00
+    	co= 200.27
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.63
+    	oso2= 1.57
+    	fpc= 2.88
+    	cpc= 0.0
+    	nh3= 1.33
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T05:00
+    	co= 198.6
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.27
+    	oso2= 1.52
+    	fpc= 3.12
+    	cpc= 0.0
+    	nh3= 1.3
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T06:00
+    	co= 195.27
+    	no= 0.0
+    	no2= 0.0
+    	o3= 42.92
+    	oso2= 1.54
+    	fpc= 2.95
+    	cpc= 0.0
+    	nh3= 1.28
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T07:00
+    	co= 196.93
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.63
+    	oso2= 1.7
+    	fpc= 2.74
+    	cpc= 0.0
+    	nh3= 1.43
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T08:00
+    	co= 206.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 53.64
+    	oso2= 1.71
+    	fpc= 3.06
+    	cpc= 0.0
+    	nh3= 1.68
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T09:00
+    	co= 226.97
+    	no= 0.01
+    	no2= 0.01
+    	o3= 66.52
+    	oso2= 1.77
+    	fpc= 3.95
+    	cpc= 0.0
+    	nh3= 1.98
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T10:00
+    	co= 236.99
+    	no= 0.12
+    	no2= 0.12
+    	o3= 77.25
+    	oso2= 1.83
+    	fpc= 3.84
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T11:00
+    	co= 233.65
+    	no= 0.3
+    	no2= 0.3
+    	o3= 85.12
+    	oso2= 1.76
+    	fpc= 2.94
+    	cpc= 0.0
+    	nh3= 2.15
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T12:00
+    	co= 226.97
+    	no= 0.36
+    	no2= 0.36
+    	o3= 90.12
+    	oso2= 1.55
+    	fpc= 2.08
+    	cpc= 0.0
+    	nh3= 2.06
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T13:00
+    	co= 220.3
+    	no= 0.32
+    	no2= 0.32
+    	o3= 92.98
+    	oso2= 1.3
+    	fpc= 1.56
+    	cpc= 0.0
+    	nh3= 1.81
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T14:00
+    	co= 211.95
+    	no= 0.31
+    	no2= 0.31
+    	o3= 98.71
+    	oso2= 1.09
+    	fpc= 1.35
+    	cpc= 0.0
+    	nh3= 1.38
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T15:00
+    	co= 211.95
+    	no= 0.28
+    	no2= 0.28
+    	o3= 95.84
+    	oso2= 1.03
+    	fpc= 1.37
+    	cpc= 0.0
+    	nh3= 1.3
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T16:00
+    	co= 211.95
+    	no= 0.26
+    	no2= 0.26
+    	o3= 91.55
+    	oso2= 1.0
+    	fpc= 1.44
+    	cpc= 0.0
+    	nh3= 1.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T17:00
+    	co= 213.62
+    	no= 0.35
+    	no2= 0.35
+    	o3= 83.69
+    	oso2= 1.13
+    	fpc= 1.72
+    	cpc= 0.0
+    	nh3= 1.74
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-12T18:00
+    	co= 216.96
+    	no= 0.4
+    	no2= 0.4
+    	o3= 75.1
+    	oso2= 1.28
+    	fpc= 2.34
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T19:00
+    	co= 220.3
+    	no= 0.27
+    	no2= 0.27
+    	o3= 69.38
+    	oso2= 1.36
+    	fpc= 2.92
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T20:00
+    	co= 226.97
+    	no= 0.03
+    	no2= 0.03
+    	o3= 67.23
+    	oso2= 1.36
+    	fpc= 3.23
+    	cpc= 0.0
+    	nh3= 2.91
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T21:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 69.38
+    	oso2= 1.36
+    	fpc= 3.38
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T22:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.33
+    	fpc= 3.43
+    	cpc= 0.0
+    	nh3= 2.22
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-12T23:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 1.33
+    	fpc= 3.41
+    	cpc= 0.0
+    	nh3= 1.87
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T00:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 76.53
+    	oso2= 1.28
+    	fpc= 3.25
+    	cpc= 0.0
+    	nh3= 1.85
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T01:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 1.18
+    	fpc= 2.78
+    	cpc= 0.0
+    	nh3= 1.9
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T02:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.1
+    	oso2= 1.09
+    	fpc= 2.17
+    	cpc= 0.0
+    	nh3= 1.9
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T03:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.0
+    	fpc= 1.82
+    	cpc= 0.0
+    	nh3= 2.06
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T04:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.01
+    	fpc= 1.63
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T05:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.01
+    	fpc= 1.49
+    	cpc= 0.0
+    	nh3= 2.76
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T06:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.04
+    	fpc= 1.36
+    	cpc= 0.0
+    	nh3= 3.07
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T07:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.07
+    	fpc= 1.27
+    	cpc= 0.0
+    	nh3= 3.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T08:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.1
+    	fpc= 1.27
+    	cpc= 0.0
+    	nh3= 3.74
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T09:00
+    	co= 223.64
+    	no= 0.06
+    	no2= 0.06
+    	o3= 78.68
+    	oso2= 1.21
+    	fpc= 1.46
+    	cpc= 0.0
+    	nh3= 3.96
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T10:00
+    	co= 223.64
+    	no= 0.42
+    	no2= 0.42
+    	o3= 77.25
+    	oso2= 1.19
+    	fpc= 1.44
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-13T11:00
+    	co= 216.96
+    	no= 0.48
+    	no2= 0.48
+    	o3= 82.25
+    	oso2= 1.01
+    	fpc= 1.24
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T12:00
+    	co= 213.62
+    	no= 0.41
+    	no2= 0.41
+    	o3= 87.26
+    	oso2= 0.97
+    	fpc= 1.22
+    	cpc= 0.0
+    	nh3= 1.96
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T13:00
+    	co= 211.95
+    	no= 0.31
+    	no2= 0.31
+    	o3= 94.41
+    	oso2= 0.89
+    	fpc= 1.19
+    	cpc= 0.0
+    	nh3= 1.74
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T14:00
+    	co= 211.95
+    	no= 0.26
+    	no2= 0.26
+    	o3= 100.14
+    	oso2= 0.83
+    	fpc= 1.16
+    	cpc= 0.0
+    	nh3= 1.58
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T15:00
+    	co= 210.29
+    	no= 0.24
+    	no2= 0.24
+    	o3= 103.0
+    	oso2= 0.78
+    	fpc= 1.12
+    	cpc= 0.0
+    	nh3= 1.54
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T16:00
+    	co= 210.29
+    	no= 0.23
+    	no2= 0.23
+    	o3= 103.0
+    	oso2= 0.75
+    	fpc= 1.12
+    	cpc= 0.0
+    	nh3= 1.49
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T17:00
+    	co= 210.29
+    	no= 0.27
+    	no2= 0.27
+    	o3= 101.57
+    	oso2= 0.81
+    	fpc= 1.16
+    	cpc= 0.0
+    	nh3= 1.69
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T18:00
+    	co= 213.62
+    	no= 0.3
+    	no2= 0.3
+    	o3= 100.14
+    	oso2= 0.89
+    	fpc= 1.25
+    	cpc= 0.0
+    	nh3= 2.15
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T19:00
+    	co= 216.96
+    	no= 0.2
+    	no2= 0.2
+    	o3= 100.14
+    	oso2= 0.92
+    	fpc= 1.29
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T20:00
+    	co= 220.3
+    	no= 0.02
+    	no2= 0.02
+    	o3= 100.14
+    	oso2= 0.9
+    	fpc= 1.33
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T21:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 101.57
+    	oso2= 0.95
+    	fpc= 1.48
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T22:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 100.14
+    	oso2= 0.98
+    	fpc= 1.67
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-13T23:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 97.28
+    	oso2= 0.98
+    	fpc= 1.81
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T00:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 0.94
+    	fpc= 1.94
+    	cpc= 0.0
+    	nh3= 2.06
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T01:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 0.86
+    	fpc= 1.93
+    	cpc= 0.0
+    	nh3= 2.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T02:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 91.55
+    	oso2= 0.76
+    	fpc= 1.8
+    	cpc= 0.0
+    	nh3= 1.92
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T03:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.98
+    	oso2= 0.76
+    	fpc= 1.87
+    	cpc= 0.0
+    	nh3= 1.82
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T04:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 83.69
+    	oso2= 0.87
+    	fpc= 2.17
+    	cpc= 0.0
+    	nh3= 1.71
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T05:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.01
+    	fpc= 2.61
+    	cpc= 0.0
+    	nh3= 1.71
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T06:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.15
+    	fpc= 2.98
+    	cpc= 0.0
+    	nh3= 1.87
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T07:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.27
+    	fpc= 3.28
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T08:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.33
+    	fpc= 3.48
+    	cpc= 0.0
+    	nh3= 2.47
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T09:00
+    	co= 223.64
+    	no= 0.15
+    	no2= 0.15
+    	o3= 81.54
+    	oso2= 1.46
+    	fpc= 3.48
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T10:00
+    	co= 226.97
+    	no= 0.72
+    	no2= 0.72
+    	o3= 80.11
+    	oso2= 1.59
+    	fpc= 3.18
+    	cpc= 0.0
+    	nh3= 3.55
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T11:00
+    	co= 226.97
+    	no= 1.08
+    	no2= 1.08
+    	o3= 79.39
+    	oso2= 1.74
+    	fpc= 2.7
+    	cpc= 0.0
+    	nh3= 3.74
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-14T12:00
+    	co= 223.64
+    	no= 1.03
+    	no2= 1.03
+    	o3= 81.54
+    	oso2= 1.77
+    	fpc= 2.39
+    	cpc= 0.0
+    	nh3= 4.02
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T13:00
+    	co= 220.3
+    	no= 0.78
+    	no2= 0.78
+    	o3= 85.83
+    	oso2= 1.64
+    	fpc= 2.24
+    	cpc= 0.0
+    	nh3= 4.18
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T14:00
+    	co= 211.95
+    	no= 0.43
+    	no2= 0.43
+    	o3= 94.41
+    	oso2= 1.13
+    	fpc= 1.7
+    	cpc= 0.0
+    	nh3= 3.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T15:00
+    	co= 211.95
+    	no= 0.34
+    	no2= 0.34
+    	o3= 98.71
+    	oso2= 0.97
+    	fpc= 1.49
+    	cpc= 0.0
+    	nh3= 2.88
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T16:00
+    	co= 211.95
+    	no= 0.31
+    	no2= 0.31
+    	o3= 100.14
+    	oso2= 0.95
+    	fpc= 1.57
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T17:00
+    	co= 213.62
+    	no= 0.4
+    	no2= 0.4
+    	o3= 101.57
+    	oso2= 1.25
+    	fpc= 2.29
+    	cpc= 0.0
+    	nh3= 3.61
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T18:00
+    	co= 216.96
+    	no= 0.43
+    	no2= 0.43
+    	o3= 98.71
+    	oso2= 1.39
+    	fpc= 3.6
+    	cpc= 0.0
+    	nh3= 4.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T19:00
+    	co= 220.3
+    	no= 0.27
+    	no2= 0.27
+    	o3= 94.41
+    	oso2= 1.3
+    	fpc= 4.42
+    	cpc= 0.0
+    	nh3= 3.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T20:00
+    	co= 220.3
+    	no= 0.02
+    	no2= 0.02
+    	o3= 89.41
+    	oso2= 1.13
+    	fpc= 4.37
+    	cpc= 0.0
+    	nh3= 3.07
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T21:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 84.4
+    	oso2= 1.1
+    	fpc= 4.57
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T22:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.09
+    	fpc= 5.24
+    	cpc= 0.0
+    	nh3= 2.47
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-14T23:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 1.07
+    	fpc= 5.4
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T00:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 71.53
+    	oso2= 1.06
+    	fpc= 5.34
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T01:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.23
+    	oso2= 1.03
+    	fpc= 5.23
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T02:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 63.66
+    	oso2= 1.0
+    	fpc= 4.99
+    	cpc= 0.0
+    	nh3= 2.69
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T03:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 1.22
+    	fpc= 4.89
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T04:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 1.36
+    	fpc= 4.62
+    	cpc= 0.0
+    	nh3= 3.26
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T05:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 58.65
+    	oso2= 1.4
+    	fpc= 4.22
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T06:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 54.36
+    	oso2= 1.46
+    	fpc= 3.63
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T07:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 50.78
+    	oso2= 1.55
+    	fpc= 2.98
+    	cpc= 0.0
+    	nh3= 3.64
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T08:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 49.35
+    	oso2= 1.65
+    	fpc= 2.46
+    	cpc= 0.0
+    	nh3= 4.24
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T09:00
+    	co= 257.02
+    	no= 0.16
+    	no2= 0.16
+    	o3= 47.92
+    	oso2= 2.03
+    	fpc= 2.61
+    	cpc= 0.0
+    	nh3= 5.32
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T10:00
+    	co= 263.69
+    	no= 1.1
+    	no2= 1.1
+    	o3= 51.5
+    	oso2= 2.38
+    	fpc= 2.72
+    	cpc= 0.0
+    	nh3= 6.33
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T11:00
+    	co= 257.02
+    	no= 1.84
+    	no2= 1.84
+    	o3= 56.51
+    	oso2= 2.59
+    	fpc= 2.62
+    	cpc= 0.0
+    	nh3= 6.78
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T12:00
+    	co= 250.34
+    	no= 2.04
+    	no2= 2.04
+    	o3= 58.65
+    	oso2= 2.68
+    	fpc= 2.75
+    	cpc= 0.0
+    	nh3= 7.35
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T13:00
+    	co= 240.33
+    	no= 1.69
+    	no2= 1.69
+    	o3= 65.09
+    	oso2= 2.65
+    	fpc= 3.02
+    	cpc= 0.0
+    	nh3= 7.6
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T14:00
+    	co= 226.97
+    	no= 1.06
+    	no2= 1.06
+    	o3= 80.11
+    	oso2= 2.41
+    	fpc= 3.31
+    	cpc= 0.0
+    	nh3= 6.46
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T15:00
+    	co= 226.97
+    	no= 0.81
+    	no2= 0.81
+    	o3= 90.12
+    	oso2= 2.27
+    	fpc= 3.5
+    	cpc= 0.0
+    	nh3= 5.7
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T16:00
+    	co= 226.97
+    	no= 0.68
+    	no2= 0.68
+    	o3= 94.41
+    	oso2= 2.15
+    	fpc= 3.44
+    	cpc= 0.0
+    	nh3= 5.13
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T17:00
+    	co= 230.31
+    	no= 0.71
+    	no2= 0.71
+    	o3= 94.41
+    	oso2= 2.24
+    	fpc= 3.5
+    	cpc= 0.0
+    	nh3= 5.13
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T18:00
+    	co= 233.65
+    	no= 0.74
+    	no2= 0.74
+    	o3= 91.55
+    	oso2= 2.27
+    	fpc= 3.84
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T19:00
+    	co= 240.33
+    	no= 0.42
+    	no2= 0.42
+    	o3= 87.98
+    	oso2= 2.18
+    	fpc= 4.09
+    	cpc= 0.0
+    	nh3= 7.16
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T20:00
+    	co= 247.0
+    	no= 0.03
+    	no2= 0.03
+    	o3= 81.54
+    	oso2= 1.89
+    	fpc= 4.4
+    	cpc= 0.0
+    	nh3= 9.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-15T21:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.74
+    	fpc= 5.32
+    	cpc= 0.0
+    	nh3= 10.39
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T22:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 78.68
+    	oso2= 1.61
+    	fpc= 6.2
+    	cpc= 0.0
+    	nh3= 10.01
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-15T23:00
+    	co= 273.71
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.85
+    	fpc= 7.65
+    	cpc= 0.0
+    	nh3= 8.87
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T00:00
+    	co= 290.39
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 2.3
+    	fpc= 10.92
+    	cpc= 0.0
+    	nh3= 8.74
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T01:00
+    	co= 287.06
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 2.44
+    	fpc= 12.91
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T02:00
+    	co= 267.03
+    	no= 0.0
+    	no2= 0.0
+    	o3= 69.38
+    	oso2= 2.12
+    	fpc= 12.17
+    	cpc= 0.0
+    	nh3= 8.11
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T03:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.8
+    	oso2= 1.7
+    	fpc= 9.31
+    	cpc= 0.0
+    	nh3= 7.92
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T04:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.23
+    	oso2= 1.43
+    	fpc= 5.82
+    	cpc= 0.0
+    	nh3= 7.41
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T05:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.08
+    	oso2= 1.39
+    	fpc= 3.92
+    	cpc= 0.0
+    	nh3= 7.09
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T06:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 59.37
+    	oso2= 1.43
+    	fpc= 3.16
+    	cpc= 0.0
+    	nh3= 7.22
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T07:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 1.49
+    	fpc= 2.82
+    	cpc= 0.0
+    	nh3= 7.79
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T08:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.23
+    	oso2= 1.58
+    	fpc= 2.68
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T09:00
+    	co= 250.34
+    	no= 0.19
+    	no2= 0.19
+    	o3= 61.51
+    	oso2= 1.91
+    	fpc= 2.94
+    	cpc= 0.0
+    	nh3= 9.37
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T10:00
+    	co= 257.02
+    	no= 1.17
+    	no2= 1.17
+    	o3= 63.66
+    	oso2= 2.21
+    	fpc= 3.07
+    	cpc= 0.0
+    	nh3= 9.75
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T11:00
+    	co= 253.68
+    	no= 1.7
+    	no2= 1.7
+    	o3= 67.23
+    	oso2= 2.27
+    	fpc= 2.84
+    	cpc= 0.0
+    	nh3= 9.63
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T12:00
+    	co= 243.66
+    	no= 1.58
+    	no2= 1.58
+    	o3= 70.81
+    	oso2= 2.3
+    	fpc= 2.72
+    	cpc= 0.0
+    	nh3= 9.37
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T13:00
+    	co= 233.65
+    	no= 1.2
+    	no2= 1.2
+    	o3= 79.39
+    	oso2= 2.27
+    	fpc= 2.67
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T14:00
+    	co= 223.64
+    	no= 0.81
+    	no2= 0.81
+    	o3= 91.55
+    	oso2= 2.06
+    	fpc= 2.44
+    	cpc= 0.0
+    	nh3= 6.65
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T15:00
+    	co= 220.3
+    	no= 0.69
+    	no2= 0.69
+    	o3= 98.71
+    	oso2= 1.89
+    	fpc= 2.36
+    	cpc= 0.0
+    	nh3= 5.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T16:00
+    	co= 216.96
+    	no= 0.63
+    	no2= 0.63
+    	o3= 100.14
+    	oso2= 1.74
+    	fpc= 2.24
+    	cpc= 0.0
+    	nh3= 4.94
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T17:00
+    	co= 220.3
+    	no= 0.68
+    	no2= 0.68
+    	o3= 101.57
+    	oso2= 1.83
+    	fpc= 2.35
+    	cpc= 0.0
+    	nh3= 4.69
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T18:00
+    	co= 226.97
+    	no= 0.73
+    	no2= 0.73
+    	o3= 100.14
+    	oso2= 2.06
+    	fpc= 2.73
+    	cpc= 0.0
+    	nh3= 5.07
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T19:00
+    	co= 233.65
+    	no= 0.51
+    	no2= 0.51
+    	o3= 95.84
+    	oso2= 2.15
+    	fpc= 2.93
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T20:00
+    	co= 243.66
+    	no= 0.06
+    	no2= 0.06
+    	o3= 83.69
+    	oso2= 2.0
+    	fpc= 2.99
+    	cpc= 0.0
+    	nh3= 6.97
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-16T21:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 71.53
+    	oso2= 2.03
+    	fpc= 3.44
+    	cpc= 0.0
+    	nh3= 8.74
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T22:00
+    	co= 277.04
+    	no= 0.0
+    	no2= 0.0
+    	o3= 63.66
+    	oso2= 2.09
+    	fpc= 3.92
+    	cpc= 0.0
+    	nh3= 9.88
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-16T23:00
+    	co= 277.04
+    	no= 0.0
+    	no2= 0.0
+    	o3= 59.37
+    	oso2= 2.12
+    	fpc= 4.07
+    	cpc= 0.0
+    	nh3= 9.37
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T00:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.22
+    	oso2= 2.06
+    	fpc= 3.76
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T01:00
+    	co= 250.34
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.94
+    	oso2= 1.77
+    	fpc= 3.12
+    	cpc= 0.0
+    	nh3= 8.04
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T02:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.08
+    	oso2= 1.46
+    	fpc= 2.35
+    	cpc= 0.0
+    	nh3= 7.41
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T03:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.08
+    	oso2= 1.34
+    	fpc= 2.13
+    	cpc= 0.0
+    	nh3= 7.73
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T04:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 1.28
+    	fpc= 2.04
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T05:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.8
+    	oso2= 1.25
+    	fpc= 1.94
+    	cpc= 0.0
+    	nh3= 8.99
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T06:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 68.67
+    	oso2= 1.27
+    	fpc= 1.86
+    	cpc= 0.0
+    	nh3= 9.12
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T07:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 68.67
+    	oso2= 1.31
+    	fpc= 1.76
+    	cpc= 0.0
+    	nh3= 9.25
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T08:00
+    	co= 213.62
+    	no= 0.01
+    	no2= 0.01
+    	o3= 67.95
+    	oso2= 1.34
+    	fpc= 1.72
+    	cpc= 0.0
+    	nh3= 9.37
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T09:00
+    	co= 226.97
+    	no= 0.29
+    	no2= 0.29
+    	o3= 66.52
+    	oso2= 1.54
+    	fpc= 1.89
+    	cpc= 0.0
+    	nh3= 9.25
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T10:00
+    	co= 230.31
+    	no= 0.99
+    	no2= 0.99
+    	o3= 66.52
+    	oso2= 1.67
+    	fpc= 1.9
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T11:00
+    	co= 223.64
+    	no= 1.19
+    	no2= 1.19
+    	o3= 69.38
+    	oso2= 1.61
+    	fpc= 1.74
+    	cpc= 0.0
+    	nh3= 7.54
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T12:00
+    	co= 216.96
+    	no= 1.05
+    	no2= 1.05
+    	o3= 73.67
+    	oso2= 1.58
+    	fpc= 1.74
+    	cpc= 0.0
+    	nh3= 6.84
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T13:00
+    	co= 210.29
+    	no= 0.8
+    	no2= 0.8
+    	o3= 79.39
+    	oso2= 1.52
+    	fpc= 1.82
+    	cpc= 0.0
+    	nh3= 6.33
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T14:00
+    	co= 206.95
+    	no= 0.64
+    	no2= 0.64
+    	o3= 86.55
+    	oso2= 1.51
+    	fpc= 2.0
+    	cpc= 0.0
+    	nh3= 5.89
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-17T15:00
+    	co= 203.61
+    	no= 0.56
+    	no2= 0.56
+    	o3= 91.55
+    	oso2= 1.46
+    	fpc= 2.16
+    	cpc= 0.0
+    	nh3= 5.38
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-17T16:00
+    	co= 201.94
+    	no= 0.53
+    	no2= 0.53
+    	o3= 94.41
+    	oso2= 1.42
+    	fpc= 2.3
+    	cpc= 0.0
+    	nh3= 5.13
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-17T17:00
+    	co= 203.61
+    	no= 0.63
+    	no2= 0.63
+    	o3= 95.84
+    	oso2= 1.58
+    	fpc= 2.74
+    	cpc= 0.0
+    	nh3= 5.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-17T18:00
+    	co= 206.95
+    	no= 0.78
+    	no2= 0.78
+    	o3= 91.55
+    	oso2= 1.79
+    	fpc= 3.28
+    	cpc= 0.0
+    	nh3= 5.45
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-17T19:00
+    	co= 208.62
+    	no= 0.7
+    	no2= 0.7
+    	o3= 83.69
+    	oso2= 1.82
+    	fpc= 2.93
+    	cpc= 0.0
+    	nh3= 5.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-17T20:00
+    	co= 210.29
+    	no= 0.05
+    	no2= 0.05
+    	o3= 73.67
+    	oso2= 1.7
+    	fpc= 2.08
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T21:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 66.52
+    	oso2= 1.74
+    	fpc= 1.9
+    	cpc= 0.0
+    	nh3= 6.33
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T22:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 1.76
+    	fpc= 1.85
+    	cpc= 0.0
+    	nh3= 7.03
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-17T23:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 56.51
+    	oso2= 1.7
+    	fpc= 1.7
+    	cpc= 0.0
+    	nh3= 7.6
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T00:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 55.79
+    	oso2= 1.54
+    	fpc= 1.56
+    	cpc= 0.0
+    	nh3= 7.98
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T01:00
+    	co= 208.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 1.34
+    	fpc= 1.3
+    	cpc= 0.0
+    	nh3= 7.73
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T02:00
+    	co= 201.94
+    	no= 0.0
+    	no2= 0.0
+    	o3= 71.53
+    	oso2= 1.18
+    	fpc= 0.99
+    	cpc= 0.0
+    	nh3= 6.97
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T03:00
+    	co= 203.61
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 1.15
+    	fpc= 0.84
+    	cpc= 0.0
+    	nh3= 6.65
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T04:00
+    	co= 206.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.1
+    	fpc= 0.73
+    	cpc= 0.0
+    	nh3= 6.46
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T05:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.09
+    	fpc= 0.68
+    	cpc= 0.0
+    	nh3= 6.4
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T06:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.09
+    	fpc= 0.67
+    	cpc= 0.0
+    	nh3= 6.33
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T07:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.13
+    	fpc= 0.68
+    	cpc= 0.0
+    	nh3= 6.08
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T08:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.16
+    	fpc= 0.71
+    	cpc= 0.0
+    	nh3= 5.89
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T09:00
+    	co= 226.97
+    	no= 0.12
+    	no2= 0.12
+    	o3= 79.39
+    	oso2= 1.34
+    	fpc= 0.89
+    	cpc= 0.0
+    	nh3= 5.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T10:00
+    	co= 230.31
+    	no= 0.65
+    	no2= 0.65
+    	o3= 79.39
+    	oso2= 1.49
+    	fpc= 1.02
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-18T11:00
+    	co= 226.97
+    	no= 0.95
+    	no2= 0.95
+    	o3= 81.54
+    	oso2= 1.54
+    	fpc= 1.06
+    	cpc= 0.0
+    	nh3= 5.38
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T12:00
+    	co= 220.3
+    	no= 0.89
+    	no2= 0.89
+    	o3= 85.12
+    	oso2= 1.51
+    	fpc= 1.09
+    	cpc= 0.0
+    	nh3= 4.94
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T13:00
+    	co= 213.62
+    	no= 0.72
+    	no2= 0.72
+    	o3= 90.84
+    	oso2= 1.39
+    	fpc= 1.1
+    	cpc= 0.0
+    	nh3= 4.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T14:00
+    	co= 206.95
+    	no= 0.5
+    	no2= 0.5
+    	o3= 98.71
+    	oso2= 1.16
+    	fpc= 0.93
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T15:00
+    	co= 201.94
+    	no= 0.43
+    	no2= 0.43
+    	o3= 103.0
+    	oso2= 1.09
+    	fpc= 0.86
+    	cpc= 0.0
+    	nh3= 2.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T16:00
+    	co= 201.94
+    	no= 0.41
+    	no2= 0.41
+    	o3= 105.86
+    	oso2= 1.07
+    	fpc= 0.94
+    	cpc= 0.0
+    	nh3= 2.03
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T17:00
+    	co= 205.28
+    	no= 0.48
+    	no2= 0.48
+    	o3= 104.43
+    	oso2= 1.18
+    	fpc= 1.09
+    	cpc= 0.0
+    	nh3= 2.6
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T18:00
+    	co= 210.29
+    	no= 0.55
+    	no2= 0.55
+    	o3= 100.14
+    	oso2= 1.3
+    	fpc= 1.54
+    	cpc= 0.0
+    	nh3= 3.93
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T19:00
+    	co= 220.3
+    	no= 0.39
+    	no2= 0.39
+    	o3= 95.84
+    	oso2= 1.36
+    	fpc= 2.56
+    	cpc= 0.0
+    	nh3= 5.45
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T20:00
+    	co= 240.33
+    	no= 0.05
+    	no2= 0.05
+    	o3= 90.12
+    	oso2= 1.49
+    	fpc= 4.82
+    	cpc= 0.0
+    	nh3= 6.97
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T21:00
+    	co= 267.03
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.26
+    	oso2= 1.7
+    	fpc= 8.27
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T22:00
+    	co= 290.39
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.26
+    	oso2= 1.8
+    	fpc= 12.77
+    	cpc= 0.0
+    	nh3= 9.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-18T23:00
+    	co= 300.41
+    	no= 0.0
+    	no2= 0.0
+    	o3= 84.4
+    	oso2= 1.83
+    	fpc= 14.35
+    	cpc= 0.0
+    	nh3= 8.74
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T00:00
+    	co= 297.07
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.89
+    	fpc= 14.02
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T01:00
+    	co= 280.38
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 1.85
+    	fpc= 12.85
+    	cpc= 0.0
+    	nh3= 8.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T02:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.68
+    	fpc= 11.29
+    	cpc= 0.0
+    	nh3= 7.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T03:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.61
+    	fpc= 9.19
+    	cpc= 0.0
+    	nh3= 8.23
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-19T04:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.24
+    	oso2= 1.52
+    	fpc= 7.16
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-19T05:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.46
+    	fpc= 4.76
+    	cpc= 0.0
+    	nh3= 8.74
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-19T06:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.45
+    	fpc= 2.91
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-19T07:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 1.49
+    	fpc= 1.73
+    	cpc= 0.0
+    	nh3= 7.85
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-19T08:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 79.39
+    	oso2= 1.54
+    	fpc= 1.19
+    	cpc= 0.0
+    	nh3= 7.16
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-19T09:00
+    	co= 230.31
+    	no= 0.18
+    	no2= 0.18
+    	o3= 80.11
+    	oso2= 1.77
+    	fpc= 1.15
+    	cpc= 0.0
+    	nh3= 6.59
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T10:00
+    	co= 236.99
+    	no= 0.89
+    	no2= 0.89
+    	o3= 80.82
+    	oso2= 1.97
+    	fpc= 1.12
+    	cpc= 0.0
+    	nh3= 5.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T11:00
+    	co= 233.65
+    	no= 1.2
+    	no2= 1.2
+    	o3= 82.97
+    	oso2= 2.0
+    	fpc= 1.02
+    	cpc= 0.0
+    	nh3= 5.13
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T12:00
+    	co= 230.31
+    	no= 1.2
+    	no2= 1.2
+    	o3= 82.97
+    	oso2= 2.06
+    	fpc= 1.06
+    	cpc= 0.0
+    	nh3= 4.56
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T13:00
+    	co= 226.97
+    	no= 1.1
+    	no2= 1.1
+    	o3= 84.4
+    	oso2= 2.15
+    	fpc= 1.24
+    	cpc= 0.0
+    	nh3= 4.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T14:00
+    	co= 223.64
+    	no= 0.87
+    	no2= 0.87
+    	o3= 89.41
+    	oso2= 1.97
+    	fpc= 1.68
+    	cpc= 0.0
+    	nh3= 3.45
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T15:00
+    	co= 223.64
+    	no= 0.62
+    	no2= 0.62
+    	o3= 94.41
+    	oso2= 1.52
+    	fpc= 2.31
+    	cpc= 0.0
+    	nh3= 3.71
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T16:00
+    	co= 223.64
+    	no= 0.45
+    	no2= 0.45
+    	o3= 98.71
+    	oso2= 1.16
+    	fpc= 3.01
+    	cpc= 0.0
+    	nh3= 4.94
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T17:00
+    	co= 216.96
+    	no= 0.47
+    	no2= 0.47
+    	o3= 101.57
+    	oso2= 1.25
+    	fpc= 2.93
+    	cpc= 0.0
+    	nh3= 4.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T18:00
+    	co= 220.3
+    	no= 0.42
+    	no2= 0.42
+    	o3= 101.57
+    	oso2= 1.16
+    	fpc= 2.7
+    	cpc= 0.0
+    	nh3= 4.43
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T19:00
+    	co= 226.97
+    	no= 0.26
+    	no2= 0.26
+    	o3= 103.0
+    	oso2= 1.27
+    	fpc= 3.56
+    	cpc= 0.0
+    	nh3= 3.83
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T20:00
+    	co= 233.65
+    	no= 0.03
+    	no2= 0.03
+    	o3= 100.14
+    	oso2= 1.27
+    	fpc= 5.1
+    	cpc= 0.0
+    	nh3= 3.45
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T21:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 95.84
+    	oso2= 1.12
+    	fpc= 4.88
+    	cpc= 0.0
+    	nh3= 3.17
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T22:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.16
+    	fpc= 4.61
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-19T23:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 90.12
+    	oso2= 1.12
+    	fpc= 3.65
+    	cpc= 0.0
+    	nh3= 2.06
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T00:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 83.69
+    	oso2= 1.18
+    	fpc= 3.15
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T01:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 1.42
+    	fpc= 4.4
+    	cpc= 0.0
+    	nh3= 3.8
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-20T02:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.49
+    	fpc= 8.99
+    	cpc= 0.0
+    	nh3= 5.51
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-20T03:00
+    	co= 267.03
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.18
+    	fpc= 11.71
+    	cpc= 0.0
+    	nh3= 6.84
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T04:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 0.88
+    	fpc= 5.63
+    	cpc= 0.0
+    	nh3= 6.46
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-20T05:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.24
+    	oso2= 0.91
+    	fpc= 1.04
+    	cpc= 0.0
+    	nh3= 4.75
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-20T06:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 64.37
+    	oso2= 1.1
+    	fpc= 0.77
+    	cpc= 0.0
+    	nh3= 3.96
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-20T07:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.1
+    	oso2= 1.0
+    	fpc= 0.87
+    	cpc= 0.0
+    	nh3= 3.71
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-20T08:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 86.55
+    	oso2= 0.83
+    	fpc= 0.6
+    	cpc= 0.0
+    	nh3= 3.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T09:00
+    	co= 226.97
+    	no= 0.09
+    	no2= 0.09
+    	o3= 89.41
+    	oso2= 0.91
+    	fpc= 0.56
+    	cpc= 0.0
+    	nh3= 3.1
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T10:00
+    	co= 230.31
+    	no= 0.42
+    	no2= 0.42
+    	o3= 85.83
+    	oso2= 1.01
+    	fpc= 0.57
+    	cpc= 0.0
+    	nh3= 3.1
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T11:00
+    	co= 230.31
+    	no= 0.66
+    	no2= 0.66
+    	o3= 82.97
+    	oso2= 1.09
+    	fpc= 0.64
+    	cpc= 0.0
+    	nh3= 2.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T12:00
+    	co= 230.31
+    	no= 0.66
+    	no2= 0.66
+    	o3= 83.69
+    	oso2= 1.15
+    	fpc= 0.86
+    	cpc= 0.0
+    	nh3= 2.82
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T13:00
+    	co= 226.97
+    	no= 0.55
+    	no2= 0.55
+    	o3= 89.41
+    	oso2= 1.15
+    	fpc= 1.26
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T14:00
+    	co= 226.97
+    	no= 0.39
+    	no2= 0.39
+    	o3= 98.71
+    	oso2= 1.04
+    	fpc= 1.49
+    	cpc= 0.0
+    	nh3= 2.28
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T15:00
+    	co= 226.97
+    	no= 0.31
+    	no2= 0.31
+    	o3= 107.29
+    	oso2= 0.97
+    	fpc= 1.61
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T16:00
+    	co= 226.97
+    	no= 0.28
+    	no2= 0.28
+    	o3= 111.58
+    	oso2= 0.95
+    	fpc= 1.79
+    	cpc= 0.0
+    	nh3= 2.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T17:00
+    	co= 226.97
+    	no= 0.31
+    	no2= 0.31
+    	o3= 113.01
+    	oso2= 1.06
+    	fpc= 2.0
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T18:00
+    	co= 230.31
+    	no= 0.36
+    	no2= 0.36
+    	o3= 110.15
+    	oso2= 1.21
+    	fpc= 2.33
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T19:00
+    	co= 236.99
+    	no= 0.26
+    	no2= 0.26
+    	o3= 105.86
+    	oso2= 1.33
+    	fpc= 2.72
+    	cpc= 0.0
+    	nh3= 3.71
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T20:00
+    	co= 247.0
+    	no= 0.04
+    	no2= 0.04
+    	o3= 98.71
+    	oso2= 1.49
+    	fpc= 3.28
+    	cpc= 0.0
+    	nh3= 4.75
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T21:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 90.12
+    	oso2= 1.64
+    	fpc= 3.98
+    	cpc= 0.0
+    	nh3= 6.59
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T22:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.64
+    	fpc= 4.54
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-20T23:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.59
+    	fpc= 4.73
+    	cpc= 0.0
+    	nh3= 9.37
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-21T00:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 74.39
+    	oso2= 1.52
+    	fpc= 4.66
+    	cpc= 0.0
+    	nh3= 9.75
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-21T01:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.34
+    	fpc= 4.26
+    	cpc= 0.0
+    	nh3= 10.13
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-21T02:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.12
+    	fpc= 3.63
+    	cpc= 0.0
+    	nh3= 10.01
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-21T03:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.1
+    	fpc= 3.31
+    	cpc= 0.0
+    	nh3= 9.75
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T04:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.97
+    	oso2= 1.16
+    	fpc= 3.09
+    	cpc= 0.0
+    	nh3= 9.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T05:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 85.83
+    	oso2= 1.25
+    	fpc= 3.03
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T06:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.98
+    	oso2= 1.33
+    	fpc= 3.26
+    	cpc= 0.0
+    	nh3= 8.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T07:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.98
+    	oso2= 1.4
+    	fpc= 3.69
+    	cpc= 0.0
+    	nh3= 8.11
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T08:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 85.12
+    	oso2= 1.49
+    	fpc= 4.13
+    	cpc= 0.0
+    	nh3= 8.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T09:00
+    	co= 250.34
+    	no= 0.19
+    	no2= 0.19
+    	o3= 82.25
+    	oso2= 1.71
+    	fpc= 4.69
+    	cpc= 0.0
+    	nh3= 8.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T10:00
+    	co= 253.68
+    	no= 0.83
+    	no2= 0.83
+    	o3= 81.54
+    	oso2= 1.91
+    	fpc= 5.08
+    	cpc= 0.0
+    	nh3= 8.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T11:00
+    	co= 250.34
+    	no= 1.16
+    	no2= 1.16
+    	o3= 84.4
+    	oso2= 2.06
+    	fpc= 5.36
+    	cpc= 0.0
+    	nh3= 8.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T12:00
+    	co= 247.0
+    	no= 1.2
+    	no2= 1.2
+    	o3= 87.26
+    	oso2= 2.33
+    	fpc= 6.01
+    	cpc= 0.0
+    	nh3= 8.23
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T13:00
+    	co= 243.66
+    	no= 1.12
+    	no2= 1.12
+    	o3= 92.98
+    	oso2= 2.65
+    	fpc= 6.89
+    	cpc= 0.0
+    	nh3= 8.11
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T14:00
+    	co= 233.65
+    	no= 0.73
+    	no2= 0.73
+    	o3= 104.43
+    	oso2= 2.35
+    	fpc= 7.08
+    	cpc= 0.0
+    	nh3= 6.71
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T15:00
+    	co= 230.31
+    	no= 0.59
+    	no2= 0.59
+    	o3= 111.58
+    	oso2= 2.18
+    	fpc= 7.35
+    	cpc= 0.0
+    	nh3= 6.08
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T16:00
+    	co= 230.31
+    	no= 0.5
+    	no2= 0.5
+    	o3= 117.3
+    	oso2= 1.94
+    	fpc= 7.1
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T17:00
+    	co= 236.99
+    	no= 0.59
+    	no2= 0.59
+    	o3= 117.3
+    	oso2= 1.97
+    	fpc= 7.44
+    	cpc= 0.0
+    	nh3= 6.46
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T18:00
+    	co= 236.99
+    	no= 0.62
+    	no2= 0.62
+    	o3= 111.58
+    	oso2= 1.8
+    	fpc= 8.0
+    	cpc= 0.0
+    	nh3= 8.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T19:00
+    	co= 236.99
+    	no= 0.38
+    	no2= 0.38
+    	o3= 103.0
+    	oso2= 1.43
+    	fpc= 7.34
+    	cpc= 0.0
+    	nh3= 8.99
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T20:00
+    	co= 240.33
+    	no= 0.05
+    	no2= 0.05
+    	o3= 98.71
+    	oso2= 1.31
+    	fpc= 6.48
+    	cpc= 0.0
+    	nh3= 7.79
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T21:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.21
+    	fpc= 5.76
+    	cpc= 0.0
+    	nh3= 7.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T22:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.09
+    	fpc= 5.57
+    	cpc= 0.0
+    	nh3= 6.65
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-21T23:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 95.84
+    	oso2= 1.15
+    	fpc= 6.68
+    	cpc= 0.0
+    	nh3= 5.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T00:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 98.71
+    	oso2= 1.34
+    	fpc= 8.88
+    	cpc= 0.0
+    	nh3= 4.05
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T01:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 98.71
+    	oso2= 1.31
+    	fpc= 10.62
+    	cpc= 0.0
+    	nh3= 3.64
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T02:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.04
+    	fpc= 10.54
+    	cpc= 0.0
+    	nh3= 3.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T03:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.98
+    	oso2= 1.01
+    	fpc= 9.95
+    	cpc= 0.0
+    	nh3= 3.2
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T04:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.04
+    	fpc= 9.44
+    	cpc= 0.0
+    	nh3= 3.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T05:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.04
+    	fpc= 9.32
+    	cpc= 0.0
+    	nh3= 2.88
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-22T06:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 1.15
+    	fpc= 9.71
+    	cpc= 0.0
+    	nh3= 3.29
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-22T07:00
+    	co= 273.71
+    	no= 0.0
+    	no2= 0.0
+    	o3= 55.08
+    	oso2= 1.39
+    	fpc= 10.4
+    	cpc= 0.0
+    	nh3= 3.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T08:00
+    	co= 287.06
+    	no= 0.0
+    	no2= 0.0
+    	o3= 50.78
+    	oso2= 1.8
+    	fpc= 11.64
+    	cpc= 0.0
+    	nh3= 4.88
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T09:00
+    	co= 347.14
+    	no= 1.03
+    	no2= 1.03
+    	o3= 43.63
+    	oso2= 2.77
+    	fpc= 14.75
+    	cpc= 0.0
+    	nh3= 6.78
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T10:00
+    	co= 400.54
+    	no= 4.97
+    	no2= 4.97
+    	o3= 41.49
+    	oso2= 3.79
+    	fpc= 17.94
+    	cpc= 0.0
+    	nh3= 8.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T11:00
+    	co= 307.08
+    	no= 3.07
+    	no2= 3.07
+    	o3= 72.24
+    	oso2= 4.95
+    	fpc= 14.09
+    	cpc= 0.0
+    	nh3= 6.78
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T12:00
+    	co= 293.73
+    	no= 3.19
+    	no2= 3.19
+    	o3= 78.68
+    	oso2= 5.66
+    	fpc= 14.05
+    	cpc= 0.0
+    	nh3= 6.84
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T13:00
+    	co= 290.39
+    	no= 3.27
+    	no2= 3.27
+    	o3= 85.12
+    	oso2= 6.56
+    	fpc= 16.52
+    	cpc= 0.0
+    	nh3= 7.28
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T14:00
+    	co= 253.68
+    	no= 1.57
+    	no2= 1.57
+    	o3= 103.0
+    	oso2= 4.23
+    	fpc= 12.44
+    	cpc= 0.0
+    	nh3= 6.14
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T15:00
+    	co= 240.33
+    	no= 0.85
+    	no2= 0.85
+    	o3= 113.01
+    	oso2= 3.01
+    	fpc= 11.7
+    	cpc= 0.0
+    	nh3= 6.02
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T16:00
+    	co= 233.65
+    	no= 0.63
+    	no2= 0.63
+    	o3= 117.3
+    	oso2= 2.53
+    	fpc= 11.65
+    	cpc= 0.0
+    	nh3= 6.27
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T17:00
+    	co= 240.33
+    	no= 0.89
+    	no2= 0.89
+    	o3= 108.72
+    	oso2= 2.98
+    	fpc= 12.37
+    	cpc= 0.0
+    	nh3= 6.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T18:00
+    	co= 236.99
+    	no= 0.98
+    	no2= 0.98
+    	o3= 97.28
+    	oso2= 2.83
+    	fpc= 11.4
+    	cpc= 0.0
+    	nh3= 7.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T19:00
+    	co= 230.31
+    	no= 0.6
+    	no2= 0.6
+    	o3= 90.12
+    	oso2= 2.35
+    	fpc= 9.4
+    	cpc= 0.0
+    	nh3= 7.16
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T20:00
+    	co= 236.99
+    	no= 0.08
+    	no2= 0.08
+    	o3= 85.12
+    	oso2= 2.09
+    	fpc= 9.48
+    	cpc= 0.0
+    	nh3= 7.54
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T21:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 2.0
+    	fpc= 10.44
+    	cpc= 0.0
+    	nh3= 7.85
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T22:00
+    	co= 273.71
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 2.0
+    	fpc= 12.14
+    	cpc= 0.0
+    	nh3= 6.65
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-22T23:00
+    	co= 283.72
+    	no= 0.0
+    	no2= 0.0
+    	o3= 83.69
+    	oso2= 2.06
+    	fpc= 14.77
+    	cpc= 0.0
+    	nh3= 5.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T00:00
+    	co= 297.07
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 2.12
+    	fpc= 17.71
+    	cpc= 0.0
+    	nh3= 4.43
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T01:00
+    	co= 290.39
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 2.03
+    	fpc= 20.52
+    	cpc= 0.0
+    	nh3= 3.96
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-23T02:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 78.68
+    	oso2= 1.88
+    	fpc= 22.48
+    	cpc= 0.0
+    	nh3= 3.39
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-23T03:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 76.53
+    	oso2= 1.91
+    	fpc= 24.56
+    	cpc= 0.0
+    	nh3= 2.76
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-23T04:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.94
+    	fpc= 26.72
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T05:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.97
+    	fpc= 28.6
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T06:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 69.38
+    	oso2= 2.03
+    	fpc= 29.33
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T07:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 69.38
+    	oso2= 2.09
+    	fpc= 29.07
+    	cpc= 0.0
+    	nh3= 2.12
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T08:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 68.67
+    	oso2= 2.27
+    	fpc= 28.39
+    	cpc= 0.0
+    	nh3= 2.15
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T09:00
+    	co= 263.69
+    	no= 0.32
+    	no2= 0.32
+    	o3= 65.09
+    	oso2= 2.71
+    	fpc= 28.03
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T10:00
+    	co= 283.72
+    	no= 1.82
+    	no2= 1.82
+    	o3= 62.23
+    	oso2= 3.25
+    	fpc= 27.88
+    	cpc= 0.0
+    	nh3= 3.8
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T11:00
+    	co= 287.06
+    	no= 2.63
+    	no2= 2.63
+    	o3= 70.1
+    	oso2= 3.99
+    	fpc= 25.48
+    	cpc= 0.0
+    	nh3= 4.43
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-23T12:00
+    	co= 280.38
+    	no= 2.6
+    	no2= 2.6
+    	o3= 78.68
+    	oso2= 4.53
+    	fpc= 24.76
+    	cpc= 0.0
+    	nh3= 4.75
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-23T13:00
+    	co= 263.69
+    	no= 2.15
+    	no2= 2.15
+    	o3= 88.69
+    	oso2= 4.77
+    	fpc= 23.72
+    	cpc= 0.0
+    	nh3= 5.19
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-23T14:00
+    	co= 233.65
+    	no= 0.75
+    	no2= 0.75
+    	o3= 111.58
+    	oso2= 2.8
+    	fpc= 13.77
+    	cpc= 0.0
+    	nh3= 4.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T15:00
+    	co= 226.97
+    	no= 0.46
+    	no2= 0.46
+    	o3= 117.3
+    	oso2= 2.12
+    	fpc= 9.58
+    	cpc= 0.0
+    	nh3= 3.58
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T16:00
+    	co= 223.64
+    	no= 0.41
+    	no2= 0.41
+    	o3= 118.73
+    	oso2= 1.91
+    	fpc= 7.93
+    	cpc= 0.0
+    	nh3= 3.33
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T17:00
+    	co= 223.64
+    	no= 0.53
+    	no2= 0.53
+    	o3= 115.87
+    	oso2= 2.27
+    	fpc= 7.9
+    	cpc= 0.0
+    	nh3= 3.33
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T18:00
+    	co= 220.3
+    	no= 0.57
+    	no2= 0.57
+    	o3= 113.01
+    	oso2= 2.44
+    	fpc= 7.63
+    	cpc= 0.0
+    	nh3= 3.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T19:00
+    	co= 220.3
+    	no= 0.38
+    	no2= 0.38
+    	o3= 110.15
+    	oso2= 2.33
+    	fpc= 7.28
+    	cpc= 0.0
+    	nh3= 3.29
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T20:00
+    	co= 226.97
+    	no= 0.06
+    	no2= 0.06
+    	o3= 105.86
+    	oso2= 2.15
+    	fpc= 7.03
+    	cpc= 0.0
+    	nh3= 3.29
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T21:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 101.57
+    	oso2= 2.06
+    	fpc= 6.92
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T22:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 100.14
+    	oso2= 1.94
+    	fpc= 6.75
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-23T23:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 98.71
+    	oso2= 1.82
+    	fpc= 6.48
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T00:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 95.84
+    	oso2= 1.7
+    	fpc= 6.08
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T01:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.51
+    	fpc= 5.42
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T02:00
+    	co= 213.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 91.55
+    	oso2= 1.3
+    	fpc= 4.61
+    	cpc= 0.0
+    	nh3= 2.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T03:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 90.84
+    	oso2= 1.22
+    	fpc= 4.24
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T04:00
+    	co= 208.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 88.69
+    	oso2= 1.18
+    	fpc= 4.07
+    	cpc= 0.0
+    	nh3= 2.03
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T05:00
+    	co= 208.62
+    	no= 0.0
+    	no2= 0.0
+    	o3= 86.55
+    	oso2= 1.15
+    	fpc= 3.98
+    	cpc= 0.0
+    	nh3= 2.06
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T06:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 83.69
+    	oso2= 1.21
+    	fpc= 4.0
+    	cpc= 0.0
+    	nh3= 2.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T07:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.3
+    	fpc= 4.05
+    	cpc= 0.0
+    	nh3= 2.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T08:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 1.4
+    	fpc= 4.08
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-24T09:00
+    	co= 233.65
+    	no= 0.27
+    	no2= 0.27
+    	o3= 75.1
+    	oso2= 1.71
+    	fpc= 4.43
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-24T10:00
+    	co= 236.99
+    	no= 1.05
+    	no2= 1.05
+    	o3= 75.1
+    	oso2= 1.94
+    	fpc= 4.42
+    	cpc= 0.0
+    	nh3= 3.14
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-24T11:00
+    	co= 223.64
+    	no= 1.03
+    	no2= 1.03
+    	o3= 84.4
+    	oso2= 1.83
+    	fpc= 3.94
+    	cpc= 0.0
+    	nh3= 2.79
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T12:00
+    	co= 220.3
+    	no= 0.87
+    	no2= 0.87
+    	o3= 90.12
+    	oso2= 1.77
+    	fpc= 3.95
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T13:00
+    	co= 216.96
+    	no= 0.67
+    	no2= 0.67
+    	o3= 94.41
+    	oso2= 1.71
+    	fpc= 4.08
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T14:00
+    	co= 211.95
+    	no= 0.5
+    	no2= 0.5
+    	o3= 100.14
+    	oso2= 1.54
+    	fpc= 4.11
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T15:00
+    	co= 211.95
+    	no= 0.44
+    	no2= 0.44
+    	o3= 101.57
+    	oso2= 1.4
+    	fpc= 4.27
+    	cpc= 0.0
+    	nh3= 2.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T16:00
+    	co= 211.95
+    	no= 0.43
+    	no2= 0.43
+    	o3= 104.43
+    	oso2= 1.37
+    	fpc= 4.4
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T17:00
+    	co= 208.62
+    	no= 0.44
+    	no2= 0.44
+    	o3= 104.43
+    	oso2= 1.4
+    	fpc= 4.1
+    	cpc= 0.0
+    	nh3= 2.15
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T18:00
+    	co= 208.62
+    	no= 0.48
+    	no2= 0.48
+    	o3= 101.57
+    	oso2= 1.48
+    	fpc= 3.77
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T19:00
+    	co= 211.95
+    	no= 0.36
+    	no2= 0.36
+    	o3= 98.71
+    	oso2= 1.49
+    	fpc= 3.76
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T20:00
+    	co= 213.62
+    	no= 0.07
+    	no2= 0.07
+    	o3= 94.41
+    	oso2= 1.51
+    	fpc= 3.72
+    	cpc= 0.0
+    	nh3= 3.1
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T21:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.51
+    	fpc= 3.65
+    	cpc= 0.0
+    	nh3= 3.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T22:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.48
+    	fpc= 3.4
+    	cpc= 0.0
+    	nh3= 2.76
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-24T23:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 94.41
+    	oso2= 1.45
+    	fpc= 3.21
+    	cpc= 0.0
+    	nh3= 2.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T00:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 1.42
+    	fpc= 3.05
+    	cpc= 0.0
+    	nh3= 2.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T01:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 90.84
+    	oso2= 1.33
+    	fpc= 2.75
+    	cpc= 0.0
+    	nh3= 1.92
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T02:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 87.26
+    	oso2= 1.19
+    	fpc= 2.42
+    	cpc= 0.0
+    	nh3= 1.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T03:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 1.15
+    	fpc= 2.36
+    	cpc= 0.0
+    	nh3= 2.01
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T04:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.13
+    	fpc= 2.35
+    	cpc= 0.0
+    	nh3= 2.03
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T05:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 71.53
+    	oso2= 1.09
+    	fpc= 2.43
+    	cpc= 0.0
+    	nh3= 2.09
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T06:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.09
+    	oso2= 1.12
+    	fpc= 2.61
+    	cpc= 0.0
+    	nh3= 2.22
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T07:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 1.24
+    	fpc= 2.81
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T08:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 58.65
+    	oso2= 1.48
+    	fpc= 3.13
+    	cpc= 0.0
+    	nh3= 2.6
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T09:00
+    	co= 283.72
+    	no= 0.4
+    	no2= 0.4
+    	o3= 54.36
+    	oso2= 2.09
+    	fpc= 4.41
+    	cpc= 0.0
+    	nh3= 3.39
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T10:00
+    	co= 297.07
+    	no= 1.87
+    	no2= 1.87
+    	o3= 56.51
+    	oso2= 2.68
+    	fpc= 4.83
+    	cpc= 0.0
+    	nh3= 3.99
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-25T11:00
+    	co= 236.99
+    	no= 1.03
+    	no2= 1.03
+    	o3= 80.11
+    	oso2= 2.3
+    	fpc= 2.44
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T12:00
+    	co= 226.97
+    	no= 0.79
+    	no2= 0.79
+    	o3= 86.55
+    	oso2= 2.09
+    	fpc= 2.16
+    	cpc= 0.0
+    	nh3= 2.25
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T13:00
+    	co= 223.64
+    	no= 0.57
+    	no2= 0.57
+    	o3= 90.12
+    	oso2= 1.94
+    	fpc= 2.1
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T14:00
+    	co= 216.96
+    	no= 0.43
+    	no2= 0.43
+    	o3= 92.98
+    	oso2= 1.68
+    	fpc= 1.92
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T15:00
+    	co= 213.62
+    	no= 0.39
+    	no2= 0.39
+    	o3= 95.84
+    	oso2= 1.49
+    	fpc= 1.74
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T16:00
+    	co= 211.95
+    	no= 0.38
+    	no2= 0.38
+    	o3= 97.28
+    	oso2= 1.42
+    	fpc= 1.71
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T17:00
+    	co= 210.29
+    	no= 0.37
+    	no2= 0.37
+    	o3= 94.41
+    	oso2= 1.42
+    	fpc= 1.85
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T18:00
+    	co= 211.95
+    	no= 0.35
+    	no2= 0.35
+    	o3= 89.41
+    	oso2= 1.45
+    	fpc= 2.27
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T19:00
+    	co= 216.96
+    	no= 0.2
+    	no2= 0.2
+    	o3= 86.55
+    	oso2= 1.42
+    	fpc= 2.8
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T20:00
+    	co= 223.64
+    	no= 0.03
+    	no2= 0.03
+    	o3= 84.4
+    	oso2= 1.51
+    	fpc= 3.52
+    	cpc= 0.0
+    	nh3= 2.88
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T21:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.25
+    	oso2= 1.71
+    	fpc= 4.44
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T22:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.83
+    	fpc= 5.14
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-25T23:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 1.85
+    	fpc= 5.26
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T00:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.1
+    	oso2= 1.74
+    	fpc= 5.09
+    	cpc= 0.0
+    	nh3= 2.47
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T01:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 74.39
+    	oso2= 1.52
+    	fpc= 4.73
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T02:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 74.39
+    	oso2= 1.22
+    	fpc= 4.15
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T03:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.1
+    	oso2= 1.12
+    	fpc= 3.86
+    	cpc= 0.0
+    	nh3= 2.38
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T04:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 1.1
+    	fpc= 3.63
+    	cpc= 0.0
+    	nh3= 2.44
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T05:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 76.53
+    	oso2= 1.1
+    	fpc= 3.39
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T06:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.13
+    	fpc= 3.13
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T07:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 78.68
+    	oso2= 1.21
+    	fpc= 2.97
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T08:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.11
+    	oso2= 1.36
+    	fpc= 3.12
+    	cpc= 0.0
+    	nh3= 2.34
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T09:00
+    	co= 240.33
+    	no= 0.23
+    	no2= 0.23
+    	o3= 77.96
+    	oso2= 1.73
+    	fpc= 3.72
+    	cpc= 0.0
+    	nh3= 2.85
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T10:00
+    	co= 247.0
+    	no= 1.05
+    	no2= 1.05
+    	o3= 77.25
+    	oso2= 2.0
+    	fpc= 3.82
+    	cpc= 0.0
+    	nh3= 3.42
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T11:00
+    	co= 223.64
+    	no= 0.85
+    	no2= 0.85
+    	o3= 88.69
+    	oso2= 1.74
+    	fpc= 2.34
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T12:00
+    	co= 220.3
+    	no= 0.74
+    	no2= 0.74
+    	o3= 91.55
+    	oso2= 1.67
+    	fpc= 2.14
+    	cpc= 0.0
+    	nh3= 2.72
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T13:00
+    	co= 213.62
+    	no= 0.65
+    	no2= 0.65
+    	o3= 94.41
+    	oso2= 1.57
+    	fpc= 2.09
+    	cpc= 0.0
+    	nh3= 3.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T14:00
+    	co= 210.29
+    	no= 0.45
+    	no2= 0.45
+    	o3= 100.14
+    	oso2= 1.21
+    	fpc= 1.66
+    	cpc= 0.0
+    	nh3= 2.69
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T15:00
+    	co= 208.62
+    	no= 0.34
+    	no2= 0.34
+    	o3= 101.57
+    	oso2= 0.97
+    	fpc= 1.26
+    	cpc= 0.0
+    	nh3= 2.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T16:00
+    	co= 206.95
+    	no= 0.29
+    	no2= 0.29
+    	o3= 100.14
+    	oso2= 0.89
+    	fpc= 1.14
+    	cpc= 0.0
+    	nh3= 1.87
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T17:00
+    	co= 206.95
+    	no= 0.3
+    	no2= 0.3
+    	o3= 97.28
+    	oso2= 1.06
+    	fpc= 1.49
+    	cpc= 0.0
+    	nh3= 1.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T18:00
+    	co= 208.62
+    	no= 0.33
+    	no2= 0.33
+    	o3= 94.41
+    	oso2= 1.33
+    	fpc= 2.27
+    	cpc= 0.0
+    	nh3= 2.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T19:00
+    	co= 211.95
+    	no= 0.22
+    	no2= 0.22
+    	o3= 90.84
+    	oso2= 1.45
+    	fpc= 2.91
+    	cpc= 0.0
+    	nh3= 2.41
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T20:00
+    	co= 216.96
+    	no= 0.03
+    	no2= 0.03
+    	o3= 85.12
+    	oso2= 1.43
+    	fpc= 3.15
+    	cpc= 0.0
+    	nh3= 2.79
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T21:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 80.82
+    	oso2= 1.42
+    	fpc= 3.37
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-26T22:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 1.39
+    	fpc= 3.59
+    	cpc= 0.0
+    	nh3= 2.63
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-26T23:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 76.53
+    	oso2= 1.4
+    	fpc= 3.68
+    	cpc= 0.0
+    	nh3= 2.47
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T00:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 74.39
+    	oso2= 1.49
+    	fpc= 3.62
+    	cpc= 0.0
+    	nh3= 3.04
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T01:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.24
+    	oso2= 1.64
+    	fpc= 3.3
+    	cpc= 0.0
+    	nh3= 3.77
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T02:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.73
+    	fpc= 3.47
+    	cpc= 0.0
+    	nh3= 4.24
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T03:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 68.67
+    	oso2= 1.67
+    	fpc= 4.94
+    	cpc= 0.0
+    	nh3= 4.24
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T04:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.8
+    	oso2= 1.64
+    	fpc= 6.67
+    	cpc= 0.0
+    	nh3= 3.99
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T05:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.09
+    	oso2= 1.65
+    	fpc= 8.15
+    	cpc= 0.0
+    	nh3= 3.67
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T06:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.23
+    	oso2= 1.65
+    	fpc= 8.47
+    	cpc= 0.0
+    	nh3= 3.55
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T07:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 68.67
+    	oso2= 1.59
+    	fpc= 7.45
+    	cpc= 0.0
+    	nh3= 3.39
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T08:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 66.52
+    	oso2= 1.54
+    	fpc= 6.17
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T09:00
+    	co= 240.33
+    	no= 0.29
+    	no2= 0.29
+    	o3= 60.08
+    	oso2= 1.65
+    	fpc= 4.88
+    	cpc= 0.0
+    	nh3= 4.24
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T10:00
+    	co= 243.66
+    	no= 1.22
+    	no2= 1.22
+    	o3= 57.94
+    	oso2= 1.85
+    	fpc= 3.44
+    	cpc= 0.0
+    	nh3= 4.94
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T11:00
+    	co= 240.33
+    	no= 1.63
+    	no2= 1.63
+    	o3= 62.23
+    	oso2= 2.0
+    	fpc= 2.54
+    	cpc= 0.0
+    	nh3= 5.32
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T12:00
+    	co= 233.65
+    	no= 1.65
+    	no2= 1.65
+    	o3= 67.23
+    	oso2= 2.24
+    	fpc= 2.27
+    	cpc= 0.0
+    	nh3= 5.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T13:00
+    	co= 226.97
+    	no= 1.41
+    	no2= 1.41
+    	o3= 77.25
+    	oso2= 2.56
+    	fpc= 2.33
+    	cpc= 0.0
+    	nh3= 5.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T14:00
+    	co= 216.96
+    	no= 0.87
+    	no2= 0.87
+    	o3= 94.41
+    	oso2= 2.24
+    	fpc= 2.06
+    	cpc= 0.0
+    	nh3= 3.99
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-27T15:00
+    	co= 210.29
+    	no= 0.63
+    	no2= 0.63
+    	o3= 104.43
+    	oso2= 1.94
+    	fpc= 1.96
+    	cpc= 0.0
+    	nh3= 3.17
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-27T16:00
+    	co= 208.62
+    	no= 0.51
+    	no2= 0.51
+    	o3= 108.72
+    	oso2= 1.74
+    	fpc= 1.94
+    	cpc= 0.0
+    	nh3= 3.14
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-27T17:00
+    	co= 216.96
+    	no= 0.6
+    	no2= 0.6
+    	o3= 108.72
+    	oso2= 1.91
+    	fpc= 2.24
+    	cpc= 0.0
+    	nh3= 4.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-27T18:00
+    	co= 226.97
+    	no= 0.65
+    	no2= 0.65
+    	o3= 104.43
+    	oso2= 1.94
+    	fpc= 3.01
+    	cpc= 0.0
+    	nh3= 6.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-27T19:00
+    	co= 230.31
+    	no= 0.5
+    	no2= 0.5
+    	o3= 90.84
+    	oso2= 1.73
+    	fpc= 4.67
+    	cpc= 0.0
+    	nh3= 9.37
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-27T20:00
+    	co= 236.99
+    	no= 0.09
+    	no2= 0.09
+    	o3= 78.68
+    	oso2= 1.58
+    	fpc= 5.46
+    	cpc= 0.0
+    	nh3= 9.88
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T21:00
+    	co= 250.34
+    	no= 0.0
+    	no2= 0.0
+    	o3= 74.39
+    	oso2= 1.58
+    	fpc= 5.76
+    	cpc= 0.0
+    	nh3= 10.13
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T22:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.54
+    	fpc= 6.7
+    	cpc= 0.0
+    	nh3= 10.89
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-27T23:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.24
+    	oso2= 1.51
+    	fpc= 8.14
+    	cpc= 0.0
+    	nh3= 11.27
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T00:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 71.53
+    	oso2= 1.58
+    	fpc= 8.95
+    	cpc= 0.0
+    	nh3= 11.15
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T01:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.65
+    	fpc= 9.21
+    	cpc= 0.0
+    	nh3= 10.77
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T02:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.81
+    	oso2= 1.59
+    	fpc= 9.34
+    	cpc= 0.0
+    	nh3= 10.39
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T03:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 1.57
+    	fpc= 9.83
+    	cpc= 0.0
+    	nh3= 10.26
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T04:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.42
+    	fpc= 9.1
+    	cpc= 0.0
+    	nh3= 10.13
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T05:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.23
+    	oso2= 1.24
+    	fpc= 7.32
+    	cpc= 0.0
+    	nh3= 9.5
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T06:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.08
+    	oso2= 1.18
+    	fpc= 5.91
+    	cpc= 0.0
+    	nh3= 9.12
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T07:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 55.08
+    	oso2= 1.24
+    	fpc= 4.98
+    	cpc= 0.0
+    	nh3= 8.99
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T08:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 51.5
+    	oso2= 1.34
+    	fpc= 4.54
+    	cpc= 0.0
+    	nh3= 9.25
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T09:00
+    	co= 240.33
+    	no= 0.3
+    	no2= 0.3
+    	o3= 50.78
+    	oso2= 1.67
+    	fpc= 4.76
+    	cpc= 0.0
+    	nh3= 10.26
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T10:00
+    	co= 247.0
+    	no= 1.4
+    	no2= 1.4
+    	o3= 53.64
+    	oso2= 2.09
+    	fpc= 5.25
+    	cpc= 0.0
+    	nh3= 11.4
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T11:00
+    	co= 243.66
+    	no= 2.01
+    	no2= 2.01
+    	o3= 59.37
+    	oso2= 2.5
+    	fpc= 6.07
+    	cpc= 0.0
+    	nh3= 11.91
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T12:00
+    	co= 243.66
+    	no= 2.18
+    	no2= 2.18
+    	o3= 63.66
+    	oso2= 3.04
+    	fpc= 7.52
+    	cpc= 0.0
+    	nh3= 11.78
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T13:00
+    	co= 240.33
+    	no= 1.9
+    	no2= 1.9
+    	o3= 75.1
+    	oso2= 3.93
+    	fpc= 9.95
+    	cpc= 0.0
+    	nh3= 10.89
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-28T14:00
+    	co= 230.31
+    	no= 1.37
+    	no2= 1.37
+    	o3= 97.28
+    	oso2= 4.89
+    	fpc= 12.62
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-28T15:00
+    	co= 223.64
+    	no= 1.03
+    	no2= 1.03
+    	o3= 114.44
+    	oso2= 5.31
+    	fpc= 12.83
+    	cpc= 0.0
+    	nh3= 6.9
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-28T16:00
+    	co= 220.3
+    	no= 0.82
+    	no2= 0.82
+    	o3= 125.89
+    	oso2= 5.54
+    	fpc= 12.34
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-28T17:00
+    	co= 233.65
+    	no= 0.92
+    	no2= 0.92
+    	o3= 131.61
+    	oso2= 6.56
+    	fpc= 13.13
+    	cpc= 0.0
+    	nh3= 5.26
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-28T18:00
+    	co= 250.34
+    	no= 1.06
+    	no2= 1.06
+    	o3= 128.75
+    	oso2= 7.27
+    	fpc= 14.77
+    	cpc= 0.0
+    	nh3= 5.76
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-28T19:00
+    	co= 250.34
+    	no= 0.64
+    	no2= 0.64
+    	o3= 118.73
+    	oso2= 5.78
+    	fpc= 15.41
+    	cpc= 0.0
+    	nh3= 7.6
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-28T20:00
+    	co= 250.34
+    	no= 0.08
+    	no2= 0.08
+    	o3= 95.84
+    	oso2= 3.46
+    	fpc= 15.77
+    	cpc= 0.0
+    	nh3= 11.91
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-28T21:00
+    	co= 257.02
+    	no= 0.0
+    	no2= 0.0
+    	o3= 81.54
+    	oso2= 2.18
+    	fpc= 14.68
+    	cpc= 0.0
+    	nh3= 14.82
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-28T22:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 1.65
+    	fpc= 12.01
+    	cpc= 0.0
+    	nh3= 14.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-28T23:00
+    	co= 273.71
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 1.61
+    	fpc= 11.25
+    	cpc= 0.0
+    	nh3= 13.05
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T00:00
+    	co= 300.41
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.95
+    	oso2= 1.88
+    	fpc= 11.95
+    	cpc= 0.0
+    	nh3= 12.79
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T01:00
+    	co= 307.08
+    	no= 0.0
+    	no2= 0.0
+    	o3= 63.66
+    	oso2= 1.94
+    	fpc= 11.88
+    	cpc= 0.0
+    	nh3= 12.16
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T02:00
+    	co= 280.38
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.94
+    	oso2= 1.71
+    	fpc= 11.05
+    	cpc= 0.0
+    	nh3= 11.78
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T03:00
+    	co= 260.35
+    	no= 0.0
+    	no2= 0.0
+    	o3= 45.42
+    	oso2= 1.65
+    	fpc= 10.93
+    	cpc= 0.0
+    	nh3= 13.55
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T04:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 34.33
+    	oso2= 1.57
+    	fpc= 10.79
+    	cpc= 0.0
+    	nh3= 14.19
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T05:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 35.76
+    	oso2= 1.67
+    	fpc= 11.49
+    	cpc= 0.0
+    	nh3= 10.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T06:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 40.41
+    	oso2= 1.97
+    	fpc= 12.56
+    	cpc= 0.0
+    	nh3= 5.89
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T07:00
+    	co= 236.99
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.63
+    	oso2= 2.53
+    	fpc= 13.74
+    	cpc= 0.0
+    	nh3= 3.55
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T08:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 50.07
+    	oso2= 3.64
+    	fpc= 15.54
+    	cpc= 0.0
+    	nh3= 2.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T09:00
+    	co= 257.02
+    	no= 0.18
+    	no2= 0.18
+    	o3= 55.08
+    	oso2= 4.53
+    	fpc= 12.16
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T10:00
+    	co= 263.69
+    	no= 0.89
+    	no2= 0.89
+    	o3= 58.65
+    	oso2= 4.05
+    	fpc= 8.57
+    	cpc= 0.0
+    	nh3= 2.57
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-29T11:00
+    	co= 253.68
+    	no= 1.44
+    	no2= 1.44
+    	o3= 67.95
+    	oso2= 3.16
+    	fpc= 7.2
+    	cpc= 0.0
+    	nh3= 2.66
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-29T12:00
+    	co= 250.34
+    	no= 1.43
+    	no2= 1.43
+    	o3= 69.38
+    	oso2= 3.16
+    	fpc= 6.8
+
+Gradle Test Executor 1 finished executing tests.
+
+> Task :aula-04-05:test
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-29T13:00
+    	co= 240.33
+    	no= 1.43
+    	no2= 1.43
+    	o3= 71.53
+    	oso2= 3.87
+    	fpc= 6.82
+    	cpc= 0.0
+    	nh3= 4.43
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-29T14:00
+    	co= 223.64
+    	no= 0.98
+    	no2= 0.98
+    	o3= 87.98
+    	oso2= 4.05
+    	fpc= 6.56
+    	cpc= 0.0
+    	nh3= 3.61
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T15:00
+    	co= 223.64
+    	no= 0.82
+    	no2= 0.82
+    	o3= 95.84
+    	oso2= 3.76
+    	fpc= 5.91
+    	cpc= 0.0
+    	nh3= 2.98
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T16:00
+    	co= 226.97
+    	no= 0.73
+    	no2= 0.73
+    	o3= 100.14
+    	oso2= 3.4
+    	fpc= 5.04
+    	cpc= 0.0
+    	nh3= 2.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T17:00
+    	co= 330.45
+    	no= 2.57
+    	no2= 2.57
+    	o3= 82.97
+    	oso2= 4.89
+    	fpc= 8.15
+    	cpc= 0.0
+    	nh3= 4.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T18:00
+    	co= 480.65
+    	no= 5.03
+    	no2= 5.03
+    	o3= 55.79
+    	oso2= 6.38
+    	fpc= 14.03
+    	cpc= 0.0
+    	nh3= 6.65
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T19:00
+    	co= 554.09
+    	no= 4.47
+    	no2= 4.47
+    	o3= 32.9
+    	oso2= 6.26
+    	fpc= 16.97
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T20:00
+    	co= 514.03
+    	no= 0.77
+    	no2= 0.77
+    	o3= 25.75
+    	oso2= 5.36
+    	fpc= 15.08
+    	cpc= 0.0
+    	nh3= 9.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T21:00
+    	co= 460.63
+    	no= 0.02
+    	no2= 0.02
+    	o3= 34.33
+    	oso2= 4.71
+    	fpc= 12.63
+    	cpc= 0.0
+    	nh3= 9.5
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T22:00
+    	co= 407.22
+    	no= 0.0
+    	no2= 0.0
+    	o3= 46.49
+    	oso2= 3.82
+    	fpc= 10.05
+    	cpc= 0.0
+    	nh3= 9.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-29T23:00
+    	co= 307.08
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.94
+    	oso2= 2.71
+    	fpc= 6.1
+    	cpc= 0.0
+    	nh3= 7.35
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T00:00
+    	co= 310.42
+    	no= 0.0
+    	no2= 0.0
+    	o3= 63.66
+    	oso2= 2.5
+    	fpc= 5.57
+    	cpc= 0.0
+    	nh3= 6.02
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T01:00
+    	co= 307.08
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.94
+    	oso2= 2.33
+    	fpc= 5.14
+    	cpc= 0.0
+    	nh3= 4.69
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T02:00
+    	co= 280.38
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 2.03
+    	fpc= 4.29
+    	cpc= 0.0
+    	nh3= 3.74
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T03:00
+    	co= 263.69
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.22
+    	oso2= 1.85
+    	fpc= 3.9
+    	cpc= 0.0
+    	nh3= 3.48
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T04:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 49.35
+    	oso2= 1.8
+    	fpc= 4.21
+    	cpc= 0.0
+    	nh3= 3.64
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T05:00
+    	co= 247.0
+    	no= 0.0
+    	no2= 0.0
+    	o3= 41.49
+    	oso2= 1.83
+    	fpc= 5.53
+    	cpc= 0.0
+    	nh3= 3.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T06:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 37.91
+    	oso2= 1.73
+    	fpc= 7.7
+    	cpc= 0.0
+    	nh3= 4.02
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T07:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 40.77
+    	oso2= 1.65
+    	fpc= 10.23
+    	cpc= 0.0
+    	nh3= 4.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T08:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 47.92
+    	oso2= 1.74
+    	fpc= 11.72
+    	cpc= 0.0
+    	nh3= 4.69
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T09:00
+    	co= 257.02
+    	no= 0.15
+    	no2= 0.15
+    	o3= 50.07
+    	oso2= 2.15
+    	fpc= 11.74
+    	cpc= 0.0
+    	nh3= 5.0
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T10:00
+    	co= 260.35
+    	no= 0.62
+    	no2= 0.62
+    	o3= 57.94
+    	oso2= 2.41
+    	fpc= 10.82
+    	cpc= 0.0
+    	nh3= 5.0
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T11:00
+    	co= 243.66
+    	no= 0.66
+    	no2= 0.66
+    	o3= 73.67
+    	oso2= 2.3
+    	fpc= 9.47
+    	cpc= 0.0
+    	nh3= 4.31
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T12:00
+    	co= 233.65
+    	no= 0.71
+    	no2= 0.71
+    	o3= 78.68
+    	oso2= 2.3
+    	fpc= 8.4
+    	cpc= 0.0
+    	nh3= 4.62
+    	quality = 1.0
+    }
+    {
+    	date = 2021-03-30T13:00
+    	co= 226.97
+    	no= 0.71
+    	no2= 0.71
+    	o3= 81.54
+    	oso2= 2.3
+    	fpc= 7.91
+    	cpc= 0.0
+    	nh3= 5.57
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T14:00
+    	co= 216.96
+    	no= 0.66
+    	no2= 0.66
+    	o3= 90.84
+    	oso2= 2.03
+    	fpc= 9.67
+    	cpc= 0.0
+    	nh3= 5.89
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-30T15:00
+    	co= 216.96
+    	no= 0.52
+    	no2= 0.52
+    	o3= 101.57
+    	oso2= 1.91
+    	fpc= 12.17
+    	cpc= 0.0
+    	nh3= 4.88
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-30T16:00
+    	co= 213.62
+    	no= 0.43
+    	no2= 0.43
+    	o3= 105.86
+    	oso2= 1.73
+    	fpc= 14.14
+    	cpc= 0.0
+    	nh3= 3.52
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-30T17:00
+    	co= 216.96
+    	no= 0.55
+    	no2= 0.55
+    	o3= 103.0
+    	oso2= 2.09
+    	fpc= 14.67
+    	cpc= 0.0
+    	nh3= 3.58
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-30T18:00
+    	co= 223.64
+    	no= 0.56
+    	no2= 0.56
+    	o3= 97.28
+    	oso2= 2.21
+    	fpc= 13.71
+    	cpc= 0.0
+    	nh3= 4.24
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-30T19:00
+    	co= 226.97
+    	no= 0.33
+    	no2= 0.33
+    	o3= 90.12
+    	oso2= 2.12
+    	fpc= 12.45
+    	cpc= 0.0
+    	nh3= 4.94
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-30T20:00
+    	co= 253.68
+    	no= 0.05
+    	no2= 0.05
+    	o3= 80.11
+    	oso2= 2.21
+    	fpc= 11.98
+    	cpc= 0.0
+    	nh3= 5.95
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-30T21:00
+    	co= 310.42
+    	no= 0.0
+    	no2= 0.0
+    	o3= 69.38
+    	oso2= 2.89
+    	fpc= 13.01
+    	cpc= 0.0
+    	nh3= 7.22
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-30T22:00
+    	co= 377.18
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 3.7
+    	fpc= 15.14
+    	cpc= 0.0
+    	nh3= 8.61
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-30T23:00
+    	co= 440.6
+    	no= 0.0
+    	no2= 0.0
+    	o3= 52.21
+    	oso2= 4.23
+    	fpc= 17.61
+    	cpc= 0.0
+    	nh3= 10.01
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T00:00
+    	co= 473.98
+    	no= 0.0
+    	no2= 0.0
+    	o3= 43.63
+    	oso2= 4.29
+    	fpc= 19.34
+    	cpc= 0.0
+    	nh3= 11.4
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T01:00
+    	co= 453.95
+    	no= 0.01
+    	no2= 0.01
+    	o3= 37.19
+    	oso2= 3.82
+    	fpc= 19.1
+    	cpc= 0.0
+    	nh3= 12.41
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T02:00
+    	co= 373.84
+    	no= 0.01
+    	no2= 0.01
+    	o3= 36.12
+    	oso2= 2.89
+    	fpc= 16.95
+    	cpc= 0.0
+    	nh3= 12.03
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-31T03:00
+    	co= 293.73
+    	no= 0.0
+    	no2= 0.0
+    	o3= 41.49
+    	oso2= 2.24
+    	fpc= 15.5
+    	cpc= 0.0
+    	nh3= 11.02
+    	quality = 2.0
+    }
+    {
+    	date = 2021-03-31T04:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 50.78
+    	oso2= 1.97
+    	fpc= 16.36
+    	cpc= 0.0
+    	nh3= 9.25
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T05:00
+    	co= 226.97
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.09
+    	oso2= 2.3
+    	fpc= 18.29
+    	cpc= 0.0
+    	nh3= 7.98
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T06:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 2.12
+    	fpc= 18.55
+    	cpc= 0.0
+    	nh3= 8.36
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T07:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.22
+    	oso2= 2.0
+    	fpc= 18.87
+    	cpc= 0.0
+    	nh3= 8.49
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T08:00
+    	co= 223.64
+    	no= 0.01
+    	no2= 0.01
+    	o3= 55.08
+    	oso2= 2.0
+    	fpc= 19.73
+    	cpc= 0.0
+    	nh3= 8.87
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T09:00
+    	co= 243.66
+    	no= 0.37
+    	no2= 0.37
+    	o3= 55.79
+    	oso2= 2.47
+    	fpc= 20.65
+    	cpc= 0.0
+    	nh3= 9.63
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T10:00
+    	co= 253.68
+    	no= 1.47
+    	no2= 1.47
+    	o3= 60.08
+    	oso2= 2.89
+    	fpc= 19.51
+    	cpc= 0.0
+    	nh3= 9.5
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T11:00
+    	co= 243.66
+    	no= 1.82
+    	no2= 1.82
+    	o3= 68.67
+    	oso2= 2.98
+    	fpc= 16.77
+    	cpc= 0.0
+    	nh3= 8.87
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T12:00
+    	co= 240.33
+    	no= 1.7
+    	no2= 1.7
+    	o3= 76.53
+    	oso2= 3.28
+    	fpc= 15.3
+    	cpc= 0.0
+    	nh3= 8.74
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T13:00
+    	co= 233.65
+    	no= 1.34
+    	no2= 1.34
+    	o3= 90.84
+    	oso2= 3.99
+    	fpc= 14.09
+    	cpc= 0.0
+    	nh3= 7.73
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T14:00
+    	co= 223.64
+    	no= 0.76
+    	no2= 0.76
+    	o3= 105.86
+    	oso2= 3.67
+    	fpc= 13.4
+    	cpc= 0.0
+    	nh3= 5.07
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T15:00
+    	co= 223.64
+    	no= 0.66
+    	no2= 0.66
+    	o3= 113.01
+    	oso2= 3.43
+    	fpc= 15.0
+    	cpc= 0.0
+    	nh3= 3.99
+    	quality = 3.0
+    }
+    {
+    	date = 2021-03-31T16:00
+    	co= 223.64
+    	no= 0.62
+    	no2= 0.62
+    	o3= 117.3
+    	oso2= 3.55
+    	fpc= 17.75
+    	cpc= 0.0
+    	nh3= 3.33
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T17:00
+    	co= 223.64
+    	no= 0.45
+    	no2= 0.45
+    	o3= 117.3
+    	oso2= 3.25
+    	fpc= 21.62
+    	cpc= 0.0
+    	nh3= 2.06
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T18:00
+    	co= 226.97
+    	no= 0.26
+    	no2= 0.26
+    	o3= 113.01
+    	oso2= 2.92
+    	fpc= 27.52
+    	cpc= 0.0
+    	nh3= 1.11
+    	quality = 4.0
+    }
+    {
+    	date = 2021-03-31T19:00
+    	co= 230.31
+    	no= 0.09
+    	no2= 0.09
+    	o3= 110.15
+    	oso2= 2.83
+    	fpc= 31.14
+    	cpc= 0.0
+    	nh3= 0.88
+    	quality = 5.0
+    }
+    {
+    	date = 2021-03-31T20:00
+    	co= 233.65
+    	no= 0.01
+    	no2= 0.01
+    	o3= 108.72
+    	oso2= 2.8
+    	fpc= 32.23
+    	cpc= 0.0
+    	nh3= 0.81
+    	quality = 5.0
+    }
+    {
+    	date = 2021-03-31T21:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 110.15
+    	oso2= 2.86
+    	fpc= 31.77
+    	cpc= 0.0
+    	nh3= 0.7
+    	quality = 5.0
+    }
+    {
+    	date = 2021-03-31T22:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 107.29
+    	oso2= 2.8
+    	fpc= 31.65
+    	cpc= 0.0
+    	nh3= 0.55
+    	quality = 5.0
+    }
+    {
+    	date = 2021-03-31T23:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 101.57
+    	oso2= 2.59
+    	fpc= 33.48
+    	cpc= 0.0
+    	nh3= 0.43
+    	quality = 5.0
+    }
+    {
+    	date = 2021-04-01T00:00
+    	co= 240.33
+    	no= 0.0
+    	no2= 0.0
+    	o3= 92.98
+    	oso2= 2.5
+    	fpc= 34.78
+    	cpc= 0.0
+    	nh3= 0.39
+    	quality = 5.0
+    }
+    {
+    	date = 2021-04-01T01:00
+    	co= 233.65
+    	no= 0.0
+    	no2= 0.0
+    	o3= 82.97
+    	oso2= 2.65
+    	fpc= 34.85
+    	cpc= 0.0
+    	nh3= 0.36
+    	quality = 4.0
+    }
+    {
+    	date = 2021-04-01T02:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.25
+    	oso2= 2.83
+    	fpc= 29.05
+    	cpc= 0.0
+    	nh3= 0.24
+    	quality = 4.0
+    }
+    {
+    	date = 2021-04-01T03:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 75.82
+    	oso2= 2.92
+    	fpc= 21.52
+    	cpc= 0.0
+    	nh3= 0.25
+    	quality = 3.0
+    }
+    {
+    	date = 2021-04-01T04:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 72.96
+    	oso2= 3.04
+    	fpc= 16.76
+    	cpc= 0.0
+    	nh3= 0.29
+    	quality = 3.0
+    }
+    {
+    	date = 2021-04-01T05:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.1
+    	oso2= 3.07
+    	fpc= 12.58
+    	cpc= 0.0
+    	nh3= 0.32
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T06:00
+    	co= 210.29
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.95
+    	oso2= 2.95
+    	fpc= 8.62
+    	cpc= 0.0
+    	nh3= 0.3
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T07:00
+    	co= 211.95
+    	no= 0.0
+    	no2= 0.0
+    	o3= 67.23
+    	oso2= 2.83
+    	fpc= 6.46
+    	cpc= 0.0
+    	nh3= 0.28
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T08:00
+    	co= 216.96
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.8
+    	oso2= 2.89
+    	fpc= 5.81
+    	cpc= 0.0
+    	nh3= 0.29
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T09:00
+    	co= 230.31
+    	no= 0.01
+    	no2= 0.01
+    	o3= 62.94
+    	oso2= 3.28
+    	fpc= 5.83
+    	cpc= 0.0
+    	nh3= 0.34
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T10:00
+    	co= 233.65
+    	no= 0.05
+    	no2= 0.05
+    	o3= 62.23
+    	oso2= 3.52
+    	fpc= 5.72
+    	cpc= 0.0
+    	nh3= 0.35
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T11:00
+    	co= 220.3
+    	no= 0.1
+    	no2= 0.1
+    	o3= 67.95
+    	oso2= 3.01
+    	fpc= 5.34
+    	cpc= 0.0
+    	nh3= 0.25
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T12:00
+    	co= 213.62
+    	no= 0.16
+    	no2= 0.16
+    	o3= 71.53
+    	oso2= 2.86
+    	fpc= 5.43
+    	cpc= 0.0
+    	nh3= 0.21
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T13:00
+    	co= 210.29
+    	no= 0.19
+    	no2= 0.19
+    	o3= 75.1
+    	oso2= 2.86
+    	fpc= 5.62
+    	cpc= 0.0
+    	nh3= 0.18
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T14:00
+    	co= 210.29
+    	no= 0.29
+    	no2= 0.29
+    	o3= 80.11
+    	oso2= 2.62
+    	fpc= 5.94
+    	cpc= 0.0
+    	nh3= 0.15
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T15:00
+    	co= 210.29
+    	no= 0.39
+    	no2= 0.39
+    	o3= 82.25
+    	oso2= 2.41
+    	fpc= 6.27
+    	cpc= 0.0
+    	nh3= 0.13
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T16:00
+    	co= 210.29
+    	no= 0.44
+    	no2= 0.44
+    	o3= 84.4
+    	oso2= 2.21
+    	fpc= 5.9
+    	cpc= 0.0
+    	nh3= 0.11
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T17:00
+    	co= 210.29
+    	no= 0.5
+    	no2= 0.5
+    	o3= 86.55
+    	oso2= 2.12
+    	fpc= 5.59
+    	cpc= 0.0
+    	nh3= 0.12
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T18:00
+    	co= 211.95
+    	no= 0.54
+    	no2= 0.54
+    	o3= 85.12
+    	oso2= 2.27
+    	fpc= 5.73
+    	cpc= 0.0
+    	nh3= 0.17
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T19:00
+    	co= 216.96
+    	no= 0.42
+    	no2= 0.42
+    	o3= 82.97
+    	oso2= 2.33
+    	fpc= 5.81
+    	cpc= 0.0
+    	nh3= 0.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T20:00
+    	co= 267.03
+    	no= 0.16
+    	no2= 0.16
+    	o3= 63.66
+    	oso2= 2.62
+    	fpc= 7.76
+    	cpc= 0.0
+    	nh3= 0.83
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-01T21:00
+    	co= 350.48
+    	no= 0.01
+    	no2= 0.01
+    	o3= 43.99
+    	oso2= 3.1
+    	fpc= 10.93
+    	cpc= 0.0
+    	nh3= 1.28
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T22:00
+    	co= 417.23
+    	no= 0.02
+    	no2= 0.02
+    	o3= 37.19
+    	oso2= 3.58
+    	fpc= 13.32
+    	cpc= 0.0
+    	nh3= 1.73
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-01T23:00
+    	co= 447.27
+    	no= 0.02
+    	no2= 0.02
+    	o3= 36.84
+    	oso2= 3.87
+    	fpc= 14.59
+    	cpc= 0.0
+    	nh3= 1.95
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T00:00
+    	co= 433.92
+    	no= 0.01
+    	no2= 0.01
+    	o3= 40.77
+    	oso2= 3.82
+    	fpc= 13.92
+    	cpc= 0.0
+    	nh3= 1.73
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T01:00
+    	co= 363.83
+    	no= 0.0
+    	no2= 0.0
+    	o3= 47.92
+    	oso2= 3.46
+    	fpc= 11.65
+    	cpc= 0.0
+    	nh3= 1.35
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T02:00
+    	co= 277.04
+    	no= 0.0
+    	no2= 0.0
+    	o3= 57.94
+    	oso2= 3.13
+    	fpc= 8.83
+    	cpc= 0.0
+    	nh3= 0.9
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T03:00
+    	co= 243.66
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 2.83
+    	fpc= 7.87
+    	cpc= 0.0
+    	nh3= 0.82
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T04:00
+    	co= 230.31
+    	no= 0.0
+    	no2= 0.0
+    	o3= 60.8
+    	oso2= 2.5
+    	fpc= 7.36
+    	cpc= 0.0
+    	nh3= 0.86
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T05:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 2.27
+    	fpc= 7.0
+    	cpc= 0.0
+    	nh3= 0.96
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T06:00
+    	co= 220.3
+    	no= 0.0
+    	no2= 0.0
+    	o3= 62.23
+    	oso2= 2.3
+    	fpc= 6.83
+    	cpc= 0.0
+    	nh3= 1.0
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T07:00
+    	co= 223.64
+    	no= 0.0
+    	no2= 0.0
+    	o3= 61.51
+    	oso2= 2.35
+    	fpc= 7.16
+    	cpc= 0.0
+    	nh3= 1.05
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T08:00
+    	co= 233.65
+    	no= 0.01
+    	no2= 0.01
+    	o3= 59.37
+    	oso2= 2.5
+    	fpc= 8.6
+    	cpc= 0.0
+    	nh3= 1.11
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T09:00
+    	co= 253.68
+    	no= 0.33
+    	no2= 0.33
+    	o3= 55.79
+    	oso2= 2.83
+    	fpc= 11.32
+    	cpc= 0.0
+    	nh3= 1.17
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T10:00
+    	co= 260.35
+    	no= 1.31
+    	no2= 1.31
+    	o3= 55.79
+    	oso2= 3.13
+    	fpc= 14.29
+    	cpc= 0.0
+    	nh3= 1.14
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T11:00
+    	co= 233.65
+    	no= 0.87
+    	no2= 0.87
+    	o3= 76.53
+    	oso2= 2.21
+    	fpc= 14.25
+    	cpc= 0.0
+    	nh3= 0.48
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T12:00
+    	co= 226.97
+    	no= 0.67
+    	no2= 0.67
+    	o3= 85.12
+    	oso2= 1.97
+    	fpc= 12.14
+    	cpc= 0.0
+    	nh3= 0.43
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T13:00
+    	co= 220.3
+    	no= 0.52
+    	no2= 0.52
+    	o3= 91.55
+    	oso2= 1.85
+    	fpc= 10.52
+    	cpc= 0.0
+    	nh3= 0.36
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T14:00
+    	co= 216.96
+    	no= 0.4
+    	no2= 0.4
+    	o3= 98.71
+    	oso2= 1.65
+    	fpc= 8.63
+    	cpc= 0.0
+    	nh3= 0.26
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T15:00
+    	co= 213.62
+    	no= 0.34
+    	no2= 0.34
+    	o3= 97.28
+    	oso2= 1.64
+    	fpc= 7.71
+    	cpc= 0.0
+    	nh3= 0.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T16:00
+    	co= 211.95
+    	no= 0.29
+    	no2= 0.29
+    	o3= 94.41
+    	oso2= 1.68
+    	fpc= 7.41
+    	cpc= 0.0
+    	nh3= 0.22
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T17:00
+    	co= 211.95
+    	no= 0.28
+    	no2= 0.28
+    	o3= 91.55
+    	oso2= 1.76
+    	fpc= 8.13
+    	cpc= 0.0
+    	nh3= 0.31
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T18:00
+    	co= 213.62
+    	no= 0.32
+    	no2= 0.32
+    	o3= 92.98
+    	oso2= 1.86
+    	fpc= 10.51
+    	cpc= 0.0
+    	nh3= 0.53
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T19:00
+    	co= 216.96
+    	no= 0.23
+    	no2= 0.23
+    	o3= 94.41
+    	oso2= 1.88
+    	fpc= 11.44
+    	cpc= 0.0
+    	nh3= 0.65
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T20:00
+    	co= 233.65
+    	no= 0.06
+    	no2= 0.06
+    	o3= 87.26
+    	oso2= 2.21
+    	fpc= 10.46
+    	cpc= 0.0
+    	nh3= 0.93
+    	quality = 2.0
+    }
+    {
+    	date = 2021-04-02T21:00
+    	co= 253.68
+    	no= 0.0
+    	no2= 0.0
+    	o3= 77.96
+    	oso2= 2.38
+    	fpc= 9.41
+    	cpc= 0.0
+    	nh3= 1.14
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T22:00
+    	co= 270.37
+    	no= 0.0
+    	no2= 0.0
+    	o3= 73.67
+    	oso2= 2.38
+    	fpc= 8.98
+    	cpc= 0.0
+    	nh3= 1.33
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-02T23:00
+    	co= 280.38
+    	no= 0.0
+    	no2= 0.0
+    	o3= 70.1
+    	oso2= 2.44
+    	fpc= 9.0
+    	cpc= 0.0
+    	nh3= 1.58
+    	quality = 1.0
+    }
+    {
+    	date = 2021-04-03T00:00
+    	co= 283.72
+    	no= 0.0
+    	no2= 0.0
+    	o3= 65.8
+    	oso2= 2.35
+    	fpc= 8.88
+    	cpc= 0.0
+    	nh3= 1.92
+    	quality = 1.0
+    }
+
+WeatherTests > portugal_locations_weather_now() STANDARD_OUT
+    found 123 cities.
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 8.87, feels_like = 5.71, temp_min = 8.87. temp_max = 8.87, humidity = 75 }
+    	name = Castelo Branco
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 3.56, feels_like = -0.71, temp_min = 3.56. temp_max = 3.56, humidity = 95 }
+    	name = Portalegre
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.9, feels_like = 7.21, temp_min = 8.91. temp_max = 12.96, humidity = 71 }
+    	name = Tomar
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.51, feels_like = 9.51, temp_min = 9.04. temp_max = 13.09, humidity = 70 }
+    	name = Entroncamento
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.58, feels_like = 6.73, temp_min = 8.32. temp_max = 12.37, humidity = 79 }
+    	name = Monsanto
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 12.88, feels_like = 11.45, temp_min = 10.34. temp_max = 12.88, humidity = 47 }
+    	name = Pombal
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.36, feels_like = 6.11, temp_min = 8.57. temp_max = 10.71, humidity = 77 }
+    	name = Santarem
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 12.41, feels_like = 11.35, temp_min = 10.29. temp_max = 12.96, humidity = 63 }
+    	name = Leiria
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 7.39, feels_like = 5.6, temp_min = 4.24. temp_max = 7.39, humidity = 56 }
+    	name = Covilha
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 11.85, feels_like = 10.19, temp_min = 11.85. temp_max = 11.85, humidity = 42 }
+    	name = Coimbra
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 12.37, feels_like = 11.31, temp_min = 10.05. temp_max = 12.72, humidity = 63 }
+    	name = Marinha Grande
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = light rain
+    	weather = { temp = 7.28, feels_like = 3.55, temp_min = 7.28. temp_max = 7.93, humidity = 89 }
+    	name = Badajoz
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = light rain
+    	weather = { temp = 5.05, feels_like = 0.52, temp_min = 5.05. temp_max = 5.05, humidity = 93 }
+    	name = Evora
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 11.25, feels_like = 10.13, temp_min = 10.27. temp_max = 12.94, humidity = 65 }
+    	name = Caldas da Rainha
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 10.0, feels_like = 6.94, temp_min = 9.41. temp_max = 11.9, humidity = 79 }
+    	name = Vila Franca de Xira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 5.48, feels_like = 2.14, temp_min = 5.48. temp_max = 5.48, humidity = 41 }
+    	name = Viseu
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 2.87, feels_like = 0.14, temp_min = 2.87. temp_max = 6.01, humidity = 52 }
+    	name = Sequeira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 4.5, feels_like = 0.27, temp_min = 4.5. temp_max = 4.5, humidity = 90 }
+    	name = Caceres
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = light rain
+    	weather = { temp = 7.87, feels_like = 4.3, temp_min = 7.23. temp_max = 7.87, humidity = 87 }
+    	name = Montijo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.53, feels_like = 6.0, temp_min = 9.26. temp_max = 11.75, humidity = 76 }
+    	name = Vialonga
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.69, feels_like = 6.21, temp_min = 9.42. temp_max = 11.91, humidity = 76 }
+    	name = Póvoa de Santa Iria
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 11.47, feels_like = 10.4, temp_min = 9.28. temp_max = 11.77, humidity = 66 }
+    	name = Torres Vedras
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.29, feels_like = 5.69, temp_min = 9.0. temp_max = 11.49, humidity = 76 }
+    	name = Santa Iria da Azóia
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 12.3, feels_like = 11.26, temp_min = 10.6. temp_max = 12.84, humidity = 64 }
+    	name = Peniche
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.72, feels_like = 6.25, temp_min = 9.41. temp_max = 11.9, humidity = 76 }
+    	name = São João da Talha
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.66, feels_like = 6.17, temp_min = 9.46. temp_max = 10.63, humidity = 78 }
+    	name = Montijo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 13.27, feels_like = 11.75, temp_min = 13.27. temp_max = 13.27, humidity = 42 }
+    	name = Ílhavo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.62, feels_like = 6.12, temp_min = 9.28. temp_max = 11.77, humidity = 76 }
+    	name = Sacavém
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.47, feels_like = 6.29, temp_min = 9.25. temp_max = 10.42, humidity = 90 }
+    	name = Pinhal Novo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.13, feels_like = 5.48, temp_min = 8.78. temp_max = 11.27, humidity = 76 }
+    	name = Camarate
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.73, feels_like = 6.26, temp_min = 9.37. temp_max = 11.86, humidity = 75 }
+    	name = Loures
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 13.28, feels_like = 11.76, temp_min = 13.28. temp_max = 13.28, humidity = 42 }
+    	name = Aveiro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.71, feels_like = 6.24, temp_min = 9.49. temp_max = 10.66, humidity = 78 }
+    	name = Moita
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 8.5, feels_like = 5.1, temp_min = 8.26. temp_max = 9.43, humidity = 90 }
+    	name = Palmela
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 8.98, feels_like = 5.29, temp_min = 8.56. temp_max = 11.05, humidity = 70 }
+    	name = Ramada
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.63, feels_like = 6.13, temp_min = 9.21. temp_max = 11.7, humidity = 70 }
+    	name = Odivelas
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.44, feels_like = 5.88, temp_min = 9.19. temp_max = 10.36, humidity = 72 }
+    	name = Lisbon
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.73, feels_like = 6.26, temp_min = 9.47. temp_max = 10.64, humidity = 75 }
+    	name = Barreiro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.62, feels_like = 6.57, temp_min = 9.44. temp_max = 10.61, humidity = 90 }
+    	name = Setubal
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.39, feels_like = 5.82, temp_min = 8.93. temp_max = 11.42, humidity = 70 }
+    	name = Pontinha
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = light rain
+    	weather = { temp = 7.66, feels_like = 3.66, temp_min = 7.66. temp_max = 7.66, humidity = 92 }
+    	name = Merida
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.22, feels_like = 5.6, temp_min = 8.69. temp_max = 11.18, humidity = 69 }
+    	name = Amadora
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.5, feels_like = 5.96, temp_min = 9.17. temp_max = 10.34, humidity = 70 }
+    	name = Almada
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.0, feels_like = 5.31, temp_min = 8.45. temp_max = 10.94, humidity = 69 }
+    	name = Belas
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.77, feels_like = 6.31, temp_min = 9.43. temp_max = 10.6, humidity = 70 }
+    	name = Piedade
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.74, feels_like = 6.28, temp_min = 9.4. temp_max = 10.57, humidity = 75 }
+    	name = Amora
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.69, feels_like = 6.21, temp_min = 9.36. temp_max = 10.53, humidity = 74 }
+    	name = Arrentela
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.17, feels_like = 5.53, temp_min = 8.62. temp_max = 11.11, humidity = 69 }
+    	name = Queluz
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.72, feels_like = 6.25, temp_min = 9.34. temp_max = 10.51, humidity = 68 }
+    	name = Corroios
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.48, feels_like = 5.94, temp_min = 8.91. temp_max = 11.4, humidity = 69 }
+    	name = Carnaxide
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.92, feels_like = 6.51, temp_min = 9.35. temp_max = 11.84, humidity = 69 }
+    	name = Algés
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.52, feels_like = 5.99, temp_min = 8.95. temp_max = 11.44, humidity = 69 }
+    	name = Linda a Velha
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.15, feels_like = 5.51, temp_min = 8.54. temp_max = 11.03, humidity = 69 }
+    	name = Cacém
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.31, feels_like = 5.72, temp_min = 8.83. temp_max = 10.0, humidity = 68 }
+    	name = Caparica
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.27, feels_like = 5.66, temp_min = 8.63. temp_max = 11.12, humidity = 68 }
+    	name = Rio de Mouro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.66, feels_like = 6.17, temp_min = 9.08. temp_max = 10.25, humidity = 65 }
+    	name = Charneca de Caparica
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 8.89, feels_like = 5.34, temp_min = 8.19. temp_max = 10.68, humidity = 66 }
+    	name = Sintra
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 10.06, feels_like = 8.87, temp_min = 9.43. temp_max = 11.92, humidity = 67 }
+    	name = Paço de Arcos
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = light rain
+    	weather = { temp = 6.96, feels_like = 2.83, temp_min = 6.96. temp_max = 6.96, humidity = 91 }
+    	name = Almendralejo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.83, feels_like = 6.39, temp_min = 9.16. temp_max = 11.65, humidity = 67 }
+    	name = São Domingos de Rana
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 10.03, feels_like = 8.84, temp_min = 9.36. temp_max = 11.85, humidity = 67 }
+    	name = Carcavelos
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 12.46, feels_like = 10.7, temp_min = 10.28. temp_max = 13.3, humidity = 36 }
+    	name = Ovar
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 10.08, feels_like = 7.98, temp_min = 8.77. temp_max = 11.79, humidity = 32 }
+    	name = São João da Madeira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.95, feels_like = 6.71, temp_min = 9.25. temp_max = 11.73, humidity = 66 }
+    	name = Parede
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 9.49, feels_like = 6.12, temp_min = 8.73. temp_max = 11.22, humidity = 66 }
+    	name = Alcabideche
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 10.12, feels_like = 8.91, temp_min = 9.38. temp_max = 11.86, humidity = 66 }
+    	name = Estoril
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 9.96, feels_like = 6.5, temp_min = 9.31. temp_max = 10.48, humidity = 91 }
+    	name = Sesimbra
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 10.59, feels_like = 8.59, temp_min = 9.52. temp_max = 12.54, humidity = 34 }
+    	name = Feira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = few clouds
+    	weather = { temp = 10.18, feels_like = 8.95, temp_min = 9.42. temp_max = 11.91, humidity = 65 }
+    	name = Cascais
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = light rain
+    	weather = { temp = 5.08, feels_like = 1.33, temp_min = 5.08. temp_max = 5.08, humidity = 92 }
+    	name = Zafra
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 6.01, feels_like = 3.85, temp_min = 6.01. temp_max = 6.01, humidity = 44 }
+    	name = Custoias
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 9.87, feels_like = 8.03, temp_min = 9.1. temp_max = 10.64, humidity = 43 }
+    	name = Vilar de Andorinho
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.56, feels_like = 8.79, temp_min = 9.79. temp_max = 11.33, humidity = 43 }
+    	name = Oliveira do Douro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.54, feels_like = 8.77, temp_min = 9.69. temp_max = 11.23, humidity = 43 }
+    	name = Gondomar
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.62, feels_like = 8.86, temp_min = 9.76. temp_max = 11.3, humidity = 43 }
+    	name = São Pedro da Cova
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.76, feels_like = 9.01, temp_min = 10.03. temp_max = 11.57, humidity = 43 }
+    	name = Vila Nova de Gaia
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.71, feels_like = 8.96, temp_min = 10.01. temp_max = 11.55, humidity = 43 }
+    	name = Canidelo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.3, feels_like = 8.51, temp_min = 9.47. temp_max = 11.01, humidity = 43 }
+    	name = Fânzeres
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.44, feels_like = 8.66, temp_min = 9.73. temp_max = 11.27, humidity = 43 }
+    	name = Porto
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.54, feels_like = 8.77, temp_min = 9.77. temp_max = 11.31, humidity = 43 }
+    	name = Rio Tinto
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.07, feels_like = 8.26, temp_min = 9.25. temp_max = 10.79, humidity = 43 }
+    	name = Valongo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.23, feels_like = 8.43, temp_min = 9.45. temp_max = 10.99, humidity = 43 }
+    	name = Baguim do Monte
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.41, feels_like = 8.63, temp_min = 9.78. temp_max = 11.32, humidity = 43 }
+    	name = Senhora da Hora
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.52, feels_like = 8.75, temp_min = 9.84. temp_max = 11.38, humidity = 43 }
+    	name = São Mamede de Infesta
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.83, feels_like = 9.09, temp_min = 10.22. temp_max = 11.76, humidity = 43 }
+    	name = Matosinhos Municipality
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.65, feels_like = 8.89, temp_min = 9.95. temp_max = 11.49, humidity = 43 }
+    	name = Águas Santas
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 8.96, feels_like = 7.11, temp_min = 8.96. temp_max = 8.96, humidity = 37 }
+    	name = Vila Real
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.45, feels_like = 8.67, temp_min = 9.72. temp_max = 11.26, humidity = 43 }
+    	name = Ermesinde
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.42, feels_like = 8.64, temp_min = 9.77. temp_max = 11.31, humidity = 43 }
+    	name = Leça do Bailio
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.82, feels_like = 9.08, temp_min = 10.23. temp_max = 11.77, humidity = 43 }
+    	name = Leça da Palmeira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.34, feels_like = 8.55, temp_min = 9.73. temp_max = 11.27, humidity = 43 }
+    	name = Maia
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.61, feels_like = 8.8, temp_min = 10.12. temp_max = 11.65, humidity = 41 }
+    	name = Bougado
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 9.64, feels_like = 8.28, temp_min = 8.11. temp_max = 9.65, humidity = 39 }
+    	name = Fafe
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 10.62, feels_like = 8.76, temp_min = 9.08. temp_max = 10.62, humidity = 39 }
+    	name = Guimaraes
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.65, feels_like = 8.82, temp_min = 10.26. temp_max = 11.8, humidity = 40 }
+    	name = Vila do Conde
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.61, feels_like = 8.77, temp_min = 10.26. temp_max = 11.8, humidity = 40 }
+    	name = Povoa de Varzim
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = clear sky
+    	weather = { temp = 10.44, feels_like = 8.58, temp_min = 10.14. temp_max = 11.68, humidity = 40 }
+    	name = Pedroso
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 10.64, feels_like = 8.78, temp_min = 9.13. temp_max = 10.67, humidity = 39 }
+    	name = Braga
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 11.22, feels_like = 9.26, temp_min = 10.08. temp_max = 11.62, humidity = 33 }
+    	name = Barcelos
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 10.64, feels_like = 8.7, temp_min = 10.34. temp_max = 11.88, humidity = 36 }
+    	name = Esposende
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 10.63, feels_like = 8.69, temp_min = 10.32. temp_max = 11.86, humidity = 36 }
+    	name = Esposende
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 12.6, feels_like = 10.99, temp_min = 12.6. temp_max = 12.6, humidity = 41 }
+    	name = Viana do Castelo
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 14.73, feels_like = 13.2, temp_min = 11.76. temp_max = 14.73, humidity = 36 }
+    	name = Ponte de Lima
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 11.21, feels_like = 10.06, temp_min = 11.21. temp_max = 11.21, humidity = 64 }
+    	name = Cartaya
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 11.17, feels_like = 10.54, temp_min = 11.17. temp_max = 11.17, humidity = 84 }
+    	name = Lepe
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 11.26, feels_like = 10.58, temp_min = 11.26. temp_max = 11.26, humidity = 82 }
+    	name = Ayamonte
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 11.12, feels_like = 9.96, temp_min = 11.12. temp_max = 11.12, humidity = 64 }
+    	name = Aljaraque
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 11.27, feels_like = 10.59, temp_min = 11.27. temp_max = 11.27, humidity = 82 }
+    	name = Isla Cristina
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 11.14, feels_like = 9.98, temp_min = 11.14. temp_max = 11.14, humidity = 64 }
+    	name = Huelva
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 10.95, feels_like = 9.77, temp_min = 10.95. temp_max = 10.95, humidity = 64 }
+    	name = Moguer
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = overcast clouds
+    	weather = { temp = 9.31, feels_like = 6.77, temp_min = 9.31. temp_max = 9.31, humidity = 28 }
+    	name = Braganca
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 9.84, feels_like = 6.54, temp_min = 9.84. temp_max = 12.84, humidity = 87 }
+    	name = Loulé
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 13.95, feels_like = 13.57, temp_min = 13.95. temp_max = 13.95, humidity = 83 }
+    	name = Portimao
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 13.9, feels_like = 13.36, temp_min = 10.91. temp_max = 13.9, humidity = 77 }
+    	name = Albufeira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 10.78, feels_like = 10.19, temp_min = 10.78. temp_max = 13.77, humidity = 87 }
+    	name = Laranjeiro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 10.87, feels_like = 10.28, temp_min = 10.87. temp_max = 13.86, humidity = 87 }
+    	name = Quarteira
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:11
+    	description = overcast clouds
+    	weather = { temp = 8.16, feels_like = 4.38, temp_min = 7.56. temp_max = 9.04, humidity = 93 }
+    	name = Almonte
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 10.94, feels_like = 10.36, temp_min = 10.94. temp_max = 13.94, humidity = 87 }
+    	name = Olhão
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = overcast clouds
+    	weather = { temp = 13.88, feels_like = 13.52, temp_min = 13.88. temp_max = 13.88, humidity = 84 }
+    	name = Lagos
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 10.88, feels_like = 10.3, temp_min = 10.88. temp_max = 13.87, humidity = 87 }
+    	name = Faro
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = broken clouds
+    	weather = { temp = 12.09, feels_like = 10.16, temp_min = 9.44. temp_max = 14.67, humidity = 31 }
+    	name = Tui
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:14
+    	description = broken clouds
+    	weather = { temp = 11.11, feels_like = 9.35, temp_min = 9.5. temp_max = 14.73, humidity = 41 }
+    	name = Moncao
+    	timezone = 0
+    }
+    {
+    	dateTime = 2022-04-05T11:09:12
+    	description = clear sky
+    	weather = { temp = 14.46, feels_like = 12.77, temp_min = 9.43. temp_max = 14.46, humidity = 31 }
+    	name = Nigrán
+    	timezone = 0
+    }
+
+WeatherTests > get_forecast_weather_for_lisbon() STANDARD_OUT
+    {
+    	name = Chiado
+    	country = PT
+    	population = 0
+    	timezone = 3600
+    	sunrise = 2022-04-05T07:15:15
+    	sunset = 2022-04-05T20:02:55
+    }
+    {
+    	dateTime = 2022-04-05T13:00
+    	description = light rain
+    	weather = { temp = 9.82, feels_like = 6.69, temp_min = 7.72. temp_max = 9.82, humidity = 71 }
+    	dt_txt = 2022-04-05 12:00:00
+    }
+    {
+    	dateTime = 2022-04-05T16:00
+    	description = light rain
+    	weather = { temp = 9.41, feels_like = 6.16, temp_min = 8.59. temp_max = 9.41, humidity = 76 }
+    	dt_txt = 2022-04-05 15:00:00
+    }
+    {
+    	dateTime = 2022-04-05T19:00
+    	description = overcast clouds
+    	weather = { temp = 9.79, feels_like = 7.16, temp_min = 9.78. temp_max = 9.79, humidity = 75 }
+    	dt_txt = 2022-04-05 18:00:00
+    }
+    {
+    	dateTime = 2022-04-05T22:00
+    	description = overcast clouds
+    	weather = { temp = 8.62, feels_like = 6.05, temp_min = 8.62. temp_max = 8.62, humidity = 81 }
+    	dt_txt = 2022-04-05 21:00:00
+    }
+    {
+    	dateTime = 2022-04-06T01:00
+    	description = overcast clouds
+    	weather = { temp = 8.23, feels_like = 7.1, temp_min = 8.23. temp_max = 8.23, humidity = 82 }
+    	dt_txt = 2022-04-06 00:00:00
+    }
+    {
+    	dateTime = 2022-04-06T04:00
+    	description = overcast clouds
+    	weather = { temp = 8.39, feels_like = 8.39, temp_min = 8.39. temp_max = 8.39, humidity = 79 }
+    	dt_txt = 2022-04-06 03:00:00
+    }
+    {
+    	dateTime = 2022-04-06T07:00
+    	description = broken clouds
+    	weather = { temp = 9.04, feels_like = 7.89, temp_min = 9.04. temp_max = 9.04, humidity = 78 }
+    	dt_txt = 2022-04-06 06:00:00
+    }
+    {
+    	dateTime = 2022-04-06T10:00
+    	description = clear sky
+    	weather = { temp = 13.84, feels_like = 13.13, temp_min = 13.84. temp_max = 13.84, humidity = 71 }
+    	dt_txt = 2022-04-06 09:00:00
+    }
+    {
+    	dateTime = 2022-04-06T13:00
+    	description = clear sky
+    	weather = { temp = 16.76, feels_like = 16.01, temp_min = 16.76. temp_max = 16.76, humidity = 58 }
+    	dt_txt = 2022-04-06 12:00:00
+    }
+    {
+    	dateTime = 2022-04-06T16:00
+    	description = few clouds
+    	weather = { temp = 17.02, feels_like = 16.34, temp_min = 17.02. temp_max = 17.02, humidity = 60 }
+    	dt_txt = 2022-04-06 15:00:00
+    }
+    {
+    	dateTime = 2022-04-06T19:00
+    	description = few clouds
+    	weather = { temp = 14.91, feels_like = 14.28, temp_min = 14.91. temp_max = 14.91, humidity = 70 }
+    	dt_txt = 2022-04-06 18:00:00
+    }
+    {
+    	dateTime = 2022-04-06T22:00
+    	description = clear sky
+    	weather = { temp = 12.25, feels_like = 11.75, temp_min = 12.25. temp_max = 12.25, humidity = 85 }
+    	dt_txt = 2022-04-06 21:00:00
+    }
+    {
+    	dateTime = 2022-04-07T01:00
+    	description = clear sky
+    	weather = { temp = 11.48, feels_like = 10.93, temp_min = 11.48. temp_max = 11.48, humidity = 86 }
+    	dt_txt = 2022-04-07 00:00:00
+    }
+    {
+    	dateTime = 2022-04-07T04:00
+    	description = clear sky
+    	weather = { temp = 10.91, feels_like = 10.3, temp_min = 10.91. temp_max = 10.91, humidity = 86 }
+    	dt_txt = 2022-04-07 03:00:00
+    }
+    {
+    	dateTime = 2022-04-07T07:00
+    	description = clear sky
+    	weather = { temp = 10.81, feels_like = 10.24, temp_min = 10.81. temp_max = 10.81, humidity = 88 }
+    	dt_txt = 2022-04-07 06:00:00
+    }
+    {
+    	dateTime = 2022-04-07T10:00
+    	description = clear sky
+    	weather = { temp = 14.4, feels_like = 13.7, temp_min = 14.4. temp_max = 14.4, humidity = 69 }
+    	dt_txt = 2022-04-07 09:00:00
+    }
+    {
+    	dateTime = 2022-04-07T13:00
+    	description = few clouds
+    	weather = { temp = 16.98, feels_like = 16.2, temp_min = 16.98. temp_max = 16.98, humidity = 56 }
+    	dt_txt = 2022-04-07 12:00:00
+    }
+    {
+    	dateTime = 2022-04-07T16:00
+    	description = clear sky
+    	weather = { temp = 17.18, feels_like = 16.44, temp_min = 17.18. temp_max = 17.18, humidity = 57 }
+    	dt_txt = 2022-04-07 15:00:00
+    }
+    {
+    	dateTime = 2022-04-07T19:00
+    	description = clear sky
+    	weather = { temp = 15.25, feels_like = 14.61, temp_min = 15.25. temp_max = 15.25, humidity = 68 }
+    	dt_txt = 2022-04-07 18:00:00
+    }
+    {
+    	dateTime = 2022-04-07T22:00
+    	description = clear sky
+    	weather = { temp = 13.1, feels_like = 12.61, temp_min = 13.1. temp_max = 13.1, humidity = 82 }
+    	dt_txt = 2022-04-07 21:00:00
+    }
+    {
+    	dateTime = 2022-04-08T01:00
+    	description = scattered clouds
+    	weather = { temp = 13.68, feels_like = 13.06, temp_min = 13.68. temp_max = 13.68, humidity = 75 }
+    	dt_txt = 2022-04-08 00:00:00
+    }
+    {
+    	dateTime = 2022-04-08T04:00
+    	description = overcast clouds
+    	weather = { temp = 13.3, feels_like = 12.67, temp_min = 13.3. temp_max = 13.3, humidity = 76 }
+    	dt_txt = 2022-04-08 03:00:00
+    }
+    {
+    	dateTime = 2022-04-08T07:00
+    	description = overcast clouds
+    	weather = { temp = 12.57, feels_like = 12.13, temp_min = 12.57. temp_max = 12.57, humidity = 86 }
+    	dt_txt = 2022-04-08 06:00:00
+    }
+    {
+    	dateTime = 2022-04-08T10:00
+    	description = overcast clouds
+    	weather = { temp = 15.75, feels_like = 15.31, temp_min = 15.75. temp_max = 15.75, humidity = 74 }
+    	dt_txt = 2022-04-08 09:00:00
+    }
+    {
+    	dateTime = 2022-04-08T13:00
+    	description = overcast clouds
+    	weather = { temp = 17.54, feels_like = 17.02, temp_min = 17.54. temp_max = 17.54, humidity = 64 }
+    	dt_txt = 2022-04-08 12:00:00
+    }
+    {
+    	dateTime = 2022-04-08T16:00
+    	description = broken clouds
+    	weather = { temp = 17.47, feels_like = 16.97, temp_min = 17.47. temp_max = 17.47, humidity = 65 }
+    	dt_txt = 2022-04-08 15:00:00
+    }
+    {
+    	dateTime = 2022-04-08T19:00
+    	description = overcast clouds
+    	weather = { temp = 15.68, feels_like = 15.31, temp_min = 15.68. temp_max = 15.68, humidity = 77 }
+    	dt_txt = 2022-04-08 18:00:00
+    }
+    {
+    	dateTime = 2022-04-08T22:00
+    	description = overcast clouds
+    	weather = { temp = 14.02, feels_like = 13.8, temp_min = 14.02. temp_max = 14.02, humidity = 89 }
+    	dt_txt = 2022-04-08 21:00:00
+    }
+    {
+    	dateTime = 2022-04-09T01:00
+    	description = overcast clouds
+    	weather = { temp = 13.37, feels_like = 13.19, temp_min = 13.37. temp_max = 13.37, humidity = 93 }
+    	dt_txt = 2022-04-09 00:00:00
+    }
+    {
+    	dateTime = 2022-04-09T04:00
+    	description = scattered clouds
+    	weather = { temp = 12.83, feels_like = 12.62, temp_min = 12.83. temp_max = 12.83, humidity = 94 }
+    	dt_txt = 2022-04-09 03:00:00
+    }
+    {
+    	dateTime = 2022-04-09T07:00
+    	description = scattered clouds
+    	weather = { temp = 12.35, feels_like = 12.12, temp_min = 12.35. temp_max = 12.35, humidity = 95 }
+    	dt_txt = 2022-04-09 06:00:00
+    }
+    {
+    	dateTime = 2022-04-09T10:00
+    	description = overcast clouds
+    	weather = { temp = 15.2, feels_like = 14.86, temp_min = 15.2. temp_max = 15.2, humidity = 80 }
+    	dt_txt = 2022-04-09 09:00:00
+    }
+    {
+    	dateTime = 2022-04-09T13:00
+    	description = overcast clouds
+    	weather = { temp = 17.99, feels_like = 17.39, temp_min = 17.99. temp_max = 17.99, humidity = 59 }
+    	dt_txt = 2022-04-09 12:00:00
+    }
+    {
+    	dateTime = 2022-04-09T16:00
+    	description = overcast clouds
+    	weather = { temp = 18.03, feels_like = 17.3, temp_min = 18.03. temp_max = 18.03, humidity = 54 }
+    	dt_txt = 2022-04-09 15:00:00
+    }
+    {
+    	dateTime = 2022-04-09T19:00
+    	description = overcast clouds
+    	weather = { temp = 16.31, feels_like = 15.64, temp_min = 16.31. temp_max = 16.31, humidity = 63 }
+    	dt_txt = 2022-04-09 18:00:00
+    }
+    {
+    	dateTime = 2022-04-09T22:00
+    	description = scattered clouds
+    	weather = { temp = 13.6, feels_like = 13.1, temp_min = 13.6. temp_max = 13.6, humidity = 80 }
+    	dt_txt = 2022-04-09 21:00:00
+    }
+    {
+    	dateTime = 2022-04-10T01:00
+    	description = few clouds
+    	weather = { temp = 13.02, feels_like = 12.57, temp_min = 13.02. temp_max = 13.02, humidity = 84 }
+    	dt_txt = 2022-04-10 00:00:00
+    }
+    {
+    	dateTime = 2022-04-10T04:00
+    	description = broken clouds
+    	weather = { temp = 12.46, feels_like = 12.06, temp_min = 12.46. temp_max = 12.46, humidity = 88 }
+    	dt_txt = 2022-04-10 03:00:00
+    }
+    {
+    	dateTime = 2022-04-10T07:00
+    	description = overcast clouds
+    	weather = { temp = 12.26, feels_like = 11.89, temp_min = 12.26. temp_max = 12.26, humidity = 90 }
+    	dt_txt = 2022-04-10 06:00:00
+    }
+    {
+    	dateTime = 2022-04-10T10:00
+    	description = overcast clouds
+    	weather = { temp = 15.38, feels_like = 14.83, temp_min = 15.38. temp_max = 15.38, humidity = 71 }
+    	dt_txt = 2022-04-10 09:00:00
+    }
+
+WeatherTests > get_co_average_on_lisbon_at_labour_hour_by_period_declarative() STANDARD_OUT
+    At work days = 228.5466346153846
+
+WeatherTests > get_air_pollution_at_lisbon_now() STANDARD_OUT
+    {
+    	date = 2022-04-05T12:00
+    	co= 247.0
+    	no= 0.56
+    	no2= 0.56
+    	o3= 92.98
+    	oso2= 1.33
+    	fpc= 0.91
+    	cpc= 0.0
+    	nh3= 1.17
+    	quality = 2.0
+    }
+Finished generating test XML results (0.044 secs) into: C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\test-results\test
+Generating HTML test report...
+Finished generating test html results (0.034 secs) into: C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022\aula-04-05\build\reports\tests\test
+:aula-04-05:test (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 2.367 secs.
+:aula-04-05:check (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:check
+Skipping task ':aula-04-05:check' as it has no actions.
+:aula-04-05:check (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:aula-04-05:build (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :aula-04-05:build
+Skipping task ':aula-04-05:build' as it has no actions.
+:aula-04-05:build (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+
+BUILD SUCCESSFUL in 4s
+5 actionable tasks: 5 executed
+Watched directory hierarchies: [C:\home\disciplinas\MPD\2s2021-2022\src\mpd-leirt-2022]
