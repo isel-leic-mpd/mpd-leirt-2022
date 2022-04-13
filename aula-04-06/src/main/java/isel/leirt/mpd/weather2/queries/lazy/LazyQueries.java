@@ -1,8 +1,11 @@
 package isel.leirt.mpd.weather2.queries.lazy;
 
+import isel.leirt.mpd.weather2.queries.lazy.iterators.MapIterator;
 import isel.leirt.mpd.weather2.queries.lazy.iterators.PrimesIterator;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.function.Function;
 
 public class LazyQueries {
@@ -23,5 +26,9 @@ public class LazyQueries {
         return () -> new PrimesIterator();
     }
 
+
+    public static <T,U> Iterable<U> map(Iterable<T> src, Function<T,U> mapper) {
+        return () -> new MapIterator(src, mapper);
+    }
 
 }
