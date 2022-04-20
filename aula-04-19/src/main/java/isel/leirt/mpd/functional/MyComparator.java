@@ -1,4 +1,4 @@
-package isel.leirt.mpd.fi;
+package isel.leirt.mpd.functional;
 
 import java.util.function.Function;
 
