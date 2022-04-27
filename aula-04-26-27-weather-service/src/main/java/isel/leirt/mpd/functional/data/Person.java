@@ -40,4 +40,12 @@ public class Person  implements Comparable<Person>  {
 	public int compareTo(Person p) {
 		return name.compareTo(p.getName());
 	}
+
+	@Override
+	public String toString() {
+		return "{ " +
+			   birthDate +
+			   ", address: " + address +
+			   "}";
+	}
 }

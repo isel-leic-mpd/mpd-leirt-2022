@@ -7,6 +7,7 @@ import isel.leirt.mpd.queries.lazy3.iterators.MapIterator;
 
 
 import java.util.*;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
@@ -57,13 +58,24 @@ public class LazyQueries {
 
 
     public static <T> Iterable<T>
-    iterate(T seed, UnaryOperator<T> f) {
+    iterate(T seed, UnaryOperator<T> oper) {
+        return () -> new Iterator<T>() {
+            private T curr = seed;
+            @Override
+            public boolean hasNext() {
+                return true;
+            }
 
-         return null;
+            @Override
+            public T next() {
+                T val = curr;
+                curr = oper.apply(curr);
+                return val;
+            }
+        };
     }
 
-    // intermediary operations
-
+    // intermediate operations
 
     public static <T,U> Iterable<U> flatMap(
         Iterable<T> src,
@@ -75,28 +87,6 @@ public class LazyQueries {
         return () -> new MapIterator(src, mapper);
     }
 
-    /**
-     * A filter for a generic sequence
-     * produces a new sequence of the same type
-     * but potentially with less (or none) elements
-     * Just those who are accepted by the filter
-     *
-     * @param seq
-     * @param pred
-     * @param <T>
-     * @return
-     */
-    public static <T> Iterable<T> filter0(
-        Iterable<T> seq, Predicate<T> pred) {
-
-        List<T> result = new ArrayList<>();
-
-        for(var wi : seq) {
-            if (pred.test(wi))
-                result.add(wi);
-        }
-        return result;
-    }
 
     public static <T> Iterable<T> filter(
         Iterable<T> src, Predicate<T> pred) {
@@ -108,9 +98,35 @@ public class LazyQueries {
         return () -> new TakeWhileIterator<T>(src, pred);
     }
 
+    public static <T> Iterable<T> limit( Iterable<T> src, int n) {
+        return () -> new Iterator<T>() {
+            Iterator<T> itSrc = src.iterator();
+            int remaining = n;
+            @Override
+            public boolean hasNext() {
+                return remaining > 0 && itSrc.hasNext();
+            }
+
+            @Override
+            public T next() {
+                if (!hasNext())
+                    throw new NoSuchElementException();
+                remaining--;
+                return itSrc.next();
+            }
+        };
+    }
+
 
     // terminal operations
 
+    public static <T> List<T> toList(Iterable<T> src) {
+        List<T> res = new ArrayList<>();
+        for(T val : src) {
+            res.add(val);
+        }
+        return res;
+    }
     public static <T> T max(Iterable<T> src, Comparator<T> cmp) {
         T maxVal = null;
         for(var elem : src ) {
@@ -119,4 +135,36 @@ public class LazyQueries {
         }
         return maxVal;
     }
+
+    public static <T,R> R reduce(Iterable<T> src, R initial, BiFunction<R,T, R> accum) {
+        R result = initial;
+        for(T t : src) {
+            result = accum.apply(result, t);
+        }
+        return result;
+    }
+
+    public static <T,Long> long count2(Iterable<T> src) {
+        return reduce(src, 0L, (a, t) -> a+1);
+    }
+
+    public static <T>  Optional<T> first(Iterable<T> src) {
+        Iterator<T> itSrc = src.iterator();
+        if (!itSrc.hasNext()) return Optional.empty();
+        return Optional.of(itSrc.next());
+    }
+
+    public static <T>  Optional<T> last(Iterable<T> src) {
+        T l = reduce(src, null, (a,t) -> t);
+        if (l == null) return Optional.empty();
+        else return Optional.of(l);
+    }
+
+    public static <T> long count(Iterable<T> src) {
+        long count = 0;
+        for(T t : src) count++;
+        return count;
+    }
+
+
 }

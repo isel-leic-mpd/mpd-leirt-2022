@@ -1,11 +1,12 @@
-package isel.leirt.mpd.weather.dto;
+package isel.leirt.mpd.weather3.dto;
 
 import com.google.gson.annotations.SerializedName;
-import isel.leirt.mpd.weather.utils.TimeUtils;
+import isel.leirt.mpd.weather3.utils.TimeUtils;
+
 
 import java.time.LocalDateTime;
 
-public class WeatherInfoBase {
+public class WeatherInfoDto {
     public static class Weather {
         public  double temp;
         public  double feels_like;
@@ -35,26 +36,10 @@ public class WeatherInfoBase {
         }
     }
 
-    private static class WeatherDescription {
-        public final int id;
-        public final String description;
 
-        public WeatherDescription(int id, String description) {
-            this.id = id;
-            this.description = description;
-        }
-
-        @Override
-        public String toString() {
-            return  "{ "
-                +"id = " + id + ", "
-                + "description = " + "'" + description  + "'"
-                + " }";
-        }
-    }
 
     @SerializedName("weather")
-    protected  WeatherDescription[] descriptors;
+    protected  WeatherDescriptionDto[] descriptors;
 
     @SerializedName("main")
     protected  Weather weather;

@@ -210,7 +210,7 @@ public interface MyComparator<T> {
     }
 
     /**
-     * Accepts a function that extracts a {@link java.lang.Comparable
+     * Accepts a function that extracts a {@link Comparable
      * Comparable} sort key from a type {@code T}, and returns a {@code
      * MyComparator<T>} that compares by that sort key.
      *

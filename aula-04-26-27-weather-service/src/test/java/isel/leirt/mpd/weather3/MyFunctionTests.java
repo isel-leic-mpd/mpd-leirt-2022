@@ -1,4 +1,4 @@
-package isel.leirt.mpd.lazy3;
+package isel.leirt.mpd.weather3;
 
 import isel.leirt.mpd.functional.MyFunction;
 import org.junit.jupiter.api.Test;

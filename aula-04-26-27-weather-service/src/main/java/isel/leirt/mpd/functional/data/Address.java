@@ -22,4 +22,12 @@ public class Address implements Comparable<Address> {
 	public int compareTo(Address o) {
 		return city.compareTo(o.city);
 	}
+
+	@Override
+	public String toString() {
+		return "{ " +
+			city +
+			", " + zipCode +
+			"}";
+	}
 }

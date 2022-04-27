@@ -1,14 +1,12 @@
-package isel.leirt.mpd.lazy3;
+package isel.leirt.mpd.weather3;
 
 import isel.leirt.mpd.functional.data.Address;
 import isel.leirt.mpd.functional.data.Person;
 import org.junit.jupiter.api.Test;
-
+import static org.junit.jupiter.api.Assertions.*;
 import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.List;
-
-import static java.util.Comparator.comparing;
 
 public class MyComparableTests {
     static List<Person> db = List.of(
@@ -35,19 +33,33 @@ public class MyComparableTests {
 
     @Test
     public void comparePersonsByNameTest() {
-        Person p1 = db.get(0);
-        Person p2 = db.get(1);
+        Person carlos = db.get(0);
+        Person maria = db.get(1);
 
+        Comparator<Person> byName =
+            (p1,p2) -> p1.getName().compareTo(p2.getName());
 
+        Comparator<Person> byName1 =
+            Comparator.comparing(Person::getName);
+
+        Person res = greater(carlos,maria, byName1);
+
+        assertEquals(maria, res);
     }
 
     @Test
     public void comparePersonsByAddressTest() {
-        Person p1 = db.get(0);
-        Person p2 = db.get(1);
+        Person carlos = db.get(0);
+        Person alice = db.get(2);
 
+        Comparator<Person> byAddr =
+            Comparator.comparing(Person::getAddress,
+                Comparator.comparing(Address::getCity)
+                    .thenComparing(Address::getZipCode));
 
+        Person res = greater(carlos,alice, byAddr);
 
+        assertEquals(carlos, res);
     }
 }
 

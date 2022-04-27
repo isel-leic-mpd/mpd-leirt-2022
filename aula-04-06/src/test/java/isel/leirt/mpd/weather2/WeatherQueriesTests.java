@@ -14,6 +14,7 @@ import static isel.leirt.mpd.weather2.queries.GenericQueries.*;
 
 
 import static java.util.stream.Collectors.groupingBy;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class WeatherQueriesTests {
     private final static double LISBON_LAT  =  38.7071;
@@ -145,6 +146,7 @@ public class WeatherQueriesTests {
 
         System.out.println("weekend co max = " + maxVal);
     }
+
 
 
 }

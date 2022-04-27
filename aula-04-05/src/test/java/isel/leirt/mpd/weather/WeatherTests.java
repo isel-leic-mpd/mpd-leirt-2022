@@ -12,6 +12,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import static java.util.stream.Collectors.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
@@ -61,18 +62,6 @@ public class WeatherTests {
 
     }
 
-    @Test
-    public void get_forecast_weather_for_lisbon() {
-        OpenWeatherWebApi webApi = new OpenWeatherWebApi();
-
-        ForecastInfo finfo = webApi.forecastWeatherAt(LISBON_LAT, LISBON_LONG);
-        Local local = finfo.getLocal();
-        System.out.println(local);
-
-        for(var fwi : finfo.getForecast()) {
-            System.out.println(fwi);
-        }
-    }
 
     @Test
     public void get_air_pollution_in_lisbon_now() {
@@ -89,7 +78,7 @@ public class WeatherTests {
         OpenWeatherWebApi webApi = new OpenWeatherWebApi();
         LocalDate start = LocalDate.of(2022, 03, 03);
         LocalDate end = LocalDate.of(2022, 04, 03);
-        Iterable<PollutionInfo> pinfo =
+        List<PollutionInfo> pinfo =
                 webApi.pollutionHistoryAt(LISBON_LAT, LISBON_LONG,start,end);
 
         for(PollutionInfo pi : pinfo) {
@@ -102,8 +91,22 @@ public class WeatherTests {
         OpenWeatherWebApi webApi = new OpenWeatherWebApi();
         String localName = "Lisboa";
 
-        Location[] locations = webApi.search(localName);
+        List<Location> locations = webApi.search(localName);
         for(var loc : locations)
             System.out.println(loc);
+    }
+
+    @Test
+    public void getForecastWeatherForLisbonTest() {
+        OpenWeatherWebApi webApi = new OpenWeatherWebApi();
+        List<Location> locs = webApi.search("Lisbon");
+        assertTrue(locs.size() > 0);
+        Location loc = locs.get(0);
+        List<WeatherInfoForecast> winfo =
+            webApi.forecastWeatherAt(loc.getLat(), loc.getLon());
+
+        for(WeatherInfoForecast wif : winfo) {
+            System.out.println(wif);
+        }
     }
 }
