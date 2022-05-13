@@ -16,8 +16,9 @@ public interface MyComparator<T> {
      *         comparator.
      * @since 1.8
      */
-    default MyComparator<T> reversed() {
-        return null;
+    default MyComparator2<T> reversed() {
+
+        return (t1, t2) -> compare(t2, t1);
     }
 
     /**
@@ -45,7 +46,7 @@ public interface MyComparator<T> {
      * @throws NullPointerException if the argument is null.
      * @since 1.8
      */
-    default MyComparator<T> thenComparing(MyComparator<? super T> other) {
+    default MyComparator2<T> thenComparing(MyComparator2<? super T> other) {
         return null;
     }
 
@@ -62,13 +63,13 @@ public interface MyComparator<T> {
      * @return a lexicographic-order comparator composed of this comparator
      *         and then comparing on the key extracted by the keyExtractor function
      * @throws NullPointerException if either argument is null.
-     * @see #comparing(Function, MyComparator)
-     * @see #thenComparing(MyComparator)
+     * @see #comparing(Function, MyComparator2)
+     * @see #thenComparing(MyComparator2)
      * @since 1.8
      */
-    default <U> MyComparator<T> thenComparing(
+    default <U> MyComparator2<T> thenComparing(
         Function<? super T, ? extends U> keyExtractor,
-        MyComparator<? super U> keyMyComparator)
+        MyComparator2<? super U> keyMyComparator)
     {
         return null;
     }
@@ -87,10 +88,10 @@ public interface MyComparator<T> {
      *         {@link Comparable} sort key.
      * @throws NullPointerException if the argument is null.
      * @see #comparing(Function)
-     * @see #thenComparing(MyComparator)
+     * @see #thenComparing(MyComparator2)
      * @since 1.8
      */
-    default <U extends Comparable<? super U>> MyComparator<T> thenComparing(
+    default <U extends Comparable<? super U>> MyComparator2<T> thenComparing(
         Function<? super T, ? extends U> keyExtractor)
     {
         return null;
@@ -110,7 +111,7 @@ public interface MyComparator<T> {
      * @see Comparable
      * @since 1.8
      */
-    public static <T extends Comparable<? super T>> MyComparator<T> reverseOrder() {
+    public static <T extends Comparable<? super T>> MyComparator2<T> reverseOrder() {
         return null;
     }
 
@@ -128,7 +129,7 @@ public interface MyComparator<T> {
      * @since 1.8
      */
     @SuppressWarnings("unchecked")
-    public static <T extends Comparable<? super T>> MyComparator<T> naturalOrder() {
+    public static <T extends Comparable<? super T>> MyComparator2<T> naturalOrder() {
         return null;
     }
 
@@ -149,7 +150,8 @@ public interface MyComparator<T> {
      *         {@code MyComparator}.
      * @since 1.8
      */
-    public static <T> MyComparator<T> nullsFirst(MyComparator<? super T> comparator) {
+    public static <T> MyComparator2<T> nullsFirst(MyComparator2<? super T>
+                                                     comparator) {
         return null;
     }
 
@@ -170,7 +172,7 @@ public interface MyComparator<T> {
      *         {@code MyComparator}.
      * @since 1.8
      */
-    static <T> MyComparator<T> nullsLast(MyComparator<? super T> comparator) {
+    static <T> MyComparator2<T> nullsLast(MyComparator2<? super T> comparator) {
         return null;
     }
 
@@ -178,7 +180,7 @@ public interface MyComparator<T> {
     /**
      * Accepts a function that extracts a sort key from a type {@code T}, and
      * returns a {@code MyComparator<T>} that compares by that sort key using
-     * the specified {@link MyComparator}.
+     * the specified {@link MyComparator2}.
      *
      * <p>The returned comparator is serializable if the specified function
      * and comparator are both serializable.
@@ -202,9 +204,9 @@ public interface MyComparator<T> {
      * @throws NullPointerException if either argument is null
      * @since 1.8
      */
-    public static <T, U> MyComparator<T> comparing(
+    public static <T, U> MyComparator2<T> comparing(
         Function<? super T, ? extends U> keyExtractor,
-        MyComparator<? super U> keyMyComparator)
+        MyComparator2<? super U> keyMyComparator)
     {
         return null;
     }
@@ -234,7 +236,7 @@ public interface MyComparator<T> {
      * @since 1.8
      */
     public static <T, U extends Comparable<? super U>>
-    MyComparator<T> comparing(
+    MyComparator2<T> comparing(
         Function<? super T, ? extends U> keyExtractor)
     {
         return null;

@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.List;
 
-public class MyComparableTests {
+public class MyComparatorTests {
     static List<Person> db = List.of(
         new Person("Carlos",
             LocalDate.of(1980, 3, 2),
@@ -39,10 +39,13 @@ public class MyComparableTests {
         Comparator<Person> byName =
             (p1,p2) -> p1.getName().compareTo(p2.getName());
 
-        Comparator<Person> byName1 =
+        Comparator<Person> byName2 =
             Comparator.comparing(Person::getName);
 
-        Person res = greater(carlos,maria, byName1);
+        Comparator<Person> byName3 =
+            Comparator.comparing(p -> p.getName());
+
+        Person res = greater(carlos,maria, byName);
 
         assertEquals(maria, res);
     }
@@ -53,9 +56,9 @@ public class MyComparableTests {
         Person alice = db.get(2);
 
         Comparator<Person> byAddr =
-            Comparator.comparing(Person::getAddress,
-                Comparator.comparing(Address::getCity)
-                    .thenComparing(Address::getZipCode));
+            Comparator
+            .comparing(Person::getAddress, Comparator.comparing(Address::getCity)
+            .thenComparing(Address::getZipCode));
 
         Person res = greater(carlos,alice, byAddr);
 

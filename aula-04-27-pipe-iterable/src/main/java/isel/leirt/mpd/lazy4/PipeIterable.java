@@ -19,6 +19,7 @@ public interface PipeIterable<T> {
 	}
 
 	static PipeIterable<Integer> range(int li, int ls) {
+
 		return () -> new RangeIterator(li,ls);
 	}
 

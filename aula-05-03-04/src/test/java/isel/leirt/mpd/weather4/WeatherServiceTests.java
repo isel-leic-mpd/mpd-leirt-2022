@@ -1,20 +1,20 @@
-package isel.leirt.mpd.weather3;
+package isel.leirt.mpd.weather4;
 
-import isel.leirt.mpd.weather3.model.DayInfo;
-import isel.leirt.mpd.weather3.model.Location;
-import isel.leirt.mpd.weather3.model.WeatherInfo;
-import isel.leirt.mpd.weather3.requests.HttpRequest;
-import isel.leirt.mpd.weather3.requests.Request;
-import isel.leirt.mpd.weather3.requests.MockRequest;
+import isel.leirt.mpd.weather4.model.DayInfo;
+import isel.leirt.mpd.weather4.model.Location;
+import isel.leirt.mpd.weather4.requests.HttpRequest;
+import isel.leirt.mpd.weather4.requests.MockRequest;
+import isel.leirt.mpd.weather4.requests.Request;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.Reader;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 import static isel.leirt.mpd.queries.lazy3.LazyQueries.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class WeatherServiceTests {
@@ -23,14 +23,23 @@ public class WeatherServiceTests {
 		Request httpReq = new HttpRequest();
 		final int[] count = {0};
 
-
-		Request counterReq =
+		Request counterReq0 =
 			path -> {
 				count[0]++;
 				return httpReq.get(path);
 			};
 
+		// And with function composition
+		Function<String, Reader> httpFunction = httpReq::get;
 
+		Function<String, String> countFunction =
+			s -> {
+				count[0]++;
+				return s;
+			};
+
+	 	Request counterReq = httpFunction.compose(countFunction)::apply;
+		// or  countFunction.andThen(httpFunction)::apply;
 		OpenWeatherService service =
 			new OpenWeatherService(
 				new OpenWeatherWebApi(counterReq)
@@ -44,10 +53,10 @@ public class WeatherServiceTests {
 		assertEquals(1,  count[0]);
 	}
 
-
+	/*
 	@Test
 	public void getForecastForLisbonTest() {
-		Request httpReq = new MockRequest();
+		Request httpReq = new HttpRequest();
 		final int[] count = {0};
 
 		Request counterReq =
@@ -83,23 +92,7 @@ public class WeatherServiceTests {
 	public void getForecastDetailForLisbonTest() {
 		OpenWeatherService serv =
 			new OpenWeatherService(new OpenWeatherWebApi(new HttpRequest()));
-		/*
 
-		var tomorrowTemps2 =
-				flatMap(
-					filter(
-						serv.search("Lisbon"),
-						l -> l.getCountry().equals("PT")
-					),
-					l -> serv.weatherDetail(
-						l.getLatitude(),
-						l.getLongitude(),
-						LocalDate.now().plusDays(1))
-				);
-		tomorrowTemps2.forEach(System.out::println);
-		*/
-
-		// to implement
 		var  tomorrowTemps  =
 			flatMap(
 				filter(
@@ -116,7 +109,7 @@ public class WeatherServiceTests {
 			);
 
 
-		//System.out.println("WeatherInfo list size: " + count(tomorrowTemps));
+		System.out.println("WeatherInfo list size: " + count(tomorrowTemps));
 		tomorrowTemps.forEach(System.out::println);
 
 	}
@@ -157,5 +150,7 @@ public class WeatherServiceTests {
 
 	}
 
+
+	 */
 
 }

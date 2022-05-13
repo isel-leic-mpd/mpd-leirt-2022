@@ -1,16 +1,20 @@
-package isel.leirt.mpd.weather3;
+package isel.leirt.mpd.weather4;
 
-import isel.leirt.mpd.weather3.dto.ForecastHourlyDto;
-import isel.leirt.mpd.weather3.dto.ForecastInfoDto;
-import isel.leirt.mpd.weather3.dto.LocationDto;
-import isel.leirt.mpd.weather3.model.DayInfo;
-import isel.leirt.mpd.weather3.model.Location;
-import isel.leirt.mpd.weather3.model.WeatherInfo;
+import isel.leirt.mpd.weather4.dto.ForecastHourlyDto;
+import isel.leirt.mpd.weather4.dto.LocationDto;
+import isel.leirt.mpd.weather4.dto.ForecastInfoDto;
+import isel.leirt.mpd.weather4.model.DayInfo;
+import isel.leirt.mpd.weather4.model.Location;
+import isel.leirt.mpd.weather4.model.WeatherInfo;
+import isel.leirt.mpd.weather4.OpenWeatherWebApi;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static isel.leirt.mpd.queries.lazy3.LazyQueries.*;
+import static isel.leirt.mpd.queries.lazy3.LazyQueries.map;
 
 
 public class OpenWeatherService {
@@ -21,28 +25,10 @@ public class OpenWeatherService {
 	}
 
 	public Iterable<Location> search(String placeName) {
-
-		List<Integer> values = List.of(1);
-
-		 return  flatMap(
-			values,
-		    v ->
-			  map(
-				api.search(placeName),
-				this::dtoToLocation
-			 )
-		 );
-
-		// the next commented code presentes another way to achieve
-		// lazyness on the web api consuming
-		/*
 			return map(
 				() -> api.search(placeName).iterator(),
 				this::dtoToLocation
 			);
-		*/
-
-
 
 	}
 
@@ -59,8 +45,6 @@ public class OpenWeatherService {
 	public Iterable<WeatherInfo> weatherDetail(Double lat,
 											   Double lon,
 											   LocalDate day) {
-		// to implement
-		// the implementation is left as an exercise
 		return
 			filter(
 				map(
