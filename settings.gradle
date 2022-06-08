@@ -27,5 +27,6 @@ include 'aula-05-11'
 include 'aula-05-17'
 include 'aula-05-18'
 include 'aula-06-01'
-include 'aula-06-07'
+include 'aula-06-07-08'
+include 'aula-06-07-08-weather-service-async'
 
