@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-public class ResourceRequest implements AsyncRequest {
+public class AsyncResourceRequest implements AsyncRequest {
 
 	@Override
 	public CompletableFuture<String> get(String path) {

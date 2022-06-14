@@ -1,7 +1,7 @@
 package isel.leirt.mpd.weatherasync3;
 
 import com.google.gson.Gson;
-import isel.leirt.mpd.weatherasync3.requests.HttpRequest;
+import isel.leirt.mpd.weatherasync3.requests.AsyncHttpRequest;
 import isel.leirt.mpd.weatherasync3.requests.AsyncRequest;
 
 import isel.leirt.mpd.weatherasync3.dto.*;
@@ -171,7 +171,7 @@ public class OpenWeatherWebApi {
     }
 
     public OpenWeatherWebApi() {
-       this(new HttpRequest());
+       this(new AsyncHttpRequest());
     }
 
 

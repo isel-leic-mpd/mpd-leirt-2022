@@ -10,7 +10,7 @@ import java.util.concurrent.CompletableFuture;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 
 
-public class HttpRequest implements AsyncRequest {
+public class AsyncHttpRequest implements AsyncRequest {
 	private static void ahcClose(AsyncHttpClient client) {
 		try {
 			client.close();
