@@ -9,8 +9,12 @@ import isel.leirt.mpd.weatherasync3.requests.CounterRequest;
 import isel.leirt.mpd.weatherasync3.requests.AsyncHttpRequest;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
 
 public class WeatherServiceTests {
 
@@ -50,10 +54,21 @@ public class WeatherServiceTests {
         OpenWeatherService service = new OpenWeatherService(new OpenWeatherWebApi(counterReq));
         var startTime = System.currentTimeMillis();
 
-        List<WeatherInfo> forecastDetail = null;
-
-        // TO COMPLETE
-
+        var forecastDetail =
+            getPortugalLocation(service,"Lisboa")
+                .thenCompose( loc ->
+                    loc.forecast()
+                )
+                .thenCompose(sdays -> {
+                    return sdays
+                        .map(di -> di.temperatures())
+                        .reduce((cf1, cf2) ->
+                            cf1.thenCombine(cf2, (sw1, sw2) -> Stream.concat(sw1, sw2))
+                        )
+                        .orElse(CompletableFuture.completedFuture(Stream.empty()));
+                })
+                .join()
+                .collect(toList());
         System.out.println("Done in " + (System.currentTimeMillis() - startTime) + "ms");
 
 
@@ -69,9 +84,26 @@ public class WeatherServiceTests {
         OpenWeatherService service = new OpenWeatherService(new OpenWeatherWebApi(counterReq));
 
         var startTime = System.currentTimeMillis();
-        List<WeatherInfo> forecastDetail = null;
+        var forecastDetail =
+            getPortugalLocation(service,"Lisboa")
+                .thenCompose( loc -> loc.forecast())
+                .thenCompose(sDayInfos ->  {
+                    CompletableFuture<Stream<WeatherInfo>>[] wInfos=
+                        sDayInfos
+                            .map( d -> d.temperatures())
+                            .toArray(sz -> new CompletableFuture[sz]);
 
-        // TO COMPLETE
+                    return CompletableFuture.allOf(wInfos)
+                                            .thenApply(__ ->
+                                                Arrays.stream(wInfos)
+                                                      .flatMap(cf -> cf.join())
+                                            );
+                })
+                .join()
+                .collect(toList());
+        System.out.println("Done in " + (System.currentTimeMillis() - startTime) + "ms");
+        System.out.println("DayInfo list size: " + forecastDetail.size());
+        forecastDetail.forEach(System.out::println);
 
         System.out.println("Done in " + (System.currentTimeMillis() - startTime) + "ms");
         System.out.println("DayInfo list size: " + forecastDetail.size());
